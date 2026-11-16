@@ -1,0 +1,1 @@
+window.CARD_CODE="import Box from '@mui/material/Box';\n\nexport default function BoxBasic() {\n  return (\n    <Box component=\"section\" sx={{ p: 2, border: '1px dashed grey' }}>\n      {/* @focus-start */}\n      This Box renders as an HTML section element.\n      {/* @focus-end */}\n    </Box>\n  );\n}\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { TimePicker } from 'antd';\r\n\r\nconst App: React.FC = () => <TimePicker minuteStep={15} secondStep={10} hourStep={1} />;\r\n\r\nexport default App;\r\n";

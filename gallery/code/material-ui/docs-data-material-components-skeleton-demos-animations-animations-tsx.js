@@ -1,0 +1,1 @@
+window.CARD_CODE="import Box from '@mui/material/Box';\nimport Skeleton from '@mui/material/Skeleton';\n\nexport default function Animations() {\n  return (\n    <Box sx={{ width: 300 }}>\n      {/* @focus-start */}\n      <Skeleton />\n      <Skeleton animation=\"wave\" />\n      <Skeleton animation={false} />\n      {/* @focus-end */}\n    </Box>\n  );\n}\n";

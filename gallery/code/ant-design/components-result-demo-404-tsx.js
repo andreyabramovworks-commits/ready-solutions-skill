@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, Result } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Result\r\n    status=\"404\"\r\n    title=\"404\"\r\n    subTitle=\"Sorry, the page you visited does not exist.\"\r\n    extra={<Button type=\"primary\">Back Home</Button>}\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

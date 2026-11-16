@@ -1,0 +1,219 @@
+[
+  {
+    "query": "форма",
+    "count": 519,
+    "expected_sources": [
+      "react-hook-form/",
+      "mantine/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "react-hook-form/src-useform-ts",
+      "shadcn-ui/apps-v4-registry-new-york-v4-ui-form-tsx",
+      "ant-design/components-form"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "react-hook-form/src-useformstate-ts",
+      "mantine-ui/lib-authenticationform",
+      "mantine-ui/lib-floatinglabelinput",
+      "mantine-ui/lib-forgotpasswordinput",
+      "mantine-ui/lib-inputtooltip"
+    ]
+  },
+  {
+    "query": "таблица",
+    "count": 119,
+    "expected_sources": [
+      "tanstack-table/",
+      "shadcn-ui/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "tanstack-table/react-table-package",
+      "mantine/packages-mantine-core-src-components-table",
+      "react-aria/packages-react-aria-components-src-table-tsx"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "shadcn-ui/apps-v4-registry-new-york-v4-examples-data-table-demo-tsx",
+      "mantine-ui/lib-dndtable",
+      "mantine-ui/lib-tablereviews",
+      "mantine-ui/lib-tablescrollarea",
+      "mantine-ui/lib-tableselection"
+    ]
+  },
+  {
+    "query": "дерево",
+    "count": 37,
+    "expected_sources": [
+      "mantine/",
+      "react-aria/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "mantine/packages-mantine-core-src-components-tree",
+      "ant-design/components-tree",
+      "primereact/components-lib-tree"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "mantine-ui/lib-navbarnested",
+      "mantine/packages-mantine-charts-src-treemap",
+      "mantine/packages-mantine-core-src-components-tree",
+      "ant-design/components-image-demo-nested-tsx",
+      "ant-design/components-space-demo-compact-nested-tsx"
+    ]
+  },
+  {
+    "query": "график",
+    "count": 104,
+    "expected_sources": [
+      "mantine/",
+      "shadcn-ui/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "mantine/packages-mantine-charts-src-areachart",
+      "shadcn-ui/apps-v4-registry-new-york-v4-ui-chart-tsx",
+      "primereact/components-lib-chart"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "mantine/packages-mantine-charts-src-areachart",
+      "mantine/packages-mantine-charts-src-barchart",
+      "mantine/packages-mantine-charts-src-donutchart",
+      "mantine/packages-mantine-charts-src-heatmap",
+      "mantine/packages-mantine-charts-src-sparkline"
+    ]
+  },
+  {
+    "query": "диалог",
+    "count": 179,
+    "expected_sources": [
+      "radix-primitives/",
+      "mantine/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "mantine/packages-mantine-core-src-components-modal",
+      "radix-primitives/packages-react-alert-dialog",
+      "react-aria/packages-react-aria-components-src-dialog-tsx"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "mantine-ui/lib-inputtooltip",
+      "mantine/packages-mantine-core-src-components-modal",
+      "radix-primitives/packages-react-alert-dialog",
+      "radix-primitives/packages-react-popover",
+      "radix-primitives/packages-react-tooltip"
+    ]
+  },
+  {
+    "query": "редактор",
+    "count": 76,
+    "expected_sources": [
+      "tiptap/",
+      "primereact/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "tiptap/packages-react",
+      "primereact/components-lib-editor",
+      "xyflow/react-flow-package"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "primereact/components-lib-editor",
+      "tiptap/packages-core",
+      "tiptap/packages-react",
+      "xyflow/react-flow-package",
+      "tiptap/demos-src-examples-accessibility-react-index-tsx"
+    ]
+  },
+  {
+    "query": "схема",
+    "count": 113,
+    "expected_sources": [
+      "xyflow/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "xyflow/react-flow-package"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "xyflow/react-flow-package",
+      "xyflow/examples-react-src-examples-a11y-index-tsx",
+      "xyflow/examples-react-src-examples-addnodeonedgedrop-index-tsx",
+      "xyflow/examples-react-src-examples-backgrounds-index-tsx",
+      "xyflow/examples-react-src-examples-basic-index-tsx"
+    ]
+  },
+  {
+    "query": "календарь",
+    "count": 127,
+    "expected_sources": [
+      "mantine/",
+      "ant-design/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "mantine/packages-mantine-dates-src-components-datepicker",
+      "react-aria/packages-react-aria-components-src-calendar-tsx",
+      "shadcn-ui/apps-v4-registry-new-york-v4-ui-calendar-tsx"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "mantine/packages-mantine-dates-src-components-datepicker",
+      "mantine/packages-mantine-dates-src-components-datetimepicker",
+      "mantine/packages-mantine-dates-src-components-monthpicker",
+      "mantine/packages-mantine-dates-src-components-weekpicker",
+      "react-aria/packages-react-aria-components-src-calendar-tsx"
+    ]
+  },
+  {
+    "query": "загрузка",
+    "count": 28,
+    "expected_sources": [
+      "mantine/",
+      "ant-design/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "chakra-ui/packages-react-src-components-file-upload",
+      "material-ui/docs-data-material-components-buttons-demos-input-file-upload-inputfileupload-tsx",
+      "mantine-ui/lib-dropzonebutton"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "chakra-ui/packages-react-src-components-file-upload",
+      "material-ui/docs-data-material-components-buttons-demos-input-file-upload-inputfileupload-tsx",
+      "mantine-ui/lib-dropzonebutton",
+      "mantine/packages-mantine-core-src-components-fileinput",
+      "ant-design/components-radio-demo-debug-upload-tsx"
+    ]
+  },
+  {
+    "query": "уведомление",
+    "count": 178,
+    "expected_sources": [
+      "mantine/",
+      "ant-design/"
+    ],
+    "missing_sources": [],
+    "shortlist_ids": [
+      "radix-primitives/packages-react-toast",
+      "shadcn-ui/apps-v4-registry-new-york-v4-ui-sonner-tsx",
+      "ant-design/components-notification"
+    ],
+    "shortlist_missing": [],
+    "examples": [
+      "ant-design/components-form-demo-custom-feedback-icons-tsx",
+      "radix-primitives/packages-react-alert-dialog",
+      "radix-primitives/packages-react-toast",
+      "shadcn-ui/apps-v4-registry-new-york-v4-ui-sonner-tsx",
+      "ant-design/components-alert"
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyH2() {\r\n  return (\r\n    <h2 className=\"scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0\">\r\n      The People of the Kingdom\r\n    </h2>\r\n  )\r\n}\r\n";

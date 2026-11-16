@@ -1,0 +1,64 @@
+{
+  "id": "full-stack-fastapi-template/backend-app-api-deps-py",
+  "name": "deps",
+  "what": "Решение для задачи: developer-infrastructure.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/fastapi/full-stack-fastapi-template",
+  "source_commit": "aabb90126964a164e02aff39e7c385bb0598236d",
+  "source_type": "architecture-example",
+  "local_path": "libraries/full-stack-fastapi-template/backend/app/api/deps.py",
+  "package": {
+    "name": "fastapi-full-stack-template",
+    "version": null,
+    "dependencies": {},
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "developer-infrastructure"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "fastapi",
+      "react",
+      "postgresql"
+    ],
+    "kind": [
+      "template"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "reference-only"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Map the pattern to the target project; do not copy database history or deployment configuration blindly.",
+  "caveats": [],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

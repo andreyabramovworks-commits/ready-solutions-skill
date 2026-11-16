@@ -1,0 +1,4525 @@
+{
+  "id": "radix-primitives",
+  "name": "radix-primitives",
+  "source": "https://github.com/radix-ui/primitives",
+  "commit": "eb3a2b7091293e27df8f9ba906632d8daa3d81a3",
+  "local_path": "libraries/radix-primitives",
+  "source_type": "source",
+  "license_file": "libraries/radix-primitives/LICENSE",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "packages-react-accessible-icon",
+      "name": "accessible-icon",
+      "path": "libraries/radix-primitives/packages/react/accessible-icon",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessibility",
+          "icons"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-accessible-icon",
+        "version": "1.2.0",
+        "dependencies": {
+          "@radix-ui/react-visually-hidden": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1161,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-visually-hidden",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-visually-hidden."
+      }
+    },
+    {
+      "id": "packages-react-accordion",
+      "name": "accordion",
+      "path": "libraries/radix-primitives/packages/react/accordion",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "disclosure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-accordion",
+        "version": "1.3.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collapsible": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 20475,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-id",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-collapsible, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context."
+      },
+      "purpose": "Unstyled expandable sections.",
+      "use_when": "Users need to reveal related content without leaving the page.",
+      "check": "Choose single or multiple open behavior and provide visible focus styles."
+    },
+    {
+      "id": "packages-react-alert-dialog",
+      "name": "alert-dialog",
+      "path": "libraries/radix-primitives/packages/react/alert-dialog",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays",
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-alert-dialog",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-dialog": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 11165,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-dialog",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-dialog."
+      },
+      "purpose": "Unstyled confirmation dialog primitives.",
+      "use_when": "A destructive action needs accessible focus and confirmation behavior with custom visuals.",
+      "check": "Keyboard flow, focus return and app-specific styling."
+    },
+    {
+      "id": "packages-react-announce",
+      "name": "announce",
+      "path": "libraries/radix-primitives/packages/react/announce",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-announce",
+        "version": "0.3.0",
+        "dependencies": {
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 10359,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-layout-effect",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-compose-refs, @radix-ui/react-primitive, @radix-ui/react-use-layout-effect."
+      }
+    },
+    {
+      "id": "packages-react-arrow",
+      "name": "arrow",
+      "path": "libraries/radix-primitives/packages/react/arrow",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-arrow",
+        "version": "1.1.17",
+        "dependencies": {
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1398,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-aspect-ratio",
+      "name": "aspect-ratio",
+      "path": "libraries/radix-primitives/packages/react/aspect-ratio",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "testing"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-aspect-ratio",
+        "version": "1.2.0",
+        "dependencies": {
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1779,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-primitive."
+      }
+    },
+    {
+      "id": "packages-react-avatar",
+      "name": "avatar",
+      "path": "libraries/radix-primitives/packages/react/avatar",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-avatar",
+        "version": "1.3.1",
+        "dependencies": {
+          "@radix-ui/env-check": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-is-hydrated": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 9155,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/env-check",
+          "@radix-ui/react-context",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/env-check, @radix-ui/react-context, @radix-ui/react-primitive, @radix-ui/react-use-callback-ref, @radix-ui/react-use-layout-effect."
+      }
+    },
+    {
+      "id": "packages-react-checkbox",
+      "name": "checkbox",
+      "path": "libraries/radix-primitives/packages/react/checkbox",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-checkbox",
+        "version": "1.4.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-size": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 18093,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-size",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-presence, @radix-ui/react-primitive."
+      },
+      "purpose": "Unstyled checkbox primitives.",
+      "use_when": "A custom visual checkbox needs accessible checked states.",
+      "check": "Preserve labels, indeterminate state and form integration."
+    },
+    {
+      "id": "packages-react-collapsible",
+      "name": "collapsible",
+      "path": "libraries/radix-primitives/packages/react/collapsible",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "disclosure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-collapsible",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 9507,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-id",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-id, @radix-ui/react-presence."
+      }
+    },
+    {
+      "id": "packages-react-collection",
+      "name": "collection",
+      "path": "libraries/radix-primitives/packages/react/collection",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "primitive-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-collection",
+        "version": "1.2.0",
+        "dependencies": {
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 33757,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "EntryOf",
+          "KeyFrom",
+          "KeyOf",
+          "OrderedDict",
+          "ReadOnlyOrderedDict",
+          "ValueFrom",
+          "ValueOf"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-compose-refs",
+      "name": "compose-refs",
+      "path": "libraries/radix-primitives/packages/react/compose-refs",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "browser-api"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-compose-refs",
+        "version": "1.1.5",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1882,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-context",
+      "name": "context",
+      "path": "libraries/radix-primitives/packages/react/context",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-context",
+        "version": "1.3.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 9218,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-context-menu",
+      "name": "context-menu",
+      "path": "libraries/radix-primitives/packages/react/context-menu",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-context-menu",
+        "version": "2.4.1",
+        "dependencies": {
+          "@radix-ui/env-check": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-menu": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 26427,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/env-check",
+          "@radix-ui/primitive",
+          "@radix-ui/react-context",
+          "@radix-ui/react-menu",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/env-check, @radix-ui/primitive, @radix-ui/react-context, @radix-ui/react-menu, @radix-ui/react-primitive."
+      }
+    },
+    {
+      "id": "packages-react-dialog",
+      "name": "dialog",
+      "path": "libraries/radix-primitives/packages/react/dialog",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-dialog",
+        "version": "1.3.1",
+        "dependencies": {
+          "@radix-ui/env-check": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-focus-guards": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "react-remove-scroll": "^2.7.2"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 26547,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/env-check",
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-focus-guards",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-id",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "react",
+          "react-remove-scroll"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "WarningProvider"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/env-check, @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-dismissable-layer."
+      }
+    },
+    {
+      "id": "packages-react-direction",
+      "name": "direction",
+      "path": "libraries/radix-primitives/packages/react/direction",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "localization"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-direction",
+        "version": "1.2.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1248,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-dismissable-layer",
+      "name": "dismissable-layer",
+      "path": "libraries/radix-primitives/packages/react/dismissable-layer",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "primitive-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-dismissable-layer",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-effect-event": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 24238,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-callback-ref",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-dropdown-menu",
+      "name": "dropdown-menu",
+      "path": "libraries/radix-primitives/packages/react/dropdown-menu",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-dropdown-menu",
+        "version": "2.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-menu": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 23944,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-id",
+          "@radix-ui/react-menu",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-id, @radix-ui/react-menu."
+      },
+      "purpose": "Unstyled dropdown menu primitives.",
+      "use_when": "A compact action menu needs keyboard navigation and custom visuals.",
+      "check": "Nested menus, focus return and touch behavior."
+    },
+    {
+      "id": "packages-react-focus-guards",
+      "name": "focus-guards",
+      "path": "libraries/radix-primitives/packages/react/focus-guards",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-focus-guards",
+        "version": "1.2.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 2503,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-focus-scope",
+      "name": "focus-scope",
+      "path": "libraries/radix-primitives/packages/react/focus-scope",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-focus-scope",
+        "version": "1.3.1",
+        "dependencies": {
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 20507,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-callback-ref",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-form",
+      "name": "form",
+      "path": "libraries/radix-primitives/packages/react/form",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-form",
+        "version": "0.3.0",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-label": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 32379,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-id",
+          "@radix-ui/react-label",
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-id, @radix-ui/react-label."
+      }
+    },
+    {
+      "id": "packages-react-hover-card",
+      "name": "hover-card",
+      "path": "libraries/radix-primitives/packages/react/hover-card",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "pointer-interaction"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-hover-card",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-popper": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 17242,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-popper",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-dismissable-layer, @radix-ui/react-focus-scope."
+      }
+    },
+    {
+      "id": "packages-react-id",
+      "name": "id",
+      "path": "libraries/radix-primitives/packages/react/id",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "primitive-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-id",
+        "version": "1.1.4",
+        "dependencies": {
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 748,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-label",
+      "name": "label",
+      "path": "libraries/radix-primitives/packages/react/label",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-label",
+        "version": "2.1.17",
+        "dependencies": {
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1480,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-primitive."
+      }
+    },
+    {
+      "id": "packages-react-menu",
+      "name": "menu",
+      "path": "libraries/radix-primitives/packages/react/menu",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-menu",
+        "version": "2.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-focus-guards": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-popper": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "react-remove-scroll": "^2.7.2"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 61093,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-focus-guards",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-id",
+          "@radix-ui/react-popper",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-callback-ref",
+          "react",
+          "react-remove-scroll"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-menubar",
+      "name": "menubar",
+      "path": "libraries/radix-primitives/packages/react/menubar",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-menubar",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-menu": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 31091,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-id",
+          "@radix-ui/react-menu",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-direction."
+      }
+    },
+    {
+      "id": "packages-react-navigation-menu",
+      "name": "navigation-menu",
+      "path": "libraries/radix-primitives/packages/react/navigation-menu",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-navigation-menu",
+        "version": "1.4.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-use-previous": "workspace:*",
+          "@radix-ui/react-visually-hidden": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 56851,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-id",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "@radix-ui/react-use-previous",
+          "@radix-ui/react-visually-hidden",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-direction."
+      }
+    },
+    {
+      "id": "packages-react-one-time-password-field",
+      "name": "one-time-password-field",
+      "path": "libraries/radix-primitives/packages/react/one-time-password-field",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "date-time",
+          "auth"
+        ],
+        "domain": [
+          "general-purpose",
+          "identity"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-one-time-password-field",
+        "version": "0.2.1",
+        "dependencies": {
+          "@radix-ui/number": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-effect-event": "workspace:*",
+          "@radix-ui/react-use-is-hydrated": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 38262,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/number",
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-is-hydrated",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/number, @radix-ui/primitive, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context."
+      }
+    },
+    {
+      "id": "packages-react-password-toggle-field",
+      "name": "password-toggle-field",
+      "path": "libraries/radix-primitives/packages/react/password-toggle-field",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "auth",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose",
+          "identity"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-password-toggle-field",
+        "version": "0.2.1",
+        "dependencies": {
+          "@radix-ui/env-check": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-effect-event": "workspace:*",
+          "@radix-ui/react-use-is-hydrated": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 18259,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/env-check",
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-id",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-effect-event",
+          "@radix-ui/react-use-is-hydrated",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/env-check, @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-id."
+      }
+    },
+    {
+      "id": "packages-react-popover",
+      "name": "popover",
+      "path": "libraries/radix-primitives/packages/react/popover",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-popover",
+        "version": "1.3.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-focus-guards": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-popper": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "react-remove-scroll": "^2.7.2"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 26425,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-focus-guards",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-id",
+          "@radix-ui/react-popper",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "react",
+          "react-remove-scroll"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-dismissable-layer, @radix-ui/react-focus-guards."
+      },
+      "purpose": "Anchored popover primitives.",
+      "use_when": "Contextual controls or information open next to a trigger.",
+      "check": "Focus handling, collision behavior and mobile viewport fit."
+    },
+    {
+      "id": "packages-react-popper",
+      "name": "popper",
+      "path": "libraries/radix-primitives/packages/react/popper",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "positioning"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-popper",
+        "version": "1.4.0",
+        "dependencies": {
+          "@floating-ui/react-dom": "^2.0.0",
+          "@radix-ui/react-arrow": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-use-rect": "workspace:*",
+          "@radix-ui/react-use-size": "workspace:*",
+          "@radix-ui/rect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 19029,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@floating-ui/react-dom",
+          "@radix-ui/react-arrow",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-layout-effect",
+          "@radix-ui/react-use-size",
+          "@radix-ui/rect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-portal",
+      "name": "portal",
+      "path": "libraries/radix-primitives/packages/react/portal",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "positioning"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-portal",
+        "version": "1.2.0",
+        "dependencies": {
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1590,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-layout-effect",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-presence",
+      "name": "presence",
+      "path": "libraries/radix-primitives/packages/react/presence",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "motion"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-presence",
+        "version": "1.1.11",
+        "dependencies": {
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 12351,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useStateMachine"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-primitive",
+      "name": "primitive",
+      "path": "libraries/radix-primitives/packages/react/primitive",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "primitive-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-primitive",
+        "version": "2.2.0",
+        "dependencies": {
+          "@radix-ui/react-slot": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 4455,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-slot",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-progress",
+      "name": "progress",
+      "path": "libraries/radix-primitives/packages/react/progress",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-progress",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 5783,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-context",
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-context, @radix-ui/react-primitive."
+      }
+    },
+    {
+      "id": "packages-react-radio-group",
+      "name": "radio-group",
+      "path": "libraries/radix-primitives/packages/react/radio-group",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-radio-group",
+        "version": "1.5.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-size": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 28101,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-size",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "RadioIndicatorProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-direction, @radix-ui/react-presence."
+      }
+    },
+    {
+      "id": "packages-react-radix-ui",
+      "name": "radix-ui",
+      "path": "libraries/radix-primitives/packages/react/radix-ui",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "primitive-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "radix-ui",
+        "version": "1.8.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-accessible-icon": "workspace:*",
+          "@radix-ui/react-accordion": "workspace:*",
+          "@radix-ui/react-alert-dialog": "workspace:*",
+          "@radix-ui/react-arrow": "workspace:*",
+          "@radix-ui/react-aspect-ratio": "workspace:*",
+          "@radix-ui/react-avatar": "workspace:*",
+          "@radix-ui/react-checkbox": "workspace:*",
+          "@radix-ui/react-collapsible": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-context-menu": "workspace:*",
+          "@radix-ui/react-dialog": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-dropdown-menu": "workspace:*",
+          "@radix-ui/react-focus-guards": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-form": "workspace:*",
+          "@radix-ui/react-hover-card": "workspace:*",
+          "@radix-ui/react-label": "workspace:*",
+          "@radix-ui/react-menu": "workspace:*",
+          "@radix-ui/react-menubar": "workspace:*",
+          "@radix-ui/react-navigation-menu": "workspace:*",
+          "@radix-ui/react-one-time-password-field": "workspace:*",
+          "@radix-ui/react-password-toggle-field": "workspace:*",
+          "@radix-ui/react-popover": "workspace:*",
+          "@radix-ui/react-popper": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-progress": "workspace:*",
+          "@radix-ui/react-radio-group": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-scroll-area": "workspace:*",
+          "@radix-ui/react-select": "workspace:*",
+          "@radix-ui/react-separator": "workspace:*",
+          "@radix-ui/react-slider": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-switch": "workspace:*",
+          "@radix-ui/react-tabs": "workspace:*",
+          "@radix-ui/react-toast": "workspace:*",
+          "@radix-ui/react-toggle": "workspace:*",
+          "@radix-ui/react-toggle-group": "workspace:*",
+          "@radix-ui/react-toolbar": "workspace:*",
+          "@radix-ui/react-tooltip": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-effect-event": "workspace:*",
+          "@radix-ui/react-use-escape-keydown": "workspace:*",
+          "@radix-ui/react-use-is-hydrated": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-use-size": "workspace:*",
+          "@radix-ui/react-visually-hidden": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 37,
+        "code_bytes": 5266,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-accessible-icon",
+          "@radix-ui/react-accordion",
+          "@radix-ui/react-alert-dialog",
+          "@radix-ui/react-arrow",
+          "@radix-ui/react-aspect-ratio",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-collapsible",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-context-menu",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-focus-guards",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-form",
+          "@radix-ui/react-hover-card",
+          "@radix-ui/react-label",
+          "@radix-ui/react-menu",
+          "@radix-ui/react-menubar",
+          "@radix-ui/react-navigation-menu",
+          "@radix-ui/react-one-time-password-field",
+          "@radix-ui/react-password-toggle-field",
+          "@radix-ui/react-popover",
+          "@radix-ui/react-popper",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-progress",
+          "@radix-ui/react-radio-group",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-scroll-area",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slider",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-switch",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-toast",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-toggle-group",
+          "@radix-ui/react-toolbar",
+          "@radix-ui/react-tooltip",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-effect-event",
+          "@radix-ui/react-use-escape-keydown",
+          "@radix-ui/react-use-is-hydrated",
+          "@radix-ui/react-use-layout-effect",
+          "@radix-ui/react-use-size",
+          "@radix-ui/react-visually-hidden"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-roving-focus",
+      "name": "roving-focus",
+      "path": "libraries/radix-primitives/packages/react/roving-focus",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-roving-focus",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-is-hydrated": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 16020,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-id",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-is-hydrated",
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-scroll-area",
+      "name": "scroll-area",
+      "path": "libraries/radix-primitives/packages/react/scroll-area",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-scroll-area",
+        "version": "1.4.0",
+        "dependencies": {
+          "@radix-ui/env-check": "workspace:*",
+          "@radix-ui/number": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 48849,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/env-check",
+          "@radix-ui/number",
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useStateMachine"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/env-check, @radix-ui/number, @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context."
+      },
+      "purpose": "Custom scroll area primitives.",
+      "use_when": "A constrained panel needs styled scroll controls.",
+      "check": "Prefer native scrolling unless custom styling is necessary; verify keyboard and touch scrolling."
+    },
+    {
+      "id": "packages-react-select",
+      "name": "select",
+      "path": "libraries/radix-primitives/packages/react/select",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-select",
+        "version": "2.4.1",
+        "dependencies": {
+          "@radix-ui/number": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-focus-guards": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-popper": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-visually-hidden": "workspace:*",
+          "react-remove-scroll": "^2.7.2"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 87693,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/number",
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-focus-guards",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-id",
+          "@radix-ui/react-popper",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "@radix-ui/react-visually-hidden",
+          "react",
+          "react-dom",
+          "react-remove-scroll"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SelectSharedProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/number, @radix-ui/primitive, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context."
+      },
+      "purpose": "Unstyled select interaction primitives.",
+      "use_when": "A custom-styled select needs keyboard and focus behavior.",
+      "check": "Check long lists, typeahead, touch behavior and form submission."
+    },
+    {
+      "id": "packages-react-separator",
+      "name": "separator",
+      "path": "libraries/radix-primitives/packages/react/separator",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-separator",
+        "version": "1.2.0",
+        "dependencies": {
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 2442,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-primitive."
+      }
+    },
+    {
+      "id": "packages-react-slider",
+      "name": "slider",
+      "path": "libraries/radix-primitives/packages/react/slider",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-slider",
+        "version": "1.6.1",
+        "dependencies": {
+          "@radix-ui/number": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-use-size": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 41268,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/number",
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-size",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/number, @radix-ui/primitive, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context."
+      }
+    },
+    {
+      "id": "packages-react-slot",
+      "name": "slot",
+      "path": "libraries/radix-primitives/packages/react/slot",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "primitive-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-slot",
+        "version": "1.5.0",
+        "dependencies": {
+          "@radix-ui/react-compose-refs": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 11018,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-compose-refs",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Usable",
+          "createSlot",
+          "createSlottable"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-switch",
+      "name": "switch",
+      "path": "libraries/radix-primitives/packages/react/switch",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-switch",
+        "version": "1.4.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-size": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 16100,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-size",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-primitive, @radix-ui/react-use-controllable-state."
+      }
+    },
+    {
+      "id": "packages-react-tabs",
+      "name": "tabs",
+      "path": "libraries/radix-primitives/packages/react/tabs",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-tabs",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 11768,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-id",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-context, @radix-ui/react-direction, @radix-ui/react-id, @radix-ui/react-presence."
+      },
+      "purpose": "Unstyled tabbed interface primitives.",
+      "use_when": "Related panels share one screen and need keyboard navigation.",
+      "check": "Use tabs only for peer content; preserve active state when appropriate."
+    },
+    {
+      "id": "packages-react-toast",
+      "name": "toast",
+      "path": "libraries/radix-primitives/packages/react/toast",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-toast",
+        "version": "1.3.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-collection": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-callback-ref": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-visually-hidden": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 43400,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-collection",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-callback-ref",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "@radix-ui/react-visually-hidden",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-collection, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-dismissable-layer."
+      },
+      "purpose": "Toast notification primitives.",
+      "use_when": "Transient action feedback should appear without blocking the task.",
+      "check": "Avoid hiding critical errors only in a toast; verify announcement timing."
+    },
+    {
+      "id": "packages-react-toggle",
+      "name": "toggle",
+      "path": "libraries/radix-primitives/packages/react/toggle",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-toggle",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 2321,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-primitive, @radix-ui/react-use-controllable-state."
+      }
+    },
+    {
+      "id": "packages-react-toggle-group",
+      "name": "toggle-group",
+      "path": "libraries/radix-primitives/packages/react/toggle-group",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-toggle-group",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-toggle": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 12116,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-toggle",
+          "@radix-ui/react-use-controllable-state",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-context, @radix-ui/react-direction, @radix-ui/react-primitive, @radix-ui/react-roving-focus, @radix-ui/react-toggle."
+      }
+    },
+    {
+      "id": "packages-react-toolbar",
+      "name": "toolbar",
+      "path": "libraries/radix-primitives/packages/react/toolbar",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-toolbar",
+        "version": "1.2.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-direction": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-roving-focus": "workspace:*",
+          "@radix-ui/react-separator": "workspace:*",
+          "@radix-ui/react-toggle-group": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 10346,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-context",
+          "@radix-ui/react-direction",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-roving-focus",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-toggle-group",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-context, @radix-ui/react-direction, @radix-ui/react-primitive, @radix-ui/react-roving-focus."
+      }
+    },
+    {
+      "id": "packages-react-tooltip",
+      "name": "tooltip",
+      "path": "libraries/radix-primitives/packages/react/tooltip",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-tooltip",
+        "version": "1.4.1",
+        "dependencies": {
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-compose-refs": "workspace:*",
+          "@radix-ui/react-context": "workspace:*",
+          "@radix-ui/react-dismissable-layer": "workspace:*",
+          "@radix-ui/react-focus-scope": "workspace:*",
+          "@radix-ui/react-id": "workspace:*",
+          "@radix-ui/react-popper": "workspace:*",
+          "@radix-ui/react-portal": "workspace:*",
+          "@radix-ui/react-presence": "workspace:*",
+          "@radix-ui/react-primitive": "workspace:*",
+          "@radix-ui/react-slot": "workspace:*",
+          "@radix-ui/react-use-controllable-state": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*",
+          "@radix-ui/react-visually-hidden": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 30672,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/primitive",
+          "@radix-ui/react-compose-refs",
+          "@radix-ui/react-context",
+          "@radix-ui/react-dismissable-layer",
+          "@radix-ui/react-focus-scope",
+          "@radix-ui/react-id",
+          "@radix-ui/react-popper",
+          "@radix-ui/react-portal",
+          "@radix-ui/react-presence",
+          "@radix-ui/react-primitive",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-use-controllable-state",
+          "@radix-ui/react-use-layout-effect",
+          "@radix-ui/react-visually-hidden",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/primitive, @radix-ui/react-compose-refs, @radix-ui/react-context, @radix-ui/react-dismissable-layer, @radix-ui/react-focus-scope."
+      },
+      "purpose": "Tooltip interaction primitives.",
+      "use_when": "A control needs short supplementary help.",
+      "check": "Essential instructions must remain available on touch and keyboard."
+    },
+    {
+      "id": "packages-react-use-callback-ref",
+      "name": "use-callback-ref",
+      "path": "libraries/radix-primitives/packages/react/use-callback-ref",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-callback-ref",
+        "version": "1.1.5",
+        "dependencies": {
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1183,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useCallbackRef"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-controllable-state",
+      "name": "use-controllable-state",
+      "path": "libraries/radix-primitives/packages/react/use-controllable-state",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "state-management",
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-controllable-state",
+        "version": "1.3.0",
+        "dependencies": {
+          "@radix-ui/env-check": "workspace:*",
+          "@radix-ui/primitive": "workspace:*",
+          "@radix-ui/react-use-effect-event": "workspace:*",
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 7793,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@radix-ui/env-check",
+          "@radix-ui/react-use-effect-event",
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useControllableState",
+          "useControllableStateReducer"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-effect-event",
+      "name": "use-effect-event",
+      "path": "libraries/radix-primitives/packages/react/use-effect-event",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-effect-event",
+        "version": "0.0.5",
+        "dependencies": {
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1388,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useEffectEvent"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-escape-keydown",
+      "name": "use-escape-keydown",
+      "path": "libraries/radix-primitives/packages/react/use-escape-keydown",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-escape-keydown",
+        "version": "1.1.6",
+        "dependencies": {
+          "@radix-ui/react-use-callback-ref": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1148,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-use-callback-ref",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-is-hydrated",
+      "name": "use-is-hydrated",
+      "path": "libraries/radix-primitives/packages/react/use-is-hydrated",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks",
+          "rating"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-is-hydrated",
+        "version": "0.1.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 1022,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useIsHydrated"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-layout-effect",
+      "name": "use-layout-effect",
+      "path": "libraries/radix-primitives/packages/react/use-layout-effect",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "layout",
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-layout-effect",
+        "version": "1.1.4",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 544,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-previous",
+      "name": "use-previous",
+      "path": "libraries/radix-primitives/packages/react/use-previous",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-previous",
+        "version": "1.1.4",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 591,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-rect",
+      "name": "use-rect",
+      "path": "libraries/radix-primitives/packages/react/use-rect",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-rect",
+        "version": "1.1.4",
+        "dependencies": {
+          "@radix-ui/rect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 693,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/rect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-use-size",
+      "name": "use-size",
+      "path": "libraries/radix-primitives/packages/react/use-size",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-use-size",
+        "version": "1.1.5",
+        "dependencies": {
+          "@radix-ui/react-use-layout-effect": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 2661,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-use-layout-effect",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-visually-hidden",
+      "name": "visually-hidden",
+      "path": "libraries/radix-primitives/packages/react/visually-hidden",
+      "entry_role": "public-primitive",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "unstyled"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@radix-ui/react-visually-hidden",
+        "version": "1.2.13",
+        "dependencies": {
+          "@radix-ui/react-primitive": "workspace:*"
+        },
+        "peer_dependencies": {
+          "@types/react": "*",
+          "@types/react-dom": "*",
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1659,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@radix-ui/react-primitive",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @radix-ui/react-primitive."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.ts\nPagination.context.ts\nPagination.icons.tsx\nPagination.module.css\nPagination.story.tsx\nPagination.test.tsx\nPagination.tsx\nPaginationControl\nPaginationDots\nPaginationEdges\nPaginationItems\nPaginationLabel\nPaginationRoot";

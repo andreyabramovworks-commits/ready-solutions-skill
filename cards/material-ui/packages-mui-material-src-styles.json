@@ -1,0 +1,91 @@
+{
+  "id": "material-ui/packages-mui-material-src-styles",
+  "name": "styles",
+  "what": "Решение для задачи: styling.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/mui/material-ui",
+  "source_commit": "476b86779d62c937e36253db29c9d7475861889f",
+  "source_type": "component-source",
+  "local_path": "libraries/material-ui/packages/mui-material/src/styles",
+  "package": {
+    "name": "@mui/material",
+    "version": "10.0.0-alpha.0",
+    "dependencies": {
+      "@babel/runtime": "^7.29.7 || ^8.0.5",
+      "@mui/core-downloads-tracker": "workspace:^",
+      "@mui/system": "workspace:*",
+      "@mui/types": "workspace:^",
+      "@mui/utils": "workspace:*",
+      "@popperjs/core": "^2.11.8",
+      "@types/react-transition-group": "^4.4.12",
+      "clsx": "^2.1.1",
+      "csstype": "^3.2.3",
+      "prop-types": "^15.8.1",
+      "react-is": "^19.3.1",
+      "react-transition-group": "^4.4.5"
+    },
+    "peer_dependencies": {
+      "@emotion/react": "^11.5.0",
+      "@emotion/styled": "^11.3.0",
+      "@mui/material-pigment-css": "workspace:^",
+      "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    }
+  },
+  "tags": {
+    "task": [
+      "styling"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "component"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@mui/material",
+    "@mui/system",
+    "@mui/types",
+    "@mui/utils",
+    "csstype",
+    "react"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @mui/material, @mui/system, @mui/types, @mui/utils, csstype.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

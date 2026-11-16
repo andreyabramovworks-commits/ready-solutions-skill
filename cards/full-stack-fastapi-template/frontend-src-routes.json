@@ -1,0 +1,137 @@
+{
+  "id": "full-stack-fastapi-template/frontend-src-routes",
+  "name": "routes",
+  "what": "Решение для задачи: организация API и запросов.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/fastapi/full-stack-fastapi-template",
+  "source_commit": "aabb90126964a164e02aff39e7c385bb0598236d",
+  "source_type": "architecture-example",
+  "local_path": "libraries/full-stack-fastapi-template/frontend/src/routes",
+  "package": {
+    "name": "frontend",
+    "version": "0.0.0",
+    "dependencies": {
+      "@hookform/resolvers": "^6.0.1",
+      "@radix-ui/react-avatar": "^1.3.1",
+      "@radix-ui/react-checkbox": "^1.4.1",
+      "@radix-ui/react-dialog": "^1.3.1",
+      "@radix-ui/react-dropdown-menu": "^2.2.1",
+      "@radix-ui/react-label": "^2.1.17",
+      "@radix-ui/react-radio-group": "^1.5.1",
+      "@radix-ui/react-scroll-area": "^1.4.0",
+      "@radix-ui/react-select": "^2.4.1",
+      "@radix-ui/react-separator": "^1.2.0",
+      "@radix-ui/react-slot": "^1.2.4",
+      "@radix-ui/react-tabs": "^1.2.1",
+      "@radix-ui/react-tooltip": "^1.4.1",
+      "@tailwindcss/vite": "^4.3.3",
+      "@tanstack/react-query": "^5.105.0",
+      "@tanstack/react-query-devtools": "^5.105.0",
+      "@tanstack/react-router": "^1.170.46",
+      "@tanstack/react-router-devtools": "^1.167.2",
+      "@tanstack/react-table": "^9.3.1",
+      "axios": "1.20.0",
+      "class-variance-authority": "^0.7.1",
+      "clsx": "^2.1.1",
+      "form-data": "4.0.6",
+      "lucide-react": "^1.62.0",
+      "react": "^19.3.1",
+      "react-dom": "^19.3.1",
+      "react-error-boundary": "^6.1.6",
+      "react-hook-form": "^7.91.0",
+      "react-icons": "^5.7.0",
+      "sonner": "^2.0.8",
+      "tailwind-merge": "^3.7.0",
+      "tailwindcss": "^4.2.1",
+      "zod": "^4.6.7"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "api"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "fastapi",
+      "react",
+      "postgresql"
+    ],
+    "kind": [
+      "template"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "reference-only"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@hookform/resolvers",
+    "@tanstack/react-query",
+    "@tanstack/react-query-devtools",
+    "@tanstack/react-router",
+    "@tanstack/react-router-devtools",
+    "lucide-react",
+    "react",
+    "react-hook-form",
+    "zod"
+  ],
+  "local_imports": [
+    "@/client",
+    "@/components/Admin/AddUser",
+    "@/components/Admin/columns",
+    "@/components/Common/AuthLayout",
+    "@/components/Common/DataTable",
+    "@/components/Common/ErrorComponent",
+    "@/components/Common/Footer",
+    "@/components/Common/NotFound",
+    "@/components/Items/AddItem",
+    "@/components/Items/columns",
+    "@/components/Pending/PendingItems",
+    "@/components/Pending/PendingUsers",
+    "@/components/Sidebar/AppSidebar",
+    "@/components/UserSettings/ChangePassword",
+    "@/components/UserSettings/DeleteAccount",
+    "@/components/UserSettings/UserInformation",
+    "@/components/ui/form",
+    "@/components/ui/input",
+    "@/components/ui/loading-button",
+    "@/components/ui/password-input",
+    "@/components/ui/sidebar",
+    "@/components/ui/tabs",
+    "@/hooks/useAuth",
+    "@/hooks/useCustomToast",
+    "@/utils"
+  ],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Map the pattern to the target project; do not copy database history or deployment configuration blindly.",
+  "caveats": [
+    "Есть локальные импорты: @/client, @/components/Admin/AddUser, @/components/Admin/columns, @/components/Common/AuthLayout, @/components/Common/DataTable, @/components/Common/ErrorComponent, @/components/Common/Footer, @/components/Common/NotFound, @/components/Items/AddItem, @/components/Items/columns, @/components/Pending/PendingItems, @/components/Pending/PendingUsers, @/components/Sidebar/AppSidebar, @/components/UserSettings/ChangePassword, @/components/UserSettings/DeleteAccount, @/components/UserSettings/UserInformation, @/components/ui/form, @/components/ui/input, @/components/ui/loading-button, @/components/ui/password-input, @/components/ui/sidebar, @/components/ui/tabs, @/hooks/useAuth, @/hooks/useCustomToast, @/utils. При переносе разрешите их.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

@@ -1,0 +1,7070 @@
+{
+  "id": "tanstack-table",
+  "name": "tanstack-table",
+  "source": "https://github.com/TanStack/table",
+  "commit": "564a459b74834c77631e0d6fdba7661383bbc1b4",
+  "local_path": "libraries/tanstack-table",
+  "source_type": "source",
+  "license_file": "libraries/tanstack-table/LICENSE",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "packages-table-core-src-core",
+      "name": "core",
+      "path": "libraries/tanstack-table/packages/table-core/src/core",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 30,
+        "code_bytes": 125778,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-store",
+          "@tanstack/store"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Atoms",
+          "Atoms_All",
+          "BaseAtoms",
+          "BaseAtoms_All",
+          "CachedRowModel_Core",
+          "CellContext",
+          "Cell_Cell",
+          "Cell_CoreProperties",
+          "Column_Column",
+          "Column_CoreProperties",
+          "CoreFeatures",
+          "ExternalAtoms",
+          "ExternalAtoms_All",
+          "ExtractTableMeta",
+          "HeaderContext",
+          "HeaderGroup_Header",
+          "Header_CoreProperties",
+          "Header_Header",
+          "RenderPhaseReactivityBindings",
+          "RenderPhaseReactivityPrimitives",
+          "RenderPhaseSource",
+          "RowModel",
+          "Row_CoreProperties",
+          "Row_Row",
+          "TableAtomOptions",
+          "TableMeta",
+          "TableOptions_Cell",
+          "TableOptions_Columns",
+          "TableOptions_Rows",
+          "TableOptions_Table"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-features",
+      "name": "features",
+      "path": "libraries/tanstack-table/packages/table-core/src/features",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "marketing"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 66,
+        "code_bytes": 503165,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AggregationContext",
+          "AggregationFnDef",
+          "AggregationFnDescriptor",
+          "AggregationFnListItem",
+          "AggregationFnOption",
+          "AggregationFnRef",
+          "AggregationFns",
+          "AggregationMergeContext",
+          "AggregationResult",
+          "AggregationResultOf",
+          "AggregationValueContext",
+          "AggregationValueOptions",
+          "AggregationValueResult",
+          "BuiltInAggregationFn",
+          "BuiltInFilterFn",
+          "BuiltInSortFn",
+          "CachedRowModel_Expanded",
+          "CachedRowModel_Faceted",
+          "CachedRowModel_Filtered",
+          "CachedRowModel_Grouped",
+          "CachedRowModel_Paginated",
+          "CachedRowModel_Sorted",
+          "CellSelectionBounds",
+          "CellSelectionBoundsOperation",
+          "CellSelectionDirection",
+          "CellSelectionEdges",
+          "CellSelectionRange",
+          "CellSelectionRangeMode",
+          "CellSelectionRangeOperation",
+          "CellSelectionState"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      },
+      "purpose": "Headless table state features.",
+      "use_when": "Sorting, filtering, pagination or selection logic is becoming complex.",
+      "check": "Accessible markup, UI rendering and server/client data boundaries."
+    },
+    {
+      "id": "packages-table-core-src-helpers",
+      "name": "helpers",
+      "path": "libraries/tanstack-table/packages/table-core/src/helpers",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 10341,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-table"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColumnHelper",
+          "createColumnHelper",
+          "metaHelper",
+          "tableFeatures",
+          "tableOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-types",
+      "name": "types",
+      "path": "libraries/tanstack-table/packages/table-core/src/types",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 13,
+        "code_bytes": 58793,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/store"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AccessorColumnDef",
+          "AccessorFn",
+          "AccessorFnColumnDef",
+          "AccessorFnColumnDefBase",
+          "AccessorKeyColumnDef",
+          "AccessorKeyColumnDefBase",
+          "CachedRowModel_All",
+          "CachedRowModels",
+          "CachedRowModels_FeatureMap",
+          "Cell",
+          "CellData",
+          "Cell_Core",
+          "Cell_FeatureMap",
+          "Column",
+          "ColumnDef",
+          "ColumnDefBase",
+          "ColumnDefBase_All",
+          "ColumnDefResolved",
+          "ColumnDefTemplate",
+          "ColumnDef_FeatureMap",
+          "ColumnMeta",
+          "Column_Core",
+          "Column_FeatureMap",
+          "Column_Internal",
+          "DebugOptions",
+          "DeepKeys",
+          "DeepValue",
+          "DisplayColumnDef",
+          "ExtractColumnMeta",
+          "ExtractFeatureMapTypes"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-worker",
+      "name": "worker",
+      "path": "libraries/tanstack-table/packages/table-core/src/worker",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 6,
+        "code_bytes": 38933,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/table-core"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TableState_WorkerRowModels",
+          "TableWorker",
+          "TableWorkerBridge",
+          "TableWorkerConfig",
+          "TableWorkerDataNode",
+          "TableWorkerDataPayload",
+          "TableWorkerFilterData",
+          "TableWorkerGroupNode",
+          "TableWorkerOptions",
+          "TableWorkerRequest",
+          "TableWorkerResponse",
+          "TableWorkerResult",
+          "TableWorkerRowNode",
+          "TableWorkerStage",
+          "TableWorkerStagePayload",
+          "applyFilterDataToCoreRows",
+          "createTableWorker",
+          "createWorkerRowModel",
+          "getTableWorkerBridge",
+          "initTableWorker",
+          "rebuildRowModel",
+          "serializeRowModel",
+          "syncTableWorker",
+          "tableWorkerPipeline",
+          "tableWorkerStageStateDeps",
+          "workerRowModelsFeature"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-experimental-worker-plugin-ts",
+      "name": "experimental-worker-plugin",
+      "path": "libraries/tanstack-table/packages/table-core/src/experimental-worker-plugin.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 979,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-flex-render-ts",
+      "name": "flex-render",
+      "path": "libraries/tanstack-table/packages/table-core/src/flex-render.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3302,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FlexRender",
+          "FlexRenderProps",
+          "flexRender"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-reactivity-ts",
+      "name": "reactivity",
+      "path": "libraries/tanstack-table/packages/table-core/src/reactivity.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 180,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-static-functions-ts",
+      "name": "static-functions",
+      "path": "libraries/tanstack-table/packages/table-core/src/static-functions.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1771,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-store-reactivity-bindings-ts",
+      "name": "store-reactivity-bindings",
+      "path": "libraries/tanstack-table/packages/table-core/src/store-reactivity-bindings.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1423,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/store",
+          "@tanstack/table-core"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "storeReactivityBindings"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-table-core-src-utils-ts",
+      "name": "utils",
+      "path": "libraries/tanstack-table/packages/table-core/src/utils.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/table-core",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/store": "^0.11.2"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 19320,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "API",
+          "APIObject",
+          "PrototypeAPI",
+          "PrototypeAPIObject",
+          "StateSliceEqualityFn",
+          "assignPrototypeAPIs",
+          "assignTableAPIs",
+          "callMemoOrStaticFn",
+          "cloneState",
+          "copyInstancePropertiesWithoutMemos",
+          "flattenBy",
+          "functionalUpdate",
+          "getFunctionNameInfo",
+          "hasOwn",
+          "isFunction",
+          "makeObjectMap",
+          "makeStateUpdater",
+          "memo",
+          "setStateSlice",
+          "skipFirstRun",
+          "stateSlicesEqual",
+          "tableMemo"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-createtablehook-tsx",
+      "name": "createTableHook",
+      "path": "libraries/tanstack-table/packages/react-table/src/createTableHook.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 42193,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tanstack/table-core",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AppCellComponent",
+          "AppCellContext",
+          "AppCellPropsWithSelector",
+          "AppCellPropsWithoutSelector",
+          "AppColumnDefBase",
+          "AppColumnDefTemplate",
+          "AppColumnHelper",
+          "AppDisplayColumnDef",
+          "AppGroupColumnDef",
+          "AppHeaderComponent",
+          "AppHeaderContext",
+          "AppHeaderPropsWithSelector",
+          "AppHeaderPropsWithoutSelector",
+          "AppReactTable",
+          "AppTableComponent",
+          "AppTablePropsWithSelector",
+          "AppTablePropsWithoutSelector",
+          "CreateTableHookOptions",
+          "CreateTableHookResult",
+          "createTableHook"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-createtablehookcontexts-tsx",
+      "name": "createTableHookContexts",
+      "path": "libraries/tanstack-table/packages/react-table/src/createTableHookContexts.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "data-table",
+          "display"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5919,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/table-core",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TableHookContexts",
+          "createTableHookContexts"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-experimental-worker-plugin-ts",
+      "name": "experimental-worker-plugin",
+      "path": "libraries/tanstack-table/packages/react-table/src/experimental-worker-plugin.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 64,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/table-core"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-flex-render-ts",
+      "name": "flex-render",
+      "path": "libraries/tanstack-table/packages/react-table/src/flex-render.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 29,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-flexrender-tsx",
+      "name": "FlexRender",
+      "path": "libraries/tanstack-table/packages/react-table/src/FlexRender.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3873,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/table-core",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FlexRender",
+          "FlexRenderProps",
+          "Renderable",
+          "flexRender"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-legacy-ts",
+      "name": "legacy",
+      "path": "libraries/tanstack-table/packages/react-table/src/legacy.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 174,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-table"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-reactivity-ts",
+      "name": "reactivity",
+      "path": "libraries/tanstack-table/packages/react-table/src/reactivity.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 881,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-store",
+          "@tanstack/table-core"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ReactTableReactivityBindings",
+          "reactReactivity"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-static-functions-ts",
+      "name": "static-functions",
+      "path": "libraries/tanstack-table/packages/react-table/src/static-functions.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 54,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/table-core"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-subscribe-ts",
+      "name": "Subscribe",
+      "path": "libraries/tanstack-table/packages/react-table/src/Subscribe.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 4954,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-store",
+          "@tanstack/table-core",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Subscribe",
+          "SubscribeProps",
+          "SubscribePropsWithSource",
+          "SubscribePropsWithSourceIdentity",
+          "SubscribePropsWithSourceWithSelector",
+          "SubscribePropsWithStore",
+          "SubscribeSource"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-uselegacytable-ts",
+      "name": "useLegacyTable",
+      "path": "libraries/tanstack-table/packages/react-table/src/useLegacyTable.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 16395,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/table-core",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FacetedMinMaxValuesFactory",
+          "FacetedRowModelFactory",
+          "FacetedUniqueValuesFactory",
+          "LegacyCell",
+          "LegacyColumn",
+          "LegacyColumnDef",
+          "LegacyFeatures",
+          "LegacyHeader",
+          "LegacyHeaderGroup",
+          "LegacyReactTable",
+          "LegacyRow",
+          "LegacyRowModelOptions",
+          "LegacyTable",
+          "LegacyTableOptions",
+          "RowModelFactory",
+          "getCoreRowModel",
+          "getExpandedRowModel",
+          "getFacetedMinMaxValues",
+          "getFacetedRowModel",
+          "getFacetedUniqueValues",
+          "getFilteredRowModel",
+          "getGroupedRowModel",
+          "getPaginationRowModel",
+          "getSortedRowModel",
+          "legacyCreateColumnHelper",
+          "useLegacyTable"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-table-src-usetable-ts",
+      "name": "useTable",
+      "path": "libraries/tanstack-table/packages/react-table/src/useTable.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "data-table",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 7926,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-store",
+          "@tanstack/table-core",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ReactTable",
+          "useTable"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "examples-react-aggregation",
+      "name": "aggregation",
+      "path": "libraries/tanstack-table/examples/react/aggregation",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-aggregation",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 11174,
+        "has_tests": false,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Sale",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-dynamic-columns",
+      "name": "basic-dynamic-columns",
+      "path": "libraries/tanstack-table/examples/react/basic-dynamic-columns",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-dynamic-columns",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 16523,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-external-atoms",
+      "name": "basic-external-atoms",
+      "path": "libraries/tanstack-table/examples/react/basic-external-atoms",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-external-atoms",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 8367,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-external-state",
+      "name": "basic-external-state",
+      "path": "libraries/tanstack-table/examples/react/basic-external-state",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-external-state",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 8697,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-subscribe",
+      "name": "basic-subscribe",
+      "path": "libraries/tanstack-table/examples/react/basic-subscribe",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-subscribe",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 17499,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-use-app-table",
+      "name": "basic-use-app-table",
+      "path": "libraries/tanstack-table/examples/react/basic-use-app-table",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-use-app-table",
+        "version": null,
+        "dependencies": {
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5873,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-use-legacy-table",
+      "name": "basic-use-legacy-table",
+      "path": "libraries/tanstack-table/examples/react/basic-use-legacy-table",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-use-legacy-table",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13824,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-basic-use-table",
+      "name": "basic-use-table",
+      "path": "libraries/tanstack-table/examples/react/basic-use-table",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-basic-use-table",
+        "version": null,
+        "dependencies": {
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5568,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-cell-selection",
+      "name": "cell-selection",
+      "path": "libraries/tanstack-table/examples/react/cell-selection",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-cell-selection",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-hotkeys": "^0.25.0",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 22404,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-hotkeys",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-cell-spanning",
+      "name": "cell-spanning",
+      "path": "libraries/tanstack-table/examples/react/cell-spanning",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-cell-spanning",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 16026,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Shift",
+          "ShiftStatus",
+          "SummaryRow",
+          "makeData",
+          "makeSummaryData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-dnd",
+      "name": "column-dnd",
+      "path": "libraries/tanstack-table/examples/react/column-dnd",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "drag-and-drop",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-dnd",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 8771,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@dnd-kit/core",
+          "@dnd-kit/modifiers",
+          "@dnd-kit/sortable",
+          "@dnd-kit/utilities",
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-ordering",
+      "name": "column-ordering",
+      "path": "libraries/tanstack-table/examples/react/column-ordering",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-ordering",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 7652,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-pinning",
+      "name": "column-pinning",
+      "path": "libraries/tanstack-table/examples/react/column-pinning",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-pinning",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 9497,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-pinning-split",
+      "name": "column-pinning-split",
+      "path": "libraries/tanstack-table/examples/react/column-pinning-split",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-pinning-split",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14523,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-pinning-sticky",
+      "name": "column-pinning-sticky",
+      "path": "libraries/tanstack-table/examples/react/column-pinning-sticky",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-pinning-sticky",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 11341,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-resizing",
+      "name": "column-resizing",
+      "path": "libraries/tanstack-table/examples/react/column-resizing",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-resizing",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14761,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-resizing-performant",
+      "name": "column-resizing-performant",
+      "path": "libraries/tanstack-table/examples/react/column-resizing-performant",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-resizing-performant",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 10289,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-sizing",
+      "name": "column-sizing",
+      "path": "libraries/tanstack-table/examples/react/column-sizing",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-sizing",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 11088,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-column-visibility",
+      "name": "column-visibility",
+      "path": "libraries/tanstack-table/examples/react/column-visibility",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-column-visibility",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 7507,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-composable-tables",
+      "name": "composable-tables",
+      "path": "libraries/tanstack-table/examples/react/composable-tables",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table",
+          "browser-api"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-composable-tables",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 31638,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@tanstack/react-devtools",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CategoryCell",
+          "ColumnFilter",
+          "FooterColumnId",
+          "FooterSum",
+          "IndeterminateCheckbox",
+          "NumberCell",
+          "PaginationControls",
+          "Person",
+          "PriceCell",
+          "Product",
+          "ProgressCell",
+          "RowActionsCell",
+          "RowCount",
+          "SelectCell",
+          "SortIndicator",
+          "StatusCell",
+          "TableToolbar",
+          "TextCell",
+          "makeData",
+          "makeProductData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-custom-plugin",
+      "name": "custom-plugin",
+      "path": "libraries/tanstack-table/examples/react/custom-plugin",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-custom-plugin",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14651,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DensityState",
+          "Person",
+          "TableOptions_Density",
+          "TableState_Density",
+          "Table_Density",
+          "densityPlugin",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-expanding",
+      "name": "expanding",
+      "path": "libraries/tanstack-table/examples/react/expanding",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-expanding",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14735,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-filters",
+      "name": "filters",
+      "path": "libraries/tanstack-table/examples/react/filters",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "search"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-filters",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13874,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-filters-faceted",
+      "name": "filters-faceted",
+      "path": "libraries/tanstack-table/examples/react/filters-faceted",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "search"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-filters-faceted",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13136,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-filters-faceted-bucketed",
+      "name": "filters-faceted-bucketed",
+      "path": "libraries/tanstack-table/examples/react/filters-faceted-bucketed",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "search"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-filters-faceted-bucketed",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13107,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Account",
+          "dataReferenceDate",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-filters-fuzzy",
+      "name": "filters-fuzzy",
+      "path": "libraries/tanstack-table/examples/react/filters-fuzzy",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "search"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-filters-fuzzy",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13700,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-grouped-aggregation",
+      "name": "grouped-aggregation",
+      "path": "libraries/tanstack-table/examples/react/grouped-aggregation",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-grouped-aggregation",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 12579,
+        "has_tests": false,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-grouping",
+      "name": "grouping",
+      "path": "libraries/tanstack-table/examples/react/grouping",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-grouping",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 10695,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-header-groups",
+      "name": "header-groups",
+      "path": "libraries/tanstack-table/examples/react/header-groups",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-header-groups",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14827,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink",
+      "name": "kitchen-sink",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-hotkeys": "^0.25.0",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-start": "^1.169.5",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 6,
+        "code_bytes": 43892,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@dnd-kit/core",
+          "@dnd-kit/modifiers",
+          "@dnd-kit/sortable",
+          "@dnd-kit/utilities",
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-hotkeys",
+          "@tanstack/react-pacer",
+          "@tanstack/react-router",
+          "@tanstack/react-start",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FileRouteTypes",
+          "FileRoutesByFullPath",
+          "FileRoutesById",
+          "FileRoutesByTo",
+          "Person",
+          "RootRouteChildren",
+          "Route",
+          "getRouter",
+          "makeData",
+          "routeTree"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-chakra-ui",
+      "name": "kitchen-sink-chakra-ui",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-chakra-ui",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-chakra-ui",
+        "version": null,
+        "dependencies": {
+          "@chakra-ui/react": "^3.38.0",
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@emotion/react": "^11.14.0",
+          "@faker-js/faker": "^10.6.0",
+          "@tabler/icons-react": "^3.51.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "date-fns": "^4.4.0",
+          "next-themes": "^0.4.6",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 36362,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@chakra-ui/react",
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tabler/icons-react",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "next-themes",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/data-table/shared",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-hero-ui",
+      "name": "kitchen-sink-hero-ui",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-hero-ui",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "marketing",
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-hero-ui",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@heroui/react": "^3.2.7",
+          "@heroui/styles": "^3.2.7",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "date-fns": "^4.4.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "tailwindcss": "^4.3.5"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 32259,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@heroui/react",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/data-table/shared",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-mantine",
+      "name": "kitchen-sink-mantine",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-mantine",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-mantine",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@mantine/core": "^9.8.0",
+          "@mantine/hooks": "^9.8.0",
+          "@tabler/icons-react": "^3.51.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "date-fns": "^4.4.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 34690,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@mantine/core",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tabler/icons-react",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/data-table/shared",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-material-ui",
+      "name": "kitchen-sink-material-ui",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-material-ui",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-material-ui",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@emotion/react": "^11.14.0",
+          "@emotion/styled": "^11.14.1",
+          "@faker-js/faker": "^10.6.0",
+          "@mui/icons-material": "^9.5.0",
+          "@mui/material": "^9.5.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "date-fns": "^4.4.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 36180,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@mui/icons-material",
+          "@mui/material",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/data-table/shared",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-react-aria",
+      "name": "kitchen-sink-react-aria",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-react-aria",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-react-aria",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "date-fns": "^4.4.0",
+          "react": "^19.3.1",
+          "react-aria-components": "^1.22.1",
+          "react-dom": "^19.3.1",
+          "tailwindcss": "^4.3.5"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 33200,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-aria-components",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/data-table/shared",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-shadcn-base",
+      "name": "kitchen-sink-shadcn-base",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-shadcn-base",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-shadcn-base",
+        "version": null,
+        "dependencies": {
+          "@base-ui/react": "^1.9.0",
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "cmdk": "1.1.1",
+          "date-fns": "^4.4.0",
+          "lucide-react": "^1.72.0",
+          "react": "^19.3.1",
+          "react-day-picker": "10.0.2",
+          "react-dom": "^19.3.1",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.3.5",
+          "tw-animate-css": "^1.4.0"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 13,
+        "code_bytes": 36784,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "clsx",
+          "lucide-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "tailwind-merge",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/mode-toggle",
+          "@/components/theme-provider",
+          "@/components/ui/button",
+          "@/components/ui/dropdown-menu",
+          "@/components/ui/input",
+          "@/components/ui/table",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/lib/utils",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "ModeToggle",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "ThemeProvider",
+          "cn",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "formatDate",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses",
+          "toSentenceCase",
+          "useTheme"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-kitchen-sink-shadcn-radix",
+      "name": "kitchen-sink-shadcn-radix",
+      "path": "libraries/tanstack-table/examples/react/kitchen-sink-shadcn-radix",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "dashboard"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-kitchen-sink-shadcn-radix",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "cmdk": "1.1.1",
+          "date-fns": "^4.4.0",
+          "lucide-react": "^1.72.0",
+          "radix-ui": "^1.8.1",
+          "react": "^19.3.1",
+          "react-day-picker": "10.0.2",
+          "react-dom": "^19.3.1",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.3.5",
+          "tw-animate-css": "^1.4.0"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 13,
+        "code_bytes": 36938,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/match-sorter-utils",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "clsx",
+          "lucide-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "tailwind-merge",
+          "vite"
+        ],
+        "workspace_alias_imports": [
+          "@/columns",
+          "@/components/data-table/cell-components",
+          "@/components/data-table/data-table-column-header",
+          "@/components/data-table/data-table-filter-list",
+          "@/components/data-table/data-table-pagination",
+          "@/components/data-table/data-table-sort-list",
+          "@/components/data-table/data-table-view-options",
+          "@/components/data-table/header-components",
+          "@/components/mode-toggle",
+          "@/components/theme-provider",
+          "@/components/ui/button",
+          "@/components/ui/dropdown-menu",
+          "@/components/ui/input",
+          "@/components/ui/table",
+          "@/hooks/features",
+          "@/hooks/table",
+          "@/lib/data-table",
+          "@/lib/make-data",
+          "@/lib/utils",
+          "@/types"
+        ],
+        "named_exports": [
+          "ExtendedColumnFilter",
+          "FilterOperator",
+          "JoinOperator",
+          "ModeToggle",
+          "MyColumnMeta",
+          "Person",
+          "TableFilterFeatures",
+          "ThemeProvider",
+          "cn",
+          "columns",
+          "departments",
+          "dynamicFilterFn",
+          "features",
+          "formatDate",
+          "fuzzyFilter",
+          "getFilterOperators",
+          "makeData",
+          "statuses",
+          "toSentenceCase",
+          "useTheme"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-chakra-ui",
+      "name": "lib-chakra-ui",
+      "path": "libraries/tanstack-table/examples/react/lib-chakra-ui",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-chakra-ui",
+        "version": null,
+        "dependencies": {
+          "@chakra-ui/react": "^3.38.0",
+          "@emotion/react": "^11.14.0",
+          "@faker-js/faker": "^10.6.0",
+          "@tabler/icons-react": "^3.51.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 10991,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@chakra-ui/react",
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tabler/icons-react",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-hero-ui",
+      "name": "lib-hero-ui",
+      "path": "libraries/tanstack-table/examples/react/lib-hero-ui",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "marketing"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-hero-ui",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@heroui/react": "^3.2.7",
+          "@heroui/styles": "^3.2.7",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "tailwindcss": "^4.3.5"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 12404,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@heroui/react",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-mantine",
+      "name": "lib-mantine",
+      "path": "libraries/tanstack-table/examples/react/lib-mantine",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-mantine",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@mantine/core": "^9.8.0",
+          "@mantine/hooks": "^9.8.0",
+          "@tabler/icons-react": "^3.51.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 9827,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@mantine/core",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tabler/icons-react",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-material-ui",
+      "name": "lib-material-ui",
+      "path": "libraries/tanstack-table/examples/react/lib-material-ui",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-material-ui",
+        "version": null,
+        "dependencies": {
+          "@emotion/react": "^11.14.0",
+          "@emotion/styled": "^11.14.1",
+          "@faker-js/faker": "^10.6.0",
+          "@mui/icons-material": "^9.5.0",
+          "@mui/material": "^9.5.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 9611,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@mui/icons-material",
+          "@mui/material",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-react-aria",
+      "name": "lib-react-aria",
+      "path": "libraries/tanstack-table/examples/react/lib-react-aria",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-react-aria",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-aria-components": "^1.22.1",
+          "react-dom": "^19.3.1",
+          "tailwindcss": "^4.3.5"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 11987,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-aria-components",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-shadcn-base",
+      "name": "lib-shadcn-base",
+      "path": "libraries/tanstack-table/examples/react/lib-shadcn-base",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-shadcn-base",
+        "version": null,
+        "dependencies": {
+          "@base-ui/react": "^1.9.0",
+          "@faker-js/faker": "^10.6.0",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "lucide-react": "^1.72.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.3.5",
+          "tw-animate-css": "^1.4.0"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 12486,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "clsx",
+          "lucide-react",
+          "path",
+          "react",
+          "react-dom",
+          "tailwind-merge",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "cn",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-lib-shadcn-radix",
+      "name": "lib-shadcn-radix",
+      "path": "libraries/tanstack-table/examples/react/lib-shadcn-radix",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-lib-shadcn-radix",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tailwindcss/vite": "^4.3.5",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "lucide-react": "^1.72.0",
+          "radix-ui": "^1.8.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.3.5",
+          "tw-animate-css": "^1.4.0"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 12486,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tailwindcss/vite",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "clsx",
+          "lucide-react",
+          "path",
+          "react",
+          "react-dom",
+          "tailwind-merge",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "cn",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-mantine-react-table",
+      "name": "mantine-react-table",
+      "path": "libraries/tanstack-table/examples/react/mantine-react-table",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-mantine-react-table",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@mantine/core": "^9.8.0",
+          "@mantine/dates": "^9.8.0",
+          "@mantine/hooks": "^9.8.0",
+          "@tabler/icons-react": "^3.51.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "clsx": "^2.1.1",
+          "dayjs": "^1.11.23",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 8,
+        "code_bytes": 61197,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@mantine/core",
+          "@mantine/dates",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tabler/icons-react",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "HTMLPropsRef",
+          "LiteralUnion",
+          "MRT_AccessorColumnDef",
+          "MRT_AccessorFnColumnDef",
+          "MRT_AccessorKeyColumnDef",
+          "MRT_Cell",
+          "MRT_CellValue",
+          "MRT_Column",
+          "MRT_ColumnDef",
+          "MRT_ColumnFilterFnsState",
+          "MRT_ColumnFiltersState",
+          "MRT_ColumnHelper",
+          "MRT_ColumnOrderState",
+          "MRT_ColumnPinningState",
+          "MRT_ColumnResizingState",
+          "MRT_ColumnSizingState",
+          "MRT_ColumnVirtualizer",
+          "MRT_ColumnVisibilityState",
+          "MRT_CreateTableFeature",
+          "MRT_Default_Icons",
+          "MRT_DefinedColumnDef",
+          "MRT_DefinedTableOptions",
+          "MRT_DensityState",
+          "MRT_DisplayColumnDef",
+          "MRT_DisplayColumnIds",
+          "MRT_ExpandedState",
+          "MRT_FilterFn",
+          "MRT_FilterOption",
+          "MRT_FilterTooltipValueFn",
+          "MRT_GroupColumnDef"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-material-react-table",
+      "name": "material-react-table",
+      "path": "libraries/tanstack-table/examples/react/material-react-table",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-material-react-table",
+        "version": null,
+        "dependencies": {
+          "@emotion/react": "^11.14.0",
+          "@emotion/styled": "^11.14.1",
+          "@faker-js/faker": "^10.6.0",
+          "@mui/icons-material": "^9.5.0",
+          "@mui/material": "^9.5.0",
+          "@mui/x-date-pickers": "^9.18.0",
+          "@tanstack/match-sorter-utils": "^9.2.6",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "highlight-words": "^2.0.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 7,
+        "code_bytes": 26387,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@mui/icons-material",
+          "@mui/material",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "node:path",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DropdownOption",
+          "LiteralUnion",
+          "MRT_AccessorColumnDef",
+          "MRT_AccessorFnColumnDef",
+          "MRT_AccessorKeyColumnDef",
+          "MRT_Cell",
+          "MRT_Column",
+          "MRT_ColumnDef",
+          "MRT_ColumnFilterFnsState",
+          "MRT_ColumnFiltersState",
+          "MRT_ColumnHelper",
+          "MRT_ColumnOrderState",
+          "MRT_ColumnPinningState",
+          "MRT_ColumnResizingState",
+          "MRT_ColumnSizingState",
+          "MRT_ColumnVirtualizer",
+          "MRT_ColumnVisibilityState",
+          "MRT_Default_Icons",
+          "MRT_DefinedColumnDef",
+          "MRT_DefinedTableOptions",
+          "MRT_DensityState",
+          "MRT_DisplayColumnDef",
+          "MRT_DisplayColumnIds",
+          "MRT_ExpandedState",
+          "MRT_FilterFn",
+          "MRT_FilterOption",
+          "MRT_GroupColumnDef",
+          "MRT_GroupingState",
+          "MRT_Header",
+          "MRT_HeaderGroup"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-pagination",
+      "name": "pagination",
+      "path": "libraries/tanstack-table/examples/react/pagination",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-pagination",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 8528,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      },
+      "purpose": "Working React example of table pagination.",
+      "use_when": "A table has too many rows for one view.",
+      "check": "Determine client or server pagination and keep page state consistent with filters."
+    },
+    {
+      "id": "examples-react-realtime-trading",
+      "name": "realtime-trading",
+      "path": "libraries/tanstack-table/examples/react/realtime-trading",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-realtime-trading",
+        "version": null,
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 22,
+        "code_bytes": 113733,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "App",
+          "BaseInstrument",
+          "BenchmarkMonitor",
+          "CellDirection",
+          "ConfiguratorOption",
+          "DEFAULT_VIRTUALIZATION_ROW_COUNT",
+          "FORCED_VIRTUALIZATION_ROW_COUNT",
+          "FeedMetrics",
+          "MarketCode",
+          "MarketFeedActions",
+          "MarketFeedBatch",
+          "MarketFeedConfig",
+          "MarketFeedController",
+          "MarketFeedObserver",
+          "MarketFeedProvider",
+          "MarketQuote",
+          "NamedInvocationRate",
+          "SelectionCellTarget",
+          "TRADING_ROW_HEIGHT",
+          "TRADING_ROW_OVERSCAN",
+          "TradingBenchmarkActions",
+          "TradingBenchmarkController",
+          "TradingBenchmarkState",
+          "TradingGridPointerHandlers",
+          "TradingGridTable",
+          "TradingShell",
+          "TradingShellProvider",
+          "TradingTable",
+          "VirtualScrollMode",
+          "VirtualScrollPreference"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-row-dnd",
+      "name": "row-dnd",
+      "path": "libraries/tanstack-table/examples/react/row-dnd",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "drag-and-drop",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-row-dnd",
+        "version": null,
+        "dependencies": {
+          "@dnd-kit/core": "^6.3.1",
+          "@dnd-kit/modifiers": "^9.0.0",
+          "@dnd-kit/sortable": "^10.0.0",
+          "@dnd-kit/utilities": "^3.2.2",
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 8121,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@dnd-kit/core",
+          "@dnd-kit/modifiers",
+          "@dnd-kit/sortable",
+          "@dnd-kit/utilities",
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-row-pinning",
+      "name": "row-pinning",
+      "path": "libraries/tanstack-table/examples/react/row-pinning",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-row-pinning",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 15804,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-pacer",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-row-selection",
+      "name": "row-selection",
+      "path": "libraries/tanstack-table/examples/react/row-selection",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-row-selection",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14824,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      },
+      "purpose": "Working React example of row selection.",
+      "use_when": "A table supports bulk actions.",
+      "check": "Keep selection stable across pagination and server data changes."
+    },
+    {
+      "id": "examples-react-sorting",
+      "name": "sorting",
+      "path": "libraries/tanstack-table/examples/react/sorting",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-sorting",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 9504,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      },
+      "purpose": "Working React example of table sorting.",
+      "use_when": "Implementing sort controls with TanStack Table.",
+      "check": "Example includes demo data and development tooling; adapt only the sorting pattern."
+    },
+    {
+      "id": "examples-react-spreadsheet",
+      "name": "spreadsheet",
+      "path": "libraries/tanstack-table/examples/react/spreadsheet",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-spreadsheet",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-hotkeys": "^0.25.0",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 11,
+        "code_bytes": 121252,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-hotkeys",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CellContextMenu",
+          "CellMerge",
+          "CellPatch",
+          "CellValue",
+          "ColumnMenu",
+          "DEFAULT_COLUMN_COUNT",
+          "DEFAULT_ROW_COUNT",
+          "EditingCell",
+          "FillDirection",
+          "FillPreview",
+          "GridBounds",
+          "GridCoordinate",
+          "GridInteractions",
+          "HEADER_HEIGHT",
+          "ROW_HEADER_WIDTH",
+          "ROW_HEIGHT",
+          "STRESS_COLUMN_COUNT",
+          "STRESS_ROW_COUNT",
+          "Spreadsheet",
+          "SpreadsheetColumnMeta",
+          "SpreadsheetColumnType",
+          "SpreadsheetCommand",
+          "SpreadsheetData",
+          "SpreadsheetFeatures",
+          "SpreadsheetGrid",
+          "SpreadsheetGridHandle",
+          "SpreadsheetRow",
+          "SpreadsheetTable",
+          "SpreadsheetTableCell",
+          "SpreadsheetTableColumn"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-sub-components",
+      "name": "sub-components",
+      "path": "libraries/tanstack-table/examples/react/sub-components",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "table-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-sub-components",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 7055,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-virtualized-columns",
+      "name": "virtualized-columns",
+      "path": "libraries/tanstack-table/examples/react/virtualized-columns",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-virtualized-columns",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 15003,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeColumns",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-virtualized-columns-experimental",
+      "name": "virtualized-columns-experimental",
+      "path": "libraries/tanstack-table/examples/react/virtualized-columns-experimental",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-virtualized-columns-experimental",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 16361,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeColumns",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-virtualized-infinite-scrolling",
+      "name": "virtualized-infinite-scrolling",
+      "path": "libraries/tanstack-table/examples/react/virtualized-infinite-scrolling",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-virtualized-infinite-scrolling",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-query": "^5.107.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 12409,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-query",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "PersonApiResponse",
+          "fetchData",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-virtualized-rows",
+      "name": "virtualized-rows",
+      "path": "libraries/tanstack-table/examples/react/virtualized-rows",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-virtualized-rows",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 11866,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-virtualized-rows-experimental",
+      "name": "virtualized-rows-experimental",
+      "path": "libraries/tanstack-table/examples/react/virtualized-rows-experimental",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-virtualized-rows-experimental",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-virtual": "^3.14.26",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 11890,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-table",
+          "@tanstack/react-virtual",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-web-worker-row-models",
+      "name": "web-worker-row-models",
+      "path": "libraries/tanstack-table/examples/react/web-worker-row-models",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-access",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-web-worker-row-models",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-start": "^1.169.5",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 8,
+        "code_bytes": 23354,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@tanstack/react-devtools",
+          "@tanstack/react-router",
+          "@tanstack/react-start",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FileRouteTypes",
+          "FileRoutesByFullPath",
+          "FileRoutesById",
+          "FileRoutesByTo",
+          "Person",
+          "RootRouteChildren",
+          "Route",
+          "columnHelper",
+          "columns",
+          "getRouter",
+          "makeData",
+          "routeTree",
+          "sharedFeatures"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-with-tanstack-form",
+      "name": "with-tanstack-form",
+      "path": "libraries/tanstack-table/examples/react/with-tanstack-form",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-with-tanstack-form",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-form": "^1.33.5",
+          "@tanstack/react-form-devtools": "^0.2.34",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-pacer-devtools": "0.9.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 6,
+        "code_bytes": 28927,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-form",
+          "@tanstack/react-form-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-pacer-devtools",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite",
+          "zod"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-with-tanstack-query",
+      "name": "with-tanstack-query",
+      "path": "libraries/tanstack-table/examples/react/with-tanstack-query",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-with-tanstack-query",
+        "version": null,
+        "dependencies": {
+          "@faker-js/faker": "^10.6.0",
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-query": "^5.107.1",
+          "@tanstack/react-query-devtools": "^5.107.1",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 17367,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-query",
+          "@tanstack/react-query-devtools",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DataQuery",
+          "InfiniteDataPage",
+          "InfiniteDataQuery",
+          "Person",
+          "makeData"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "examples-react-with-tanstack-router",
+      "name": "with-tanstack-router",
+      "path": "libraries/tanstack-table/examples/react/with-tanstack-router",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "api",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tanstack-react-table-example-with-tanstack-router",
+        "version": null,
+        "dependencies": {
+          "@tanstack/react-devtools": "^0.10.14",
+          "@tanstack/react-pacer": "^0.24.1",
+          "@tanstack/react-pacer-devtools": "0.9.1",
+          "@tanstack/react-query": "^5.107.1",
+          "@tanstack/react-query-devtools": "^5.107.1",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.3",
+          "@tanstack/react-table": "^9.3.1",
+          "@tanstack/react-table-devtools": "^9.3.2",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 16,
+        "code_bytes": 20127,
+        "has_tests": true,
+        "has_styles": true,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@faker-js/faker",
+          "@rolldown/plugin-babel",
+          "@rollup/plugin-replace",
+          "@tanstack/react-devtools",
+          "@tanstack/react-pacer",
+          "@tanstack/react-pacer-devtools",
+          "@tanstack/react-query",
+          "@tanstack/react-query-devtools",
+          "@tanstack/react-router",
+          "@tanstack/react-router-devtools",
+          "@tanstack/react-table",
+          "@tanstack/react-table-devtools",
+          "@tanstack/router-vite-plugin",
+          "@vitejs/plugin-react",
+          "react",
+          "react-dom",
+          "vite"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "App",
+          "DEFAULT_PAGE_INDEX",
+          "DEFAULT_PAGE_SIZE",
+          "DebouncedInput",
+          "FileRouteTypes",
+          "FileRoutesByFullPath",
+          "FileRoutesById",
+          "FileRoutesByTo",
+          "Filters",
+          "PaginatedData",
+          "PaginationParams",
+          "RootRouteChildren",
+          "Route",
+          "SortParams",
+          "Table",
+          "USER_COLUMNS",
+          "User",
+          "UserFilters",
+          "cleanEmptyParams",
+          "features",
+          "routeTree",
+          "sortByToState",
+          "stateToSortBy",
+          "useFilters"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "react-table-package",
+      "name": "React Table package",
+      "path": "libraries/tanstack-table/packages/react-table",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table",
+          "sorting",
+          "filtering",
+          "pagination",
+          "selection"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "headless"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tanstack/react-table",
+        "version": "9.3.1",
+        "dependencies": {
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/table-core": "workspace:*"
+        },
+        "peer_dependencies": {
+          "react": ">=18"
+        }
+      },
+      "evidence": {
+        "code_files": 16,
+        "code_bytes": 84463,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@eslint-react/eslint-plugin",
+          "@tanstack/react-store",
+          "@tanstack/react-table",
+          "@tanstack/table-core",
+          "@vitejs/plugin-react",
+          "eslint-plugin-react-compiler",
+          "eslint-plugin-react-hooks",
+          "react",
+          "tsdown",
+          "vitest"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AppCellComponent",
+          "AppCellContext",
+          "AppCellPropsWithSelector",
+          "AppCellPropsWithoutSelector",
+          "AppColumnDefBase",
+          "AppColumnDefTemplate",
+          "AppColumnHelper",
+          "AppDisplayColumnDef",
+          "AppGroupColumnDef",
+          "AppHeaderComponent",
+          "AppHeaderContext",
+          "AppHeaderPropsWithSelector",
+          "AppHeaderPropsWithoutSelector",
+          "AppReactTable",
+          "AppTableComponent",
+          "AppTablePropsWithSelector",
+          "AppTablePropsWithoutSelector",
+          "CreateTableHookOptions",
+          "CreateTableHookResult",
+          "FacetedMinMaxValuesFactory",
+          "FacetedRowModelFactory",
+          "FacetedUniqueValuesFactory",
+          "FlexRender",
+          "FlexRenderProps",
+          "LegacyCell",
+          "LegacyColumn",
+          "LegacyColumnDef",
+          "LegacyFeatures",
+          "LegacyHeader",
+          "LegacyHeaderGroup"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @eslint-react/eslint-plugin, @tanstack/react-store, @tanstack/react-table, @tanstack/table-core, @vitejs/plugin-react."
+      },
+      "purpose": "Public @tanstack/react-table package, the headless table engine for React.",
+      "use_when": "A table needs sorting, filtering, pagination, selection or server data coordination.",
+      "check": "Install the package in the target project; provide table markup, styling and accessibility through the chosen UI system."
+    }
+  ]
+}

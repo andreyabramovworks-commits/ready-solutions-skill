@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Card } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Card title=\"Card title\" variant=\"borderless\" style={{ width: 300 }}>\r\n    <p>Card content</p>\r\n    <p>Card content</p>\r\n    <p>Card content</p>\r\n  </Card>\r\n);\r\n\r\nexport default App;\r\n";

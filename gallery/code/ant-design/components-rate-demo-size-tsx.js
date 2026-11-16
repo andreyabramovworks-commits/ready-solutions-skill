@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Flex, Rate } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Flex vertical gap=\"medium\">\r\n    <Rate size=\"large\" />\r\n    <Rate />\r\n    <Rate size=\"small\" />\r\n  </Flex>\r\n);\r\n\r\nexport default App;\r\n";

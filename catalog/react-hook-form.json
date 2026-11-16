@@ -1,0 +1,1259 @@
+{
+  "id": "react-hook-form",
+  "name": "react-hook-form",
+  "source": "https://github.com/react-hook-form/react-hook-form",
+  "commit": "66f4d72b8c66627d5542dd13e15070227d84d4a2",
+  "local_path": "libraries/react-hook-form",
+  "source_type": "source",
+  "license_file": "libraries/react-hook-form/LICENSE",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "src-logic",
+      "name": "logic",
+      "path": "libraries/react-hook-form/src/logic",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "form-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 33,
+        "code_bytes": 109204,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DEFAULT_FORM_STATE",
+          "collectDirtyFieldNames",
+          "createFormControl",
+          "defaultOptions",
+          "getDirtyFields",
+          "getFieldValue",
+          "getNullAncestorValue",
+          "getValidateError",
+          "schemaErrorLookup"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-types",
+      "name": "types",
+      "path": "libraries/react-hook-form/src/types",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 14,
+        "code_bytes": 82985,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ArrayKey",
+          "ArrayPath",
+          "AsKey",
+          "AsPathTuple",
+          "BatchFieldArrayUpdate",
+          "BrowserNativeObject",
+          "ChangeHandler",
+          "CheckKeyConstraint",
+          "ContainsIndexable",
+          "Control",
+          "ControllerFieldState",
+          "ControllerProps",
+          "ControllerRenderProps",
+          "CriteriaMode",
+          "CustomElement",
+          "DeepMap",
+          "DeepPartial",
+          "DeepPartialSkipArrayKey",
+          "DeepRequired",
+          "DefaultValues",
+          "DelayCallback",
+          "EmptyObject",
+          "ErrorNamespacePath",
+          "ErrorOption",
+          "EvaluateKey",
+          "EvaluatePath",
+          "EventType",
+          "ExtractObjects",
+          "Field",
+          "FieldArray"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-utils",
+      "name": "utils",
+      "path": "libraries/react-hook-form/src/utils",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 47,
+        "code_bytes": 19283,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Observer",
+          "Subject",
+          "Subscription",
+          "cloneObject",
+          "deepEqual",
+          "extractFormValues",
+          "flatten",
+          "insert",
+          "isObjectType",
+          "noop",
+          "unset"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-constants-ts",
+      "name": "constants",
+      "path": "libraries/react-hook-form/src/constants.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "form-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1006,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "EVENTS",
+          "FORM_ERROR_TYPE",
+          "INPUT_VALIDATION_RULES",
+          "PROTOTYPE_KEYWORDS",
+          "REGISTER_VALIDATION_RULES",
+          "ROOT_ERROR_TYPE",
+          "VALIDATION_MODE"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-controller-tsx",
+      "name": "controller",
+      "path": "libraries/react-hook-form/src/controller.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "form-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 800,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Controller"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      },
+      "purpose": "Controller integration for controlled React inputs.",
+      "use_when": "A complex third-party input cannot use a simple registered native input.",
+      "check": "Use package API, not copied source; verify value and blur propagation."
+    },
+    {
+      "id": "src-errormessage-tsx",
+      "name": "errorMessage",
+      "path": "libraries/react-hook-form/src/errorMessage.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "feedback",
+          "messaging"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1652,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ErrorMessage",
+          "ErrorMessageProps"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-fieldarray-tsx",
+      "name": "fieldArray",
+      "path": "libraries/react-hook-form/src/fieldArray.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1416,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-form-tsx",
+      "name": "form",
+      "path": "libraries/react-hook-form/src/form.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5442,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Form"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-formstate-tsx",
+      "name": "formState",
+      "path": "libraries/react-hook-form/src/formState.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "forms",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1235,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FormState",
+          "FormStateProps",
+          "FormStateSubscribe",
+          "FormStateSubscribeProps"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "src-usecontroller-ts",
+      "name": "useController",
+      "path": "libraries/react-hook-form/src/useController.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "form-engine"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 8702,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useController"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "src-usefieldarray-ts",
+      "name": "useFieldArray",
+      "path": "libraries/react-hook-form/src/useFieldArray.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 17995,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useFieldArray"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      },
+      "purpose": "Dynamic array field state hook.",
+      "use_when": "Users can add, remove or reorder repeated form sections.",
+      "check": "Use stable field IDs and validate each row on the server."
+    },
+    {
+      "id": "src-useform-ts",
+      "name": "useForm",
+      "path": "libraries/react-hook-form/src/useForm.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 7474,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useForm"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      },
+      "purpose": "Form state hook implementation.",
+      "use_when": "Complex forms need controlled validation and predictable state.",
+      "check": "Version compatibility, resolver choice and accessibility of rendered inputs."
+    },
+    {
+      "id": "src-useformcontext-tsx",
+      "name": "useFormContext",
+      "path": "libraries/react-hook-form/src/useFormContext.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2933,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FormProvider",
+          "useFormContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      },
+      "purpose": "Form context access for deeply nested fields.",
+      "use_when": "A large form contains child components that need shared form state.",
+      "check": "Keep field boundaries clear and avoid unnecessary whole-form rerenders."
+    },
+    {
+      "id": "src-useformcontrolcontext-ts",
+      "name": "useFormControlContext",
+      "path": "libraries/react-hook-form/src/useFormControlContext.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 784,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "HookFormControlContext",
+          "useFormControlContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "src-useformstate-ts",
+      "name": "useFormState",
+      "path": "libraries/react-hook-form/src/useFormState.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2839,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useFormState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "src-useisomorphiclayouteffect-ts",
+      "name": "useIsomorphicLayoutEffect",
+      "path": "libraries/react-hook-form/src/useIsomorphicLayoutEffect.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 148,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useIsomorphicLayoutEffect"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "src-useresynconreconnect-ts",
+      "name": "useResyncOnReconnect",
+      "path": "libraries/react-hook-form/src/useResyncOnReconnect.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "user-management",
+          "network-state"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1559,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "cloneFormState",
+          "useResyncOnReconnect"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "src-usewatch-ts",
+      "name": "useWatch",
+      "path": "libraries/react-hook-form/src/useWatch.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 8714,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "useWatch"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "src-watch-tsx",
+      "name": "watch",
+      "path": "libraries/react-hook-form/src/watch.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "react-hook-form",
+        "version": "7.92.0",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@types/react": "*",
+          "react": "^16.8.0 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1181,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Watch"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    }
+  ]
+}

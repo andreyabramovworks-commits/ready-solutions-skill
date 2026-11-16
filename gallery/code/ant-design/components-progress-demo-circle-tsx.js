@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Flex, Progress } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Flex gap=\"small\" wrap>\r\n    <Progress type=\"circle\" percent={75} />\r\n    <Progress type=\"circle\" percent={70} status=\"exception\" />\r\n    <Progress type=\"circle\" percent={100} />\r\n  </Flex>\r\n);\r\n\r\nexport default App;\r\n";

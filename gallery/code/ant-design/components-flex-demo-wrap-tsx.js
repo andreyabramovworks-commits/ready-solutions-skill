@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, Flex } from 'antd';\r\n\r\nconst Demo: React.FC = () => (\r\n  <Flex wrap gap=\"small\">\r\n    {Array.from({ length: 24 }, (_, i) => (\r\n      <Button key={i} type=\"primary\">\r\n        Button\r\n      </Button>\r\n    ))}\r\n  </Flex>\r\n);\r\n\r\nexport default Demo;\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nFloatingWindow.context.ts\nFloatingWindow.module.css\nFloatingWindow.story.tsx\nFloatingWindow.test.tsx\nFloatingWindow.tsx\nFloatingWindowResizeHandle.tsx\nindex.ts";

@@ -1,0 +1,5816 @@
+{
+  "id": "react-aria",
+  "name": "react-aria",
+  "source": "https://github.com/adobe/react-spectrum",
+  "commit": "360e35170568dfc99a2baaa78e6b7bdd36458d91",
+  "local_path": "libraries/react-aria",
+  "source_type": "source",
+  "license_file": "libraries/react-aria/LICENSE",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "packages-react-aria-components-src-autocomplete-tsx",
+      "name": "Autocomplete",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Autocomplete.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3856,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Autocomplete",
+          "AutocompleteContext",
+          "AutocompleteProps",
+          "AutocompleteStateContext",
+          "FieldInputContext",
+          "SelectableCollectionContext",
+          "SelectableCollectionContextValue"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-breadcrumbs-tsx",
+      "name": "Breadcrumbs",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Breadcrumbs.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5803,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Breadcrumb",
+          "BreadcrumbProps",
+          "BreadcrumbRenderProps",
+          "Breadcrumbs",
+          "BreadcrumbsContext",
+          "BreadcrumbsProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-button-tsx",
+      "name": "Button",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Button.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 6872,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Button",
+          "ButtonContext",
+          "ButtonProps",
+          "ButtonRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-calendar-tsx",
+      "name": "Calendar",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Calendar.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 27328,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@internationalized/date",
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Calendar",
+          "CalendarCell",
+          "CalendarCellProps",
+          "CalendarCellRenderProps",
+          "CalendarContext",
+          "CalendarGrid",
+          "CalendarGridBodyProps",
+          "CalendarGridHeaderProps",
+          "CalendarGridProps",
+          "CalendarHeaderCellProps",
+          "CalendarHeading",
+          "CalendarHeadingProps",
+          "CalendarMonthPicker",
+          "CalendarMonthPickerProps",
+          "CalendarProps",
+          "CalendarRenderProps",
+          "CalendarStateContext",
+          "CalendarYearPicker",
+          "CalendarYearPickerProps",
+          "RangeCalendar",
+          "RangeCalendarContext",
+          "RangeCalendarProps",
+          "RangeCalendarRenderProps",
+          "RangeCalendarStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @internationalized/date, @react-types/shared, react-aria, react-stately."
+      },
+      "purpose": "Accessible calendar components and range calendar.",
+      "use_when": "Date selection needs keyboard and screen-reader support.",
+      "check": "Use package API rather than copying this internal file; verify locale and date constraints."
+    },
+    {
+      "id": "packages-react-aria-components-src-checkbox-tsx",
+      "name": "Checkbox",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Checkbox.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 16842,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Checkbox",
+          "CheckboxButton",
+          "CheckboxButtonProps",
+          "CheckboxButtonRenderProps",
+          "CheckboxContext",
+          "CheckboxField",
+          "CheckboxFieldContext",
+          "CheckboxFieldProps",
+          "CheckboxFieldRenderProps",
+          "CheckboxGroup",
+          "CheckboxGroupContext",
+          "CheckboxGroupProps",
+          "CheckboxGroupRenderProps",
+          "CheckboxGroupStateContext",
+          "CheckboxProps",
+          "CheckboxRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-collection-tsx",
+      "name": "Collection",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Collection.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessible-ui"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 10140,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CollectionBranchProps",
+          "CollectionProps",
+          "CollectionRenderer",
+          "CollectionRendererContext",
+          "CollectionRootProps",
+          "DefaultCollectionRenderer",
+          "ItemRenderProps",
+          "Section",
+          "SectionContext",
+          "SectionProps",
+          "renderAfterDropIndicators",
+          "usePersistedKeys"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorarea-tsx",
+      "name": "ColorArea",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorArea.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3149,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorArea",
+          "ColorAreaContext",
+          "ColorAreaProps",
+          "ColorAreaRenderProps",
+          "ColorAreaStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorfield-tsx",
+      "name": "ColorField",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorField.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 8665,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorField",
+          "ColorFieldContext",
+          "ColorFieldProps",
+          "ColorFieldRenderProps",
+          "ColorFieldStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorpicker-tsx",
+      "name": "ColorPicker",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorPicker.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time",
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3055,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorPicker",
+          "ColorPickerContext",
+          "ColorPickerProps",
+          "ColorPickerRenderProps",
+          "ColorPickerStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorslider-tsx",
+      "name": "ColorSlider",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorSlider.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3906,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorSlider",
+          "ColorSliderContext",
+          "ColorSliderProps",
+          "ColorSliderRenderProps",
+          "ColorSliderStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorswatch-tsx",
+      "name": "ColorSwatch",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorSwatch.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "theming",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1957,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorSwatch",
+          "ColorSwatchContext",
+          "ColorSwatchProps",
+          "ColorSwatchRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorswatchpicker-tsx",
+      "name": "ColorSwatchPicker",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorSwatchPicker.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time",
+          "theming",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5467,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorSwatchPicker",
+          "ColorSwatchPickerContext",
+          "ColorSwatchPickerItem",
+          "ColorSwatchPickerItemProps",
+          "ColorSwatchPickerItemRenderProps",
+          "ColorSwatchPickerProps",
+          "ColorSwatchPickerRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorthumb-tsx",
+      "name": "ColorThumb",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorThumb.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3925,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorThumb",
+          "ColorThumbProps",
+          "ColorThumbRenderProps",
+          "InternalColorThumbContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-colorwheel-tsx",
+      "name": "ColorWheel",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ColorWheel.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 4633,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorWheel",
+          "ColorWheelContext",
+          "ColorWheelProps",
+          "ColorWheelRenderProps",
+          "ColorWheelStateContext",
+          "ColorWheelTrack",
+          "ColorWheelTrackContext",
+          "ColorWheelTrackProps",
+          "ColorWheelTrackRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-combobox-tsx",
+      "name": "ComboBox",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ComboBox.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 14895,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ComboBox",
+          "ComboBoxContext",
+          "ComboBoxProps",
+          "ComboBoxRenderProps",
+          "ComboBoxStateContext",
+          "ComboBoxValue",
+          "ComboBoxValueContext",
+          "ComboBoxValueProps",
+          "ComboBoxValueRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      },
+      "purpose": "Accessible combobox implementation.",
+      "use_when": "Users select from searchable options.",
+      "check": "Use package API and verify async results, empty state and virtualized list needs."
+    },
+    {
+      "id": "packages-react-aria-components-src-datefield-tsx",
+      "name": "DateField",
+      "path": "libraries/react-aria/packages/react-aria-components/src/DateField.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 17061,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@internationalized/date",
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DateField",
+          "DateFieldContext",
+          "DateFieldProps",
+          "DateFieldRenderProps",
+          "DateFieldStateContext",
+          "DateInput",
+          "DateInputProps",
+          "DateInputRenderProps",
+          "DateSegment",
+          "DateSegmentProps",
+          "DateSegmentRenderProps",
+          "TimeField",
+          "TimeFieldContext",
+          "TimeFieldProps",
+          "TimeFieldStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @internationalized/date, @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-datepicker-tsx",
+      "name": "DatePicker",
+      "path": "libraries/react-aria/packages/react-aria-components/src/DatePicker.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 12383,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DatePicker",
+          "DatePickerContext",
+          "DatePickerProps",
+          "DatePickerRenderProps",
+          "DatePickerStateContext",
+          "DateRangePicker",
+          "DateRangePickerContext",
+          "DateRangePickerProps",
+          "DateRangePickerRenderProps",
+          "DateRangePickerStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-dialog-tsx",
+      "name": "Dialog",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Dialog.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 7031,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Dialog",
+          "DialogContext",
+          "DialogProps",
+          "DialogRenderProps",
+          "DialogTrigger",
+          "DialogTriggerProps",
+          "OverlayTriggerStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      },
+      "purpose": "Accessible dialog implementation within React Aria Components.",
+      "use_when": "The app uses React Aria for interaction behavior and wants custom presentation.",
+      "check": "Package imports, overlays, focus scope and styling setup."
+    },
+    {
+      "id": "packages-react-aria-components-src-disclosure-tsx",
+      "name": "Disclosure",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Disclosure.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "disclosure",
+          "browser-api"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 9433,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Disclosure",
+          "DisclosureContext",
+          "DisclosureGroup",
+          "DisclosureGroupProps",
+          "DisclosureGroupRenderProps",
+          "DisclosureGroupStateContext",
+          "DisclosurePanel",
+          "DisclosurePanelProps",
+          "DisclosurePanelRenderProps",
+          "DisclosureProps",
+          "DisclosureRenderProps",
+          "DisclosureStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-draganddrop-tsx",
+      "name": "DragAndDrop",
+      "path": "libraries/react-aria/packages/react-aria-components/src/DragAndDrop.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "drag-and-drop"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5993,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DragAndDropContext",
+          "DragAndDropContextValue",
+          "DropIndicator",
+          "DropIndicatorContext",
+          "DropIndicatorProps",
+          "DropIndicatorRenderProps",
+          "useDndPersistedKeys",
+          "useRenderDropIndicator"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-dropzone-tsx",
+      "name": "DropZone",
+      "path": "libraries/react-aria/packages/react-aria-components/src/DropZone.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "file-upload"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 6342,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DropZone",
+          "DropZoneContext",
+          "DropZoneProps",
+          "DropZoneRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-fielderror-tsx",
+      "name": "FieldError",
+      "path": "libraries/react-aria/packages/react-aria-components/src/FieldError.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2849,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FieldError",
+          "FieldErrorContext",
+          "FieldErrorProps",
+          "FieldErrorRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-filetrigger-tsx",
+      "name": "FileTrigger",
+      "path": "libraries/react-aria/packages/react-aria-components/src/FileTrigger.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "file-upload"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3094,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FileTrigger",
+          "FileTriggerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-form-tsx",
+      "name": "Form",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Form.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2912,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Form",
+          "FormContext",
+          "FormProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-gridlayout-ts",
+      "name": "GridLayout",
+      "path": "libraries/react-aria/packages/react-aria-components/src/GridLayout.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1401,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GridLayout"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-gridlist-tsx",
+      "name": "GridList",
+      "path": "libraries/react-aria/packages/react-aria-components/src/GridList.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 31634,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GridList",
+          "GridListContext",
+          "GridListHeader",
+          "GridListHeaderContext",
+          "GridListHeaderInnerContext",
+          "GridListHeaderProps",
+          "GridListItem",
+          "GridListItemProps",
+          "GridListItemRenderProps",
+          "GridListLoadMoreItem",
+          "GridListLoadMoreItemProps",
+          "GridListProps",
+          "GridListRenderProps",
+          "GridListSection",
+          "GridListSectionProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      },
+      "purpose": "Interactive accessible grid list.",
+      "use_when": "A list needs selection or keyboard navigation beyond a plain list.",
+      "check": "Use package API; test selection model and virtualization at expected size."
+    },
+    {
+      "id": "packages-react-aria-components-src-group-tsx",
+      "name": "Group",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Group.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 4628,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Group",
+          "GroupContext",
+          "GroupProps",
+          "GroupRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-header-tsx",
+      "name": "Header",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Header.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1490,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Header",
+          "HeaderContext",
+          "HeaderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-heading-tsx",
+      "name": "Heading",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Heading.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1710,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Heading",
+          "HeadingContext",
+          "HeadingProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-hiddendateinput-tsx",
+      "name": "HiddenDateInput",
+      "path": "libraries/react-aria/packages/react-aria-components/src/HiddenDateInput.tsx",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "forms",
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5852,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@internationalized/date",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "HiddenDateAria",
+          "HiddenDateInput",
+          "useHiddenDateInput"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-input-tsx",
+      "name": "Input",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Input.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 4022,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Input",
+          "InputContext",
+          "InputProps",
+          "InputRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-keyboard-tsx",
+      "name": "Keyboard",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Keyboard.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1246,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Keyboard",
+          "KeyboardContext",
+          "KeyboardProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-label-tsx",
+      "name": "Label",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Label.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1513,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Label",
+          "LabelContext",
+          "LabelProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-link-tsx",
+      "name": "Link",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Link.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 4370,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Link",
+          "LinkContext",
+          "LinkProps",
+          "LinkRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-listbox-tsx",
+      "name": "ListBox",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ListBox.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 26563,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ListBox",
+          "ListBoxContext",
+          "ListBoxItem",
+          "ListBoxItemProps",
+          "ListBoxItemRenderProps",
+          "ListBoxLoadMoreItem",
+          "ListBoxLoadMoreItemProps",
+          "ListBoxProps",
+          "ListBoxRenderProps",
+          "ListBoxSection",
+          "ListBoxSectionProps",
+          "ListStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-menu-tsx",
+      "name": "Menu",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Menu.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 23390,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Menu",
+          "MenuContext",
+          "MenuItem",
+          "MenuItemProps",
+          "MenuItemRenderProps",
+          "MenuLoadMoreItem",
+          "MenuLoadMoreItemProps",
+          "MenuProps",
+          "MenuRenderProps",
+          "MenuSection",
+          "MenuSectionProps",
+          "MenuStateContext",
+          "MenuTrigger",
+          "MenuTriggerProps",
+          "RootMenuTriggerStateContext",
+          "SubmenuTrigger",
+          "SubmenuTriggerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      },
+      "purpose": "Accessible menu components.",
+      "use_when": "Actions need keyboard navigation and focus management.",
+      "check": "Use package API and verify nested menu and touch behavior."
+    },
+    {
+      "id": "packages-react-aria-components-src-meter-tsx",
+      "name": "Meter",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Meter.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessible-ui"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3351,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Meter",
+          "MeterContext",
+          "MeterProps",
+          "MeterRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-modal-tsx",
+      "name": "Modal",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Modal.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 13974,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InternalModalContext",
+          "Modal",
+          "ModalContext",
+          "ModalOverlay",
+          "ModalOverlayProps",
+          "ModalRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-navigationtree-tsx",
+      "name": "NavigationTree",
+      "path": "libraries/react-aria/packages/react-aria-components/src/NavigationTree.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 17060,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "NavigationTree",
+          "NavigationTreeContext",
+          "NavigationTreeHeader",
+          "NavigationTreeHeaderProps",
+          "NavigationTreeItem",
+          "NavigationTreeItemContent",
+          "NavigationTreeItemContentProps",
+          "NavigationTreeItemContentRenderProps",
+          "NavigationTreeItemProps",
+          "NavigationTreeItemRenderProps",
+          "NavigationTreeItemStateContext",
+          "NavigationTreeProps",
+          "NavigationTreeRenderProps",
+          "NavigationTreeSection",
+          "NavigationTreeSectionProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-numberfield-tsx",
+      "name": "NumberField",
+      "path": "libraries/react-aria/packages/react-aria-components/src/NumberField.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 6000,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "NumberField",
+          "NumberFieldContext",
+          "NumberFieldProps",
+          "NumberFieldRenderProps",
+          "NumberFieldStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-overlayarrow-tsx",
+      "name": "OverlayArrow",
+      "path": "libraries/react-aria/packages/react-aria-components/src/OverlayArrow.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "positioning",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3466,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "OverlayArrow",
+          "OverlayArrowContext",
+          "OverlayArrowProps",
+          "OverlayArrowRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-popover-tsx",
+      "name": "Popover",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Popover.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 14811,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Popover",
+          "PopoverContext",
+          "PopoverProps",
+          "PopoverRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-previewtrigger-tsx",
+      "name": "PreviewTrigger",
+      "path": "libraries/react-aria/packages/react-aria-components/src/PreviewTrigger.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessible-ui"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3382,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "PreviewTrigger",
+          "PreviewTriggerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-progressbar-tsx",
+      "name": "ProgressBar",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ProgressBar.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3774,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ProgressBar",
+          "ProgressBarContext",
+          "ProgressBarProps",
+          "ProgressBarRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-radiogroup-tsx",
+      "name": "RadioGroup",
+      "path": "libraries/react-aria/packages/react-aria-components/src/RadioGroup.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 15272,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Radio",
+          "RadioButton",
+          "RadioButtonProps",
+          "RadioButtonRenderProps",
+          "RadioContext",
+          "RadioField",
+          "RadioFieldContext",
+          "RadioFieldProps",
+          "RadioFieldRenderProps",
+          "RadioGroup",
+          "RadioGroupContext",
+          "RadioGroupProps",
+          "RadioGroupRenderProps",
+          "RadioGroupStateContext",
+          "RadioProps",
+          "RadioRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-searchfield-tsx",
+      "name": "SearchField",
+      "path": "libraries/react-aria/packages/react-aria-components/src/SearchField.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "search"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5714,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SearchField",
+          "SearchFieldContext",
+          "SearchFieldProps",
+          "SearchFieldRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-select-tsx",
+      "name": "Select",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Select.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 13118,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Select",
+          "SelectContext",
+          "SelectProps",
+          "SelectRenderProps",
+          "SelectStateContext",
+          "SelectValue",
+          "SelectValueContext",
+          "SelectValueProps",
+          "SelectValueRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-selectionindicator-tsx",
+      "name": "SelectionIndicator",
+      "path": "libraries/react-aria/packages/react-aria-components/src/SelectionIndicator.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2177,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SelectionIndicator",
+          "SelectionIndicatorContext",
+          "SelectionIndicatorProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-separator-tsx",
+      "name": "Separator",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Separator.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3261,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Separator",
+          "SeparatorContext",
+          "SeparatorNode",
+          "SeparatorProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-sharedelementtransition-tsx",
+      "name": "SharedElementTransition",
+      "path": "libraries/react-aria/packages/react-aria-components/src/SharedElementTransition.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "motion"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 6419,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-aria",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SharedElement",
+          "SharedElementProps",
+          "SharedElementPropsBase",
+          "SharedElementRenderProps",
+          "SharedElementTransition",
+          "SharedElementTransitionProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-sheet-tsx",
+      "name": "Sheet",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Sheet.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 46095,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately",
+          "use-sync-external-store"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Sheet",
+          "SheetBackdrop",
+          "SheetBackdropProps",
+          "SheetContent",
+          "SheetContentProps",
+          "SheetOverlay",
+          "SheetOverlayProps",
+          "SheetProps",
+          "SheetRenderProps",
+          "SheetTrigger",
+          "SheetTriggerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately, use-sync-external-store."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-slider-tsx",
+      "name": "Slider",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Slider.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 14333,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Slider",
+          "SliderContext",
+          "SliderFill",
+          "SliderFillContext",
+          "SliderFillProps",
+          "SliderFillRenderProps",
+          "SliderOutput",
+          "SliderOutputContext",
+          "SliderOutputProps",
+          "SliderProps",
+          "SliderRenderProps",
+          "SliderStateContext",
+          "SliderThumb",
+          "SliderThumbProps",
+          "SliderThumbRenderProps",
+          "SliderTrack",
+          "SliderTrackContext",
+          "SliderTrackProps",
+          "SliderTrackRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-switch-tsx",
+      "name": "Switch",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Switch.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 12241,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Switch",
+          "SwitchButton",
+          "SwitchButtonProps",
+          "SwitchButtonRenderProps",
+          "SwitchContext",
+          "SwitchField",
+          "SwitchFieldContext",
+          "SwitchFieldProps",
+          "SwitchFieldRenderProps",
+          "SwitchProps",
+          "SwitchRenderProps",
+          "ToggleStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-table-tsx",
+      "name": "Table",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Table.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 78402,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-dom",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Cell",
+          "CellProps",
+          "CellRenderProps",
+          "Column",
+          "ColumnProps",
+          "ColumnRenderProps",
+          "ColumnResizer",
+          "ColumnResizerProps",
+          "ColumnResizerRenderProps",
+          "ResizableTableContainer",
+          "ResizableTableContainerProps",
+          "Row",
+          "RowFocusContext",
+          "RowFocusContextValue",
+          "RowProps",
+          "RowRenderProps",
+          "Table",
+          "TableBody",
+          "TableBodyProps",
+          "TableBodyRenderProps",
+          "TableColumnResizeStateContext",
+          "TableContext",
+          "TableFooter",
+          "TableFooterProps",
+          "TableHeader",
+          "TableHeaderProps",
+          "TableHeaderRenderProps",
+          "TableLoadMoreItem",
+          "TableLoadMoreItemProps",
+          "TableOptionsContextValue"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      },
+      "purpose": "Accessible table interaction implementation.",
+      "use_when": "A data grid requires keyboard and selection behavior.",
+      "check": "Use package API; inspect sorting, paging and server data composition."
+    },
+    {
+      "id": "packages-react-aria-components-src-tablelayout-ts",
+      "name": "TableLayout",
+      "path": "libraries/react-aria/packages/react-aria-components/src/TableLayout.ts",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1594,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TableLayout"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-tabs-tsx",
+      "name": "Tabs",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Tabs.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 20481,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Tab",
+          "TabList",
+          "TabListProps",
+          "TabListRenderProps",
+          "TabListStateContext",
+          "TabPanel",
+          "TabPanelProps",
+          "TabPanelRenderProps",
+          "TabPanels",
+          "TabPanelsProps",
+          "TabProps",
+          "TabRenderProps",
+          "Tabs",
+          "TabsContext",
+          "TabsProps",
+          "TabsRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-taggroup-tsx",
+      "name": "TagGroup",
+      "path": "libraries/react-aria/packages/react-aria-components/src/TagGroup.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 13217,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Tag",
+          "TagGroup",
+          "TagGroupContext",
+          "TagGroupProps",
+          "TagList",
+          "TagListContext",
+          "TagListProps",
+          "TagListRenderProps",
+          "TagProps",
+          "TagRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-text-tsx",
+      "name": "Text",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Text.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1462,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Text",
+          "TextContext",
+          "TextProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-textarea-tsx",
+      "name": "TextArea",
+      "path": "libraries/react-aria/packages/react-aria-components/src/TextArea.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2489,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TextArea",
+          "TextAreaContext",
+          "TextAreaProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-textfield-tsx",
+      "name": "TextField",
+      "path": "libraries/react-aria/packages/react-aria-components/src/TextField.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5966,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TextField",
+          "TextFieldContext",
+          "TextFieldProps",
+          "TextFieldRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-toast-tsx",
+      "name": "Toast",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Toast.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 9571,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-dom",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ToastContent",
+          "ToastContentContext",
+          "ToastContentProps",
+          "ToastListProps",
+          "ToastProps",
+          "ToastRegionProps",
+          "ToastRegionRenderProps",
+          "ToastRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-togglebutton-tsx",
+      "name": "ToggleButton",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ToggleButton.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 5129,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ToggleButton",
+          "ToggleButtonContext",
+          "ToggleButtonProps",
+          "ToggleButtonRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-togglebuttongroup-tsx",
+      "name": "ToggleButtonGroup",
+      "path": "libraries/react-aria/packages/react-aria-components/src/ToggleButtonGroup.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3750,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ToggleButtonGroup",
+          "ToggleButtonGroupContext",
+          "ToggleButtonGroupProps",
+          "ToggleButtonGroupRenderProps",
+          "ToggleGroupStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-tokenfield-tsx",
+      "name": "TokenField",
+      "path": "libraries/react-aria/packages/react-aria-components/src/TokenField.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 12822,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Token",
+          "TokenField",
+          "TokenFieldContext",
+          "TokenFieldProps",
+          "TokenFieldRenderProps",
+          "TokenInput",
+          "TokenInputProps",
+          "TokenInputRenderProps",
+          "TokenProps",
+          "TokenRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-toolbar-tsx",
+      "name": "Toolbar",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Toolbar.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2785,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Toolbar",
+          "ToolbarContext",
+          "ToolbarProps",
+          "ToolbarRenderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-tooltip-tsx",
+      "name": "Tooltip",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Tooltip.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 8462,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Tooltip",
+          "TooltipContext",
+          "TooltipProps",
+          "TooltipRenderProps",
+          "TooltipTrigger",
+          "TooltipTriggerComponentProps",
+          "TooltipTriggerStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-tree-tsx",
+      "name": "Tree",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Tree.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 43792,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Tree",
+          "TreeContext",
+          "TreeEmptyStateRenderProps",
+          "TreeHeader",
+          "TreeHeaderProps",
+          "TreeItem",
+          "TreeItemContent",
+          "TreeItemContentContext",
+          "TreeItemContentProps",
+          "TreeItemContentRenderProps",
+          "TreeItemProps",
+          "TreeItemRenderProps",
+          "TreeLoadMoreItem",
+          "TreeLoadMoreItemProps",
+          "TreeLoadMoreItemRenderProps",
+          "TreeProps",
+          "TreeRenderProps",
+          "TreeSection",
+          "TreeSectionProps",
+          "TreeStateContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-treedroptargetdelegate-ts",
+      "name": "TreeDropTargetDelegate",
+      "path": "libraries/react-aria/packages/react-aria-components/src/TreeDropTargetDelegate.ts",
+      "entry_role": "library-internals",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "pattern"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 11941,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TreeDropTargetDelegate"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-usedraganddrop-tsx",
+      "name": "useDragAndDrop",
+      "path": "libraries/react-aria/packages/react-aria-components/src/useDragAndDrop.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "drag-and-drop"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 7600,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DragAndDrop",
+          "DragAndDropHooks",
+          "DragAndDropOptions",
+          "useDragAndDrop"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-utils-tsx",
+      "name": "utils",
+      "path": "libraries/react-aria/packages/react-aria-components/src/utils.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 16994,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ChildrenOrFunction",
+          "ClassNameOrFunction",
+          "ContextValue",
+          "DEFAULT_SLOT",
+          "DOMProps",
+          "DOMRenderFunction",
+          "DOMRenderProps",
+          "PossibleLinkDOMRenderProps",
+          "Provider",
+          "RACValidation",
+          "RenderProps",
+          "SlotProps",
+          "SlottedContextValue",
+          "StyleOrFunction",
+          "StyleProps",
+          "StyleRenderProps",
+          "WithRef",
+          "composeRenderProps",
+          "dom",
+          "removeDataAttributes",
+          "useContextProps",
+          "useRenderProps",
+          "useSlot",
+          "useSlottedContext"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria."
+      }
+    },
+    {
+      "id": "packages-react-aria-components-src-virtualizer-tsx",
+      "name": "Virtualizer",
+      "path": "libraries/react-aria/packages/react-aria-components/src/Virtualizer.tsx",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "apache-2.0"
+        ]
+      },
+      "package": {
+        "name": "react-aria-components",
+        "version": "1.22.1",
+        "dependencies": {
+          "@internationalized/date": "^3.12.4",
+          "@internationalized/string": "^3.2.10",
+          "@react-types/shared": "^3.37.0",
+          "@swc/helpers": "^0.5.0",
+          "client-only": "^0.0.1",
+          "react-aria": "3.53.1",
+          "react-stately": "3.51.0",
+          "use-sync-external-store": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+          "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+        }
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 7549,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@react-types/shared",
+          "react",
+          "react-aria",
+          "react-stately"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "LayoutOptionsDelegate",
+          "Virtualizer",
+          "VirtualizerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @react-types/shared, react-aria, react-stately."
+      }
+    }
+  ]
+}

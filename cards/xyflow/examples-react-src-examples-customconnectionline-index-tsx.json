@@ -1,0 +1,85 @@
+{
+  "id": "xyflow/examples-react-src-examples-customconnectionline-index-tsx",
+  "name": "CustomConnectionLine: index",
+  "what": "Решение для задачи: network-state; интерактивные схемы и связи.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/xyflow/xyflow",
+  "source_commit": "0814ffa1b23bb29048b329c03c211f335bdd6571",
+  "source_type": "working-example",
+  "local_path": "libraries/xyflow/examples/react/src/examples/CustomConnectionLine/index.tsx",
+  "package": {
+    "name": "react-examples",
+    "version": "0.0.0",
+    "dependencies": {
+      "@reduxjs/toolkit": "^2.14.0",
+      "@xyflow/react": "workspace:*",
+      "@xyflow/system": "workspace:*",
+      "classcat": "^5.0.5",
+      "dagre": "^0.8.5",
+      "localforage": "^1.10.0",
+      "react": "catalog:",
+      "react-dom": "catalog:",
+      "react-redux": "^9.3.1",
+      "react-router-dom": "^6.30.6",
+      "redux": "^5.0.1",
+      "zustand": "^4.5.7"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "network-state",
+      "diagramming"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react",
+      "typescript"
+    ],
+    "kind": [
+      "example"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@xyflow/react",
+    "react"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Extract the relevant behavior and replace demonstration data and tooling.",
+  "caveats": [
+    "Это пример: адаптируйте обработчики, данные, стили и состояние.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [
+      "libraries/xyflow/examples/react/src/examples/CustomConnectionLine/index.tsx"
+    ],
+    "source_example_count": 1,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

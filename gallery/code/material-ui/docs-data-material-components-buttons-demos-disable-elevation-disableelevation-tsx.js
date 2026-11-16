@@ -1,0 +1,1 @@
+window.CARD_CODE="import Button from '@mui/material/Button';\n\nexport default function DisableElevation() {\n  return (\n    // @focus-start @padding 2\n    <Button variant=\"contained\" disableElevation>\n      Disable elevation\n    </Button>\n    // @focus-end\n  );\n}\n";

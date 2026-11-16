@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Button } from \"@/registry/new-york-v4/ui/button\"\r\nimport { Spinner } from \"@/registry/new-york-v4/ui/spinner\"\r\n\r\nexport default function ButtonLoading() {\r\n  return (\r\n    <Button size=\"sm\" variant=\"outline\" disabled>\r\n      <Spinner />\r\n      Submit\r\n    </Button>\r\n  )\r\n}\r\n";

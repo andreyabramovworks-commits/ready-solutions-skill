@@ -1,0 +1,1 @@
+window.CARD_CODE="import Chip from '@mui/material/Chip';\nimport Stack from '@mui/material/Stack';\n\nexport default function BasicChips() {\n  return (\n    <Stack direction=\"row\" spacing={1}>\n      {/* @focus-start */}\n      <Chip label=\"Chip Filled\" />\n      <Chip label=\"Chip Outlined\" variant=\"outlined\" />\n      {/* @focus-end */}\n    </Stack>\n  );\n}\n";

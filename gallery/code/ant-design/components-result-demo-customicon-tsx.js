@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { SmileOutlined } from '@ant-design/icons';\r\nimport { Button, Result } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Result\r\n    icon={<SmileOutlined />}\r\n    title=\"Great, we have done all the operations!\"\r\n    extra={<Button type=\"primary\">Next</Button>}\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Checkbox, Flex } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Flex vertical gap=\"medium\">\r\n    <Checkbox defaultChecked={false} disabled />\r\n    <Checkbox indeterminate disabled />\r\n    <Checkbox defaultChecked disabled />\r\n  </Flex>\r\n);\r\n\r\nexport default App;\r\n";

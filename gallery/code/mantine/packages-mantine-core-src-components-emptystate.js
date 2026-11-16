@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nEmptyState.context.ts\nEmptyState.module.css\nEmptyState.story.tsx\nEmptyState.test.tsx\nEmptyState.tsx\nEmptyStateActions\nEmptyStateDescription\nEmptyStateIndicator\nEmptyStateTitle\nindex.ts";

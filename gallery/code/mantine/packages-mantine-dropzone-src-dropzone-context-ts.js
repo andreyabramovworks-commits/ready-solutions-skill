@@ -1,0 +1,1 @@
+window.CARD_CODE="import { createSafeContext } from '@mantine/core';\n\nexport interface DropzoneContextValue {\n  idle: boolean;\n  accept: boolean;\n  reject: boolean;\n}\n\nexport const [DropzoneProvider, useDropzoneContext] = createSafeContext<DropzoneContextValue>(\n  'Dropzone component was not found in tree'\n);\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import Button from '@mui/material/Button';\nimport Tooltip from '@mui/material/Tooltip';\n\nexport default function DelayTooltips() {\n  return (\n    // @focus-start @padding 2\n    <Tooltip describeChild title=\"Add\" enterDelay={500} leaveDelay={200}>\n      <Button>[500ms, 200ms]</Button>\n    </Tooltip>\n    // @focus-end\n  );\n}\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { TimePicker } from 'antd';\r\nimport dayjs from 'dayjs';\r\n\r\nconst format = 'HH:mm';\r\n\r\nconst App: React.FC = () => <TimePicker defaultValue={dayjs('12:08', format)} format={format} />;\r\n\r\nexport default App;\r\n";

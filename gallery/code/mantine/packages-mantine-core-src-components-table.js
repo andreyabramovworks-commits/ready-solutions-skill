@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.ts\nTable.components.test.tsx\nTable.components.tsx\nTable.context.ts\nTable.module.css\nTable.story.tsx\nTable.test.tsx\nTable.tsx\nTableDataRenderer.tsx\nTableScrollContainer.test.tsx\nTableScrollContainer.tsx";

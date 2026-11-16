@@ -1,0 +1,1 @@
+window.CARD_CODE="\"use client\"\r\n\r\nimport { AspectRatio as AspectRatioPrimitive } from \"radix-ui\"\r\n\r\nfunction AspectRatio({\r\n  ...props\r\n}: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {\r\n  return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} />\r\n}\r\n\r\nexport { AspectRatio }\r\n";

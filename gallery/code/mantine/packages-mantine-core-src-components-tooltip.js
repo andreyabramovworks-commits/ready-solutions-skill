@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.ts\nTooltip.hide-detached.test.tsx\nTooltip.module.css\nTooltip.story.tsx\nTooltip.test.tsx\nTooltip.tsx\nTooltip.types.ts\nTooltipFloating\nTooltipGroup\nuse-tooltip.ts";

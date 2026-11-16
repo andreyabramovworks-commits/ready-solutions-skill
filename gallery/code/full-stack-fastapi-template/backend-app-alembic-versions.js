@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\n.keep\n1a31ce608336_add_cascade_delete_relationships.py\n9c0a54914c78_add_max_length_for_string_varchar_.py\nd98dd8ec85a3_edit_replace_id_integers_in_all_models_.py\ne2412789c190_initialize_models.py\nfe56fa70289e_add_created_at_to_user_and_item.py";

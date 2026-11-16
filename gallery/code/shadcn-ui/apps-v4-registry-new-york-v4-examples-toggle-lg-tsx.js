@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Italic } from \"lucide-react\"\r\n\r\nimport { Toggle } from \"@/registry/new-york-v4/ui/toggle\"\r\n\r\nexport default function ToggleLg() {\r\n  return (\r\n    <Toggle size=\"lg\" aria-label=\"Toggle italic\">\r\n      <Italic />\r\n    </Toggle>\r\n  )\r\n}\r\n";

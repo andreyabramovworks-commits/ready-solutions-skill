@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.ts\nScrollArea.context.ts\nScrollArea.module.css\nScrollArea.story.tsx\nScrollArea.test.tsx\nScrollArea.tsx\nScrollArea.types.ts\nScrollAreaCorner\nScrollAreaRoot\nScrollAreaScrollbar\nScrollAreaThumb\nScrollAreaViewport\nuse-resize-observer.ts\nutils";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import useMediaQuery from '@mui/material/useMediaQuery';\n\nexport default function SimpleMediaQuery() {\n  // @focus-start @padding 1\n  const matches = useMediaQuery('(min-width:600px)');\n\n  return <span>{`(min-width:600px) matches: ${matches}`}</span>;\n  // @focus-end\n}\n";

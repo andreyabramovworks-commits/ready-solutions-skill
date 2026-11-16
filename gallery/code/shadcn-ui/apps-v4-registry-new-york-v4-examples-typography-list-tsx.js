@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyList() {\r\n  return (\r\n    <ul className=\"my-6 ml-6 list-disc [&>li]:mt-2\">\r\n      <li>1st level of puns: 5 gold coins</li>\r\n      <li>2nd level of jokes: 10 gold coins</li>\r\n      <li>3rd level of one-liners : 20 gold coins</li>\r\n    </ul>\r\n  )\r\n}\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.d.ts\nindex.js\nSlider.d.ts\nSlider.js\nSlider.spec.tsx\nSlider.test.js\nsliderClasses.ts\nSliderValueLabel.tsx\nSliderValueLabel.types.ts\nuseSlider.test.js\nuseSlider.ts\nuseSlider.types.ts";

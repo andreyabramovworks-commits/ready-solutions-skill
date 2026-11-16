@@ -1,0 +1,1 @@
+window.CARD_CODE="import Link from \"next/link\"\r\n\r\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\r\n\r\nexport default function ButtonAsChild() {\r\n  return (\r\n    <Button asChild>\r\n      <Link href=\"/login\">Login</Link>\r\n    </Button>\r\n  )\r\n}\r\n";

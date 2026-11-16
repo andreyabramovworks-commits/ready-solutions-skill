@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyInlineCode() {\r\n  return (\r\n    <code className=\"relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold\">\r\n      @radix-ui/react-alert-dialog\r\n    </code>\r\n  )\r\n}\r\n";

@@ -1,0 +1,88 @@
+{
+  "id": "tanstack-table/examples-react-basic-use-legacy-table",
+  "name": "basic-use-legacy-table",
+  "what": "Решение для задачи: таблицы данных и операции с ними.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/TanStack/table",
+  "source_commit": "564a459b74834c77631e0d6fdba7661383bbc1b4",
+  "source_type": "working-example",
+  "local_path": "libraries/tanstack-table/examples/react/basic-use-legacy-table",
+  "package": {
+    "name": "tanstack-react-table-example-basic-use-legacy-table",
+    "version": null,
+    "dependencies": {
+      "@faker-js/faker": "^10.6.0",
+      "@tanstack/react-devtools": "^0.10.14",
+      "@tanstack/react-pacer": "^0.24.1",
+      "@tanstack/react-table": "^9.3.1",
+      "@tanstack/react-table-devtools": "^9.3.2",
+      "react": "^19.3.1",
+      "react-dom": "^19.3.1"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "data-table"
+    ],
+    "domain": [
+      "general-purpose",
+      "internal-tools"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "example"
+    ],
+    "property": [
+      "headless"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@faker-js/faker",
+    "@rolldown/plugin-babel",
+    "@rollup/plugin-replace",
+    "@tanstack/react-devtools",
+    "@tanstack/react-pacer",
+    "@tanstack/react-table",
+    "@tanstack/react-table-devtools",
+    "@vitejs/plugin-react",
+    "react",
+    "react-dom",
+    "vite"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": true,
+  "sample_data_present": false,
+  "use": "Extract the relevant behavior and replace demonstration data and tooling.",
+  "caveats": [
+    "Это пример: адаптируйте обработчики, данные, стили и состояние.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "exact-example",
+    "source_example_paths": [
+      "libraries/tanstack-table/examples/react/basic-use-legacy-table"
+    ],
+    "source_example_count": 1,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://tanstack.com/table/latest/docs/framework/react/examples/basic-use-legacy-table"
+  }
+}

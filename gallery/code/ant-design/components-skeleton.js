@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nAvatar.tsx\nButton.tsx\ndemo\nElement.tsx\nImage.tsx\nindex.en-US.md\nindex.tsx\nindex.zh-CN.md\nInput.tsx\nNode.tsx\nParagraph.tsx\nshared\nSkeleton.tsx\nstyle\nTitle.tsx\n__tests__";

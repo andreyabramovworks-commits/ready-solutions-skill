@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Badge } from \"@/registry/new-york-v4/ui/badge\"\r\n\r\nexport default function BadgeDestructive() {\r\n  return <Badge variant=\"destructive\">Destructive</Badge>\r\n}\r\n";

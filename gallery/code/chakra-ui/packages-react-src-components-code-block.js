@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nadapters.ts\ncode-block-adapter-context.ts\ncode-block-adapter-provider.tsx\ncode-block-context.ts\ncode-block.tsx\nindex.ts\nnamespace.ts\ntypes.ts\nuse-code-highlight.ts";

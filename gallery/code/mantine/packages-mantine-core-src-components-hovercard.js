@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nHoverCard.context.ts\nHoverCard.interactive.test.tsx\nHoverCard.story.tsx\nHoverCard.test.tsx\nHoverCard.tsx\nHoverCardDropdown\nHoverCardGroup\nHoverCardTarget\nindex.ts\nuse-hover-card.ts";

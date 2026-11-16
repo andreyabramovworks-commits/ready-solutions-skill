@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nget-quarter-in-tab-order\nget-quarters-data\nindex.ts\nis-quarter-disabled\nQuartersList.module.css\nQuartersList.story.tsx\nQuartersList.test.tsx\nQuartersList.tsx";

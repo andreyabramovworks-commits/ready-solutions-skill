@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport type { InputNumberProps } from 'antd';\r\nimport { InputNumber } from 'antd';\r\n\r\nconst onChange: InputNumberProps['onChange'] = (value) => {\r\n  console.log('changed', value);\r\n};\r\n\r\nconst App: React.FC = () => <InputNumber min={1} max={10} defaultValue={3} onChange={onChange} />;\r\n\r\nexport default App;\r\n";

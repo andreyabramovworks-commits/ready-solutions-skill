@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nbuild-raw-value\ncompute-cursor-position\nCountryOptionContent.tsx\nformat-phone-number\nget-countries\nget-digits\nguess-country\nindex.ts\nparse-phone-value\nphone-data.ts\nPhoneInput.extension.test.tsx\nPhoneInput.module.css\nPhoneInput.story.tsx\nPhoneInput.test.tsx\nPhoneInput.tsx";

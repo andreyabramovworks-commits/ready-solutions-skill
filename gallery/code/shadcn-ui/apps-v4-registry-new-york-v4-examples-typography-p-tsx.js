@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyP() {\r\n  return (\r\n    <p className=\"leading-7 [&:not(:first-child)]:mt-6\">\r\n      The king, seeing how much happier his subjects were, realized the error of\r\n      his ways and repealed the joke tax.\r\n    </p>\r\n  )\r\n}\r\n";

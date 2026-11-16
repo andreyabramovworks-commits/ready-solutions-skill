@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, Popover, QRCode } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Popover content={<QRCode value=\"https://ant.design\" bordered={false} />}>\r\n    <Button type=\"primary\">Hover me</Button>\r\n  </Popover>\r\n);\r\n\r\nexport default App;\r\n";

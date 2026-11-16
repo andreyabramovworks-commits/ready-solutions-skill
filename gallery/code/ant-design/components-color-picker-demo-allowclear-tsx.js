@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { ColorPicker } from 'antd';\r\n\r\nexport default () => {\r\n  const [color, setColor] = React.useState<string>('#1677ff');\r\n  return (\r\n    <ColorPicker\r\n      value={color}\r\n      allowClear\r\n      onChange={(c) => {\r\n        setColor(c.toHexString());\r\n      }}\r\n    />\r\n  );\r\n};\r\n";

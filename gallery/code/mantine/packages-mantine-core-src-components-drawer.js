@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nDrawer.context.ts\nDrawer.module.css\nDrawer.story.tsx\nDrawer.test.tsx\nDrawer.tsx\nDrawerBody.tsx\nDrawerCloseButton.tsx\nDrawerContent.tsx\nDrawerHeader.tsx\nDrawerOverlay.tsx\nDrawerRoot.tsx\nDrawerStack.test.tsx\nDrawerStack.tsx\nDrawerTitle.tsx\nindex.ts";

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.d.ts\nindex.js\nNotchedOutline.d.ts\nNotchedOutline.js\nNotchedOutline.test.js\nOutlinedInput.d.ts\nOutlinedInput.js\nOutlinedInput.spec.tsx\nOutlinedInput.test.js\noutlinedInputClasses.ts";

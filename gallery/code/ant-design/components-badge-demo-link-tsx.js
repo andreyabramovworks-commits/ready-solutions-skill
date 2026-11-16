@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Avatar, Badge } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <a href=\"#\">\r\n    <Badge count={5}>\r\n      <Avatar shape=\"square\" size=\"large\" />\r\n    </Badge>\r\n  </a>\r\n);\r\n\r\nexport default App;\r\n";

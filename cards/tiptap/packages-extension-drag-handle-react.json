@@ -1,0 +1,80 @@
+{
+  "id": "tiptap/packages-extension-drag-handle-react",
+  "name": "extension-drag-handle-react",
+  "what": "Решение для задачи: перетаскивание элементов; редактирование текста или структурированного содержимого.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/ueberdosis/tiptap",
+  "source_commit": "3adcbcde029a73e2f49658bcde84bbc147f63ae8",
+  "source_type": "public-api",
+  "local_path": "libraries/tiptap/packages/extension-drag-handle-react",
+  "package": {
+    "name": "@tiptap/extension-drag-handle-react",
+    "version": "3.30.3",
+    "dependencies": {},
+    "peer_dependencies": {
+      "@tiptap/extension-drag-handle": "workspace:*",
+      "@tiptap/pm": "workspace:*",
+      "@tiptap/react": "workspace:*",
+      "@types/react": "^16.8 || ^17 || ^18 || ^19",
+      "react": "^16.8 || ^17 || ^18 || ^19",
+      "react-dom": "^16.8 || ^17 || ^18 || ^19"
+    }
+  },
+  "tags": {
+    "task": [
+      "drag-and-drop",
+      "editor"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "javascript",
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@tiptap/extension-drag-handle",
+    "@tiptap/pm",
+    "@tiptap/react",
+    "react",
+    "react-dom",
+    "vite-plus"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @tiptap/extension-drag-handle, @tiptap/pm, @tiptap/react, vite-plus.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, message } from 'antd';\r\n\r\nconst info = () => {\r\n  message.info('This is a normal message');\r\n};\r\n\r\nconst App: React.FC = () => (\r\n  <Button type=\"primary\" onClick={info}>\r\n    Static Method\r\n  </Button>\r\n);\r\n\r\nexport default App;\r\n";

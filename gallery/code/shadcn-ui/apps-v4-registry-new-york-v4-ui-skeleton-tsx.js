@@ -1,0 +1,1 @@
+window.CARD_CODE="import { cn } from \"cn\"\r\n\r\nfunction Skeleton({ className, ...props }: React.ComponentProps<\"div\">) {\r\n  return (\r\n    <div\r\n      data-slot=\"skeleton\"\r\n      className={cn(\"animate-pulse rounded-md bg-accent\", className)}\r\n      {...props}\r\n    />\r\n  )\r\n}\r\n\r\nexport { Skeleton }\r\n";

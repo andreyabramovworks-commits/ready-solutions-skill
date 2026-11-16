@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Button } from \"@/registry/new-york-v4/ui/button\"\r\n\r\nexport default function ButtonSecondary() {\r\n  return <Button variant=\"secondary\">Secondary</Button>\r\n}\r\n";

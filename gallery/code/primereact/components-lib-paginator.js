@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nCurrentPageReport.js\nFirstPageLink.js\nJumpToPageInput.js\nLastPageLink.js\nNextPageLink.js\npackage.json\nPageLinks.js\npaginator.d.ts\nPaginator.js\nPaginatorBase.js\nPrevPageLink.js\nRowsPerPageDropdown.js";

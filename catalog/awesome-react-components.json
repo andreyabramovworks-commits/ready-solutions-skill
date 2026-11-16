@@ -1,0 +1,62 @@
+{
+  "id": "awesome-react-components",
+  "name": "awesome-react-components",
+  "source": "https://github.com/brillout/awesome-react-components",
+  "commit": "66b2758c4808d62cfe7c2a1dc0c48f7d51153cf5",
+  "local_path": "libraries/awesome-react-components",
+  "source_type": "directory",
+  "license_file": "libraries/awesome-react-components/license",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "readme-md",
+      "name": "README.md",
+      "path": "libraries/awesome-react-components/README.md",
+      "entry_role": "link-directory",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "discovery"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "directory"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "cc0-1.0"
+        ]
+      },
+      "package": null,
+      "evidence": {
+        "code_files": 0,
+        "code_bytes": 0,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "discover-linked-projects",
+        "caution": "The linked projects are not bundled; check each source and license independently."
+      }
+    }
+  ]
+}

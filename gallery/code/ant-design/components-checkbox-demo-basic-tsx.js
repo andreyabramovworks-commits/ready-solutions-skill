@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Checkbox } from 'antd';\r\nimport type { CheckboxProps } from 'antd';\r\n\r\nconst onChange: CheckboxProps['onChange'] = (e) => {\r\n  console.log(`checked = ${e.target.checked}`);\r\n};\r\n\r\nconst App: React.FC = () => <Checkbox onChange={onChange}>Checkbox</Checkbox>;\r\n\r\nexport default App;\r\n";

@@ -1,0 +1,63 @@
+{
+  "id": "awesome-fastapi",
+  "name": "awesome-fastapi",
+  "source": "https://github.com/mjhea0/awesome-fastapi",
+  "commit": "38e525ea955795e36aa54daf28fd923f72a511b8",
+  "local_path": "libraries/awesome-fastapi",
+  "source_type": "directory",
+  "license_file": "libraries/awesome-fastapi/LICENSE",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "readme-md",
+      "name": "README.md",
+      "path": "libraries/awesome-fastapi/README.md",
+      "entry_role": "link-directory",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "discovery"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "python",
+          "fastapi"
+        ],
+        "kind": [
+          "directory"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "cc0-1.0"
+        ]
+      },
+      "package": null,
+      "evidence": {
+        "code_files": 0,
+        "code_bytes": 0,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "discover-linked-projects",
+        "caution": "The linked projects are not bundled; check each source and license independently."
+      }
+    }
+  ]
+}

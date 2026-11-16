@@ -1,0 +1,1 @@
+window.CARD_CODE="import TextareaAutosize from '@mui/material/TextareaAutosize';\n\nexport default function EmptyTextarea() {\n  return (\n    // @focus-start @padding 2\n    <TextareaAutosize\n      aria-label=\"empty textarea\"\n      placeholder=\"Empty\"\n      style={{ width: 200 }}\n    />\n    // @focus-end\n  );\n}\n";

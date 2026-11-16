@@ -1,0 +1,1 @@
+window.CARD_CODE="import { CircleFadingArrowUpIcon } from \"lucide-react\"\r\n\r\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\r\n\r\nexport default function ButtonIcon() {\r\n  return (\r\n    <Button variant=\"outline\" size=\"icon\">\r\n      <CircleFadingArrowUpIcon />\r\n    </Button>\r\n  )\r\n}\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Affix, Button } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Affix offsetTop={120} onChange={(affixed) => console.log(affixed)}>\r\n    <Button>120px to affix top</Button>\r\n  </Affix>\r\n);\r\n\r\nexport default App;\r\n";

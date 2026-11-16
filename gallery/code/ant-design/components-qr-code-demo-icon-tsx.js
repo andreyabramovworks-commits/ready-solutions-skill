@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { QRCode } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <QRCode\r\n    errorLevel=\"H\"\r\n    value=\"https://ant.design/\"\r\n    icon=\"https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg\"\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

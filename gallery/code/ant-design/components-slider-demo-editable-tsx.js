@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Slider } from 'antd';\r\n\r\nconst App: React.FC = () => {\r\n  const [value, setValue] = React.useState([20, 80]);\r\n\r\n  return (\r\n    <Slider\r\n      range={{ editable: true, minCount: 1, maxCount: 5 }}\r\n      value={value}\r\n      onChange={setValue}\r\n    />\r\n  );\r\n};\r\n\r\nexport default App;\r\n";

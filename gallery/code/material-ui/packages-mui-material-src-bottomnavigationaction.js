@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nBottomNavigationAction.d.ts\nBottomNavigationAction.js\nBottomNavigationAction.spec.tsx\nBottomNavigationAction.test.js\nbottomNavigationActionClasses.ts\nindex.d.ts\nindex.js";

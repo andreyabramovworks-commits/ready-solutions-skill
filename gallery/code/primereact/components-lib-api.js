@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\napi.d.ts\nApi.js\nFilterMatchMode.js\nFilterOperator.js\nFilterService.js\nLocale.js\nMessageSeverity.js\npackage.json\nPrimeIcons.js\nPrimeReact.js\nPrimeReactContext.js\nSortOrder.js\ntest";

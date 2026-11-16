@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\ndemo\ndesign\ngeneratePicker\nhooks\nindex.$tab-design.en-US.md\nindex.$tab-design.zh-CN.md\nindex.en-US.md\nindex.tsx\nindex.zh-CN.md\nlocale\nPickerButton.tsx\nstyle\nutil.ts\n__tests__";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Slider } from 'antd';\r\n\r\nconst App: React.FC = () => <Slider range={{ draggableTrack: true }} defaultValue={[20, 50]} />;\r\n\r\nexport default App;\r\n";

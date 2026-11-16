@@ -1,0 +1,1 @@
+window.CARD_CODE="import CircularProgress from '@mui/material/CircularProgress';\nimport Box from '@mui/material/Box';\n\nexport default function CircularIndeterminate() {\n  return (\n    <Box sx={{ display: 'flex' }}>\n      {/* @focus-start */}\n      <CircularProgress aria-label=\"Loading…\" />\n      {/* @focus-end */}\n    </Box>\n  );\n}\n";

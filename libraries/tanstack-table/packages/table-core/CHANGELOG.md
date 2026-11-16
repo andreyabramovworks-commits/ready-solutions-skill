@@ -1,0 +1,83 @@
+# @tanstack/table-core
+
+## 9.3.1
+
+### Patch Changes
+
+- [#6620](https://github.com/TanStack/table/pull/6620) [`2d5f5b6`](https://github.com/TanStack/table/commit/2d5f5b65a98350949ac9ce7397a29ee9bbe2fd5e) - Keep private declarations out of the emitted `.d.ts` files, so consumers emitting declarations no longer fail with TS2883 (e.g. on `RangeValue`)
+
+- [#6626](https://github.com/TanStack/table/pull/6626) [`87c6bcc`](https://github.com/TanStack/table/commit/87c6bcc52a5cd614d83d698c76048b4c1c2bb8f7) - Improve tree-shaking further. The core no longer bundles the column ordering, column pinning, or row expanding code it used for leaf column order, pinned header order, and row display order, so a minimal table is about 0.27 kB (brotli) smaller. Features no longer bundle code from other features a table doesn't register: column sizing, column ordering, and cell selection without column pinning or column visibility, column pinning without column visibility, row pinning without row expanding, the paginated row model without row expanding, and the faceted unique and min/max values without global filtering. Without `globalFilteringFeature`, global facets now include no columns, the same as the filtered row model. Memoized row, column, header, and cell APIs also allocate less: each memo no longer creates an `onAfterUpdate` wrapper it doesn't need. `table.getOrderColumnsFn()`, which column ordering already assigned, is now declared on its table type.
+
+  The devtools Features panel sizes are regenerated for these changes.
+
+## 9.2.8
+
+### Patch Changes
+
+- [#6623](https://github.com/TanStack/table/pull/6623) [`f1c3409`](https://github.com/TanStack/table/commit/f1c3409bb4aae6c07ebb1cb0a0723372ed64223e) - Improve tree-shaking. Importing one built-in `filterFn_*`, `sortFn_*`, or `aggregationFn_*` now bundles only that function instead of its whole module. The core row model, header building, and the filtered, sorted, and grouped row models no longer import code from features a table doesn't register, so a minimal table is about 0.6 kB (brotli) smaller and grouping without `rowAggregationFeature` no longer bundles the aggregation executor. Add `table.autoResetSorting()`, and fix the `Table_RowPagination` type to declare the `autoResetPageIndex` method the table actually has (it was typed as `_autoResetPageIndex`).
+
+  The devtools Features panel now shows measured minified + brotli sizes for every feature, row model, and built-in function, and its total accounts for code that features share.
+
+## 9.2.6
+
+### Patch Changes
+
+- [#6611](https://github.com/TanStack/table/pull/6611) [`b9b007f`](https://github.com/TanStack/table/commit/b9b007fa038328a795d1f3b5e8f80cea8a55a3b4) - Refactor bundled Intent skills into smaller entry points with references loaded for the current task. Keep core feature architecture and shared state directly discoverable, and move individual features, adapter compositions, and detailed migration guidance into references.
+
+  Consumers with individual skill permissions or explicit agent mappings must replace retired feature/composition IDs with their owning entry points and refresh Intent mappings. See the Agent Skills guide for the replacement paths.
+
+## 9.2.5
+
+### Patch Changes
+
+- [#6609](https://github.com/TanStack/table/pull/6609) [`e9158e7`](https://github.com/TanStack/table/commit/e9158e7be837525ab99abd78550266d7cdcc58b2) - Update TanStack Store dependencies to the latest compatible patch releases.
+
+## 9.2.4
+
+### Patch Changes
+
+- [#6561](https://github.com/TanStack/table/pull/6561) [`f72e516`](https://github.com/TanStack/table/commit/f72e5164bcfe749403ec173035c226f8719647fc) - Skip missing core rows when rebuilding a worker row-model payload so stale worker results cannot crash the table
+
+## 9.2.3
+
+### Patch Changes
+
+- [#6568](https://github.com/TanStack/table/pull/6568) [`468f267`](https://github.com/TanStack/table/commit/468f26768d6f7e31010e14c3363b54696cb6a1eb) - Fix hierarchical filtered row models so `flatRows` lists parents before descendants in both filtering modes, preserves filter metadata on cloned rows, and round-trips nested data correctly through worker-backed row models.
+
+- [#6576](https://github.com/TanStack/table/pull/6576) [`3b94648`](https://github.com/TanStack/table/commit/3b946481795b53a53d6d823cea0ab3e368befec7) - Emit grouped and downstream worker `flatRows` in parent-first preorder.
+
+## 9.1.2
+
+### Patch Changes
+
+- [#6532](https://github.com/TanStack/table/pull/6532) [`ff43666`](https://github.com/TanStack/table/commit/ff436663f808e22091e8a4d2ee7ca81b37ea99c2) - Centralize state updates behind a `setStateSlice` util with an optional structural no-op policy. Equality-guarded slices give their state owner a functional updater that resolves against the owner's latest value and returns the existing reference when nothing changed. Atom and framework state owners can then skip the write and re-render without comparing against a potentially stale controlled table snapshot.
+
+  This removes an entire class of render loops where an auto reset (for example `autoResetExpanded` after a `data` reference change) fired a change handler with a freshly allocated but semantically identical value, causing controlled-state consumers to re-render, produce a new `data` reference, and loop.
+
+  Behavior notes:
+
+  - A custom `onXChange` handler is still invoked for an apparent no-op. Only its state container knows the latest queued value, so it performs the equality check when it applies the guarded updater. This preserves same-tick update composition in frameworks such as React.
+  - State updaters are evaluated once, by the state owner. Controlled fallback atoms therefore remain correct if control is later released, and external atom owners do not run functional updaters twice.
+  - `stateSlicesEqual` compares enumerable string and symbol keys through the three container levels used by stock state. Sparse arrays remain distinct from explicit `undefined` entries; deeper or non-plain values compare by reference and safely allow the update.
+  - Structural equality is opt-in per slice. Opaque `globalFilter` values and row-scaled `rowSelection`/`rowPinning` maps stay direct. The high-frequency `columnSizing`, `columnResizing`, and ordinary cell-selection write paths also avoid a comparison on every pointer update.
+  - Auto-reset-prone cell selection applies equality specifically to resets, while its drag handler keeps an O(1) active-focus guard. Expanded state similarly guards reset/auto-reset while ordinary writes stay direct, and toggle-all keeps its explicit O(1) no-op checks.
+
+## 9.1.1
+
+### Patch Changes
+
+- [#6529](https://github.com/TanStack/table/pull/6529) [`269e0d8`](https://github.com/TanStack/table/commit/269e0d81c8b5c128de01cbab4ddb40240a4b8b38) - Fix `getSortedRowModel().flatRows` listing sub-rows before their parent. This restores the parent-first order used by the v8 sorted model and aligns the flattened result with the sorted `rows` tree, core row model, and paginated row model.
+
+## 9.1.0
+
+### Minor Changes
+
+- [#6526](https://github.com/TanStack/table/pull/6526) [`09598d2`](https://github.com/TanStack/table/commit/09598d2e413fe63396d183a8a4fc145c31c6d2ea) - Support `Infinity` as a page size and add `getCanLastPage` for detecting whether a finite last page can be reached.
+
+## 9.0.1
+
+## 9.0.0
+
+### Major Changes
+
+- [#6512](https://github.com/TanStack/table/pull/6512) [`2327f80`](https://github.com/TanStack/table/commit/2327f80906bebbfef5766cebf556d195952f459e) - TanStack Table v9 stable release. See the "Migrating to V9" guide for your framework (e.g. [React](https://tanstack.com/table/latest/docs/framework/react/guide/migrating)) for upgrade instructions.

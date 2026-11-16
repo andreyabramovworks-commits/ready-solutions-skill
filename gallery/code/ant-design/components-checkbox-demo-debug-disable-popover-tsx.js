@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Checkbox, Popover } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <div style={{ padding: 56 }}>\r\n    <Popover content=\"xxxx\" trigger=\"hover\">\r\n      <Checkbox disabled checked />\r\n    </Popover>\r\n  </div>\r\n);\r\n\r\nexport default App;\r\n";

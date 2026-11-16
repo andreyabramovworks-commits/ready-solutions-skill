@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Image } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Image\r\n    width={200}\r\n    alt=\"basic\"\r\n    src=\"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png\"\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

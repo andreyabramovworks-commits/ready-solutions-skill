@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyLead() {\r\n  return (\r\n    <p className=\"text-xl text-muted-foreground\">\r\n      A modal dialog that interrupts the user with important content and expects\r\n      a response.\r\n    </p>\r\n  )\r\n}\r\n";

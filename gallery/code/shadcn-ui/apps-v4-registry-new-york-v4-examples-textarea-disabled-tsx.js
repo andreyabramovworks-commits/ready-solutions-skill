@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Textarea } from \"@/registry/new-york-v4/ui/textarea\"\r\n\r\nexport default function TextareaDisabled() {\r\n  return <Textarea placeholder=\"Type your message here.\" disabled />\r\n}\r\n";

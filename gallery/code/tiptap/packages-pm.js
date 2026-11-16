@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nCHANGELOG.md\nchangeset\ncommands\ndropcursor\ngapcursor\nhistory\ninputrules\nkeymap\nLICENSE\nmodel\npackage.json\nREADME.md\nschema-list\nstate\ntables\nTHIRD_PARTY_LICENSES.md\ntransform\nview\nvite.config.ts";

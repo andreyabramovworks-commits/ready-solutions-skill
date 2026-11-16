@@ -1,0 +1,1 @@
+window.CARD_CODE="import Link from '@mui/material/Link';\n\nexport default function ButtonLink() {\n  return (\n    // @focus-start @padding 2\n    <Link\n      component=\"button\"\n      variant=\"body2\"\n      onClick={() => {\n        console.info(\"I'm a button.\");\n      }}\n    >\n      Button Link\n    </Link>\n    // @focus-end\n  );\n}\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\naccessibility.json\naccessibility.md\nAccordion.d.ts\nAccordion.js\nAccordion.spec.tsx\nAccordion.test.js\naccordionClasses.ts\nAccordionContext.js\nindex.d.ts\nindex.js";

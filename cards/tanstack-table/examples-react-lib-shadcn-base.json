@@ -1,0 +1,96 @@
+{
+  "id": "tanstack-table/examples-react-lib-shadcn-base",
+  "name": "lib-shadcn-base",
+  "what": "Решение для задачи: table-engine.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/TanStack/table",
+  "source_commit": "564a459b74834c77631e0d6fdba7661383bbc1b4",
+  "source_type": "working-example",
+  "local_path": "libraries/tanstack-table/examples/react/lib-shadcn-base",
+  "package": {
+    "name": "tanstack-react-table-example-lib-shadcn-base",
+    "version": null,
+    "dependencies": {
+      "@base-ui/react": "^1.9.0",
+      "@faker-js/faker": "^10.6.0",
+      "@tailwindcss/vite": "^4.3.5",
+      "@tanstack/react-pacer": "^0.24.1",
+      "@tanstack/react-table": "^9.3.1",
+      "class-variance-authority": "^0.7.1",
+      "clsx": "^2.1.1",
+      "lucide-react": "^1.72.0",
+      "react": "^19.3.1",
+      "react-dom": "^19.3.1",
+      "tailwind-merge": "^3.7.0",
+      "tailwindcss": "^4.3.5",
+      "tw-animate-css": "^1.4.0"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "table-engine"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "example"
+    ],
+    "property": [
+      "headless"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@faker-js/faker",
+    "@rolldown/plugin-babel",
+    "@rollup/plugin-replace",
+    "@tailwindcss/vite",
+    "@tanstack/react-pacer",
+    "@tanstack/react-table",
+    "@vitejs/plugin-react",
+    "clsx",
+    "lucide-react",
+    "path",
+    "react",
+    "react-dom",
+    "tailwind-merge",
+    "vite"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": true,
+  "sample_data_present": false,
+  "use": "Extract the relevant behavior and replace demonstration data and tooling.",
+  "caveats": [
+    "Это пример: адаптируйте обработчики, данные, стили и состояние.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "exact-example",
+    "source_example_paths": [
+      "libraries/tanstack-table/examples/react/lib-shadcn-base"
+    ],
+    "source_example_count": 1,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://tanstack.com/table/latest/docs/framework/react/examples/lib-shadcn-base"
+  }
+}

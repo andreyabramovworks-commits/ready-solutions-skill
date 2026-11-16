@@ -1,0 +1,105 @@
+{
+  "id": "tiptap/packages-starter-kit",
+  "name": "starter-kit",
+  "what": "Решение для задачи: редактирование текста или структурированного содержимого.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/ueberdosis/tiptap",
+  "source_commit": "3adcbcde029a73e2f49658bcde84bbc147f63ae8",
+  "source_type": "public-api",
+  "local_path": "libraries/tiptap/packages/starter-kit",
+  "package": {
+    "name": "@tiptap/starter-kit",
+    "version": "3.30.3",
+    "dependencies": {
+      "@tiptap/core": "workspace:*",
+      "@tiptap/extension-blockquote": "workspace:*",
+      "@tiptap/extension-bold": "workspace:*",
+      "@tiptap/extension-bullet-list": "workspace:*",
+      "@tiptap/extension-code": "workspace:*",
+      "@tiptap/extension-code-block": "workspace:*",
+      "@tiptap/extension-document": "workspace:*",
+      "@tiptap/extension-hard-break": "workspace:*",
+      "@tiptap/extension-heading": "workspace:*",
+      "@tiptap/extension-horizontal-rule": "workspace:*",
+      "@tiptap/extension-italic": "workspace:*",
+      "@tiptap/extension-link": "workspace:*",
+      "@tiptap/extension-list": "workspace:*",
+      "@tiptap/extension-ordered-list": "workspace:*",
+      "@tiptap/extension-paragraph": "workspace:*",
+      "@tiptap/extension-strike": "workspace:*",
+      "@tiptap/extension-text": "workspace:*",
+      "@tiptap/extension-underline": "workspace:*",
+      "@tiptap/extensions": "workspace:*",
+      "@tiptap/pm": "workspace:*"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "editor"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "javascript",
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@tiptap/core",
+    "@tiptap/extension-blockquote",
+    "@tiptap/extension-bold",
+    "@tiptap/extension-code",
+    "@tiptap/extension-code-block",
+    "@tiptap/extension-document",
+    "@tiptap/extension-hard-break",
+    "@tiptap/extension-heading",
+    "@tiptap/extension-horizontal-rule",
+    "@tiptap/extension-italic",
+    "@tiptap/extension-link",
+    "@tiptap/extension-list",
+    "@tiptap/extension-paragraph",
+    "@tiptap/extension-strike",
+    "@tiptap/extension-text",
+    "@tiptap/extension-underline",
+    "@tiptap/extensions",
+    "vite-plus"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @tiptap/core, @tiptap/extension-blockquote, @tiptap/extension-bold, @tiptap/extension-code, @tiptap/extension-code-block.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

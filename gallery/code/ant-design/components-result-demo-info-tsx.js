@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, Result } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Result\r\n    title=\"Your operation has been executed\"\r\n    extra={\r\n      <Button type=\"primary\" key=\"console\">\r\n        Go Console\r\n      </Button>\r\n    }\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

@@ -1,0 +1,75 @@
+{
+  "id": "mantine/packages-mantine-spotlight-src-spotlight-store-ts",
+  "name": "spotlight.store",
+  "what": "Решение для задачи: управление состоянием интерфейса; поиск и фильтрация.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/mantinedev/mantine",
+  "source_commit": "b786c430ad370e6c9f7bce224008e996b2634bc3",
+  "source_type": "package-source",
+  "local_path": "libraries/mantine/packages/@mantine/spotlight/src/spotlight.store.ts",
+  "package": {
+    "name": "@mantine/spotlight",
+    "version": "9.8.1",
+    "dependencies": {
+      "@mantine/store": "9.8.1"
+    },
+    "peer_dependencies": {
+      "@mantine/core": "9.8.1",
+      "@mantine/hooks": "9.8.1",
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0"
+    }
+  },
+  "tags": {
+    "task": [
+      "state-management",
+      "search"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@mantine/hooks",
+    "@mantine/store"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @mantine/hooks, @mantine/store.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

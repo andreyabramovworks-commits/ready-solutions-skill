@@ -1,0 +1,1 @@
+window.CARD_CODE="import TextareaAutosize from '@mui/material/TextareaAutosize';\n\nexport default function MinHeightTextarea() {\n  return (\n    // @focus-start @padding 2\n    <TextareaAutosize\n      aria-label=\"minimum height\"\n      minRows={3}\n      placeholder=\"Minimum 3 rows\"\n      style={{ width: 200 }}\n    />\n    // @focus-end\n  );\n}\n";

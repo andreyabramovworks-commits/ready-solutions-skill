@@ -1,0 +1,99 @@
+{
+  "id": "mantine-ui/lib-tableselection",
+  "name": "TableSelection",
+  "what": "Table with row selection example.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/mantinedev/ui.mantine.dev",
+  "source_commit": "963b955c5cef4bcc6008d40a0431e46ef771c254",
+  "source_type": "copyable-example",
+  "local_path": "libraries/mantine-ui/lib/TableSelection",
+  "package": {
+    "name": "mantine-next-template",
+    "version": "1.0.0",
+    "dependencies": {
+      "@dnd-kit/core": "^6.3.1",
+      "@dnd-kit/sortable": "^10.0.0",
+      "@dnd-kit/utilities": "^3.2.2",
+      "@mantine/carousel": "9.7.3",
+      "@mantine/code-highlight": "9.7.3",
+      "@mantine/core": "9.7.3",
+      "@mantine/dropzone": "9.7.3",
+      "@mantine/form": "9.7.3",
+      "@mantine/hooks": "9.7.3",
+      "@mantine/spotlight": "9.7.3",
+      "@mantinex/dev-icons": "^2.0.0",
+      "@mantinex/mantine-header": "^2.0.0",
+      "@mantinex/mantine-logo": "^2.0.0",
+      "@mantinex/mantine-meta": "^2.0.0",
+      "@next/bundle-analyzer": "^16.1.5",
+      "@tabler/icons-react": "^3.36.1",
+      "dayjs": "^1.11.19",
+      "embla-carousel": "^8.6.0",
+      "embla-carousel-react": "^8.6.0",
+      "next": "16.4.1",
+      "react": "19.3.1",
+      "react-dom": "19.3.1",
+      "shiki": "^4.0.0"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "data-table",
+      "forms"
+    ],
+    "domain": [
+      "general-purpose",
+      "internal-tools"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "example"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit-readme"
+    ]
+  },
+  "dependencies": [
+    "@mantine/core",
+    "clsx",
+    "react"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": true,
+  "sample_data_present": true,
+  "use": "Replace demonstration data and connect real application behavior.",
+  "caveats": [
+    "В исходнике найдены демонстрационные данные; замените их данными приложения.",
+    "Это пример: адаптируйте обработчики, данные, стили и состояние.",
+    "README.md states MIT, but the snapshot has no root LICENSE file; verify redistribution terms before publication.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "exact-example",
+    "source_example_paths": [
+      "libraries/mantine-ui/lib/TableSelection"
+    ],
+    "source_example_count": 1,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://ui.mantine.dev/component/table-selection/"
+  }
+}

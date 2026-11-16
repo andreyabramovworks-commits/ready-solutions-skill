@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\ndemo\ndesign\nindex.$tab-design.en-US.md\nindex.$tab-design.zh-CN.md\nindex.en-US.md\nindex.tsx\nindex.zh-CN.md\nPagination.tsx\nstyle\nuseShowSizeChanger.ts\n__tests__";

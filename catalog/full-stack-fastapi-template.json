@@ -1,0 +1,1279 @@
+{
+  "id": "full-stack-fastapi-template",
+  "name": "full-stack-fastapi-template",
+  "source": "https://github.com/fastapi/full-stack-fastapi-template",
+  "commit": "aabb90126964a164e02aff39e7c385bb0598236d",
+  "local_path": "libraries/full-stack-fastapi-template",
+  "source_type": "template",
+  "license_file": "libraries/full-stack-fastapi-template/LICENSE",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "backend-app-api-routes",
+      "name": "routes",
+      "path": "libraries/full-stack-fastapi-template/backend/app/api/routes",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "api"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 6,
+        "code_bytes": 16549,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "backend-app-api-deps-py",
+      "name": "deps",
+      "path": "libraries/full-stack-fastapi-template/backend/app/api/deps.py",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1768,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "backend-app-api-main-py",
+      "name": "main",
+      "path": "libraries/full-stack-fastapi-template/backend/app/api/main.py",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 421,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "backend-app-core-config-py",
+      "name": "config",
+      "path": "libraries/full-stack-fastapi-template/backend/app/core/config.py",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "configuration"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3026,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "backend-app-core-db-py",
+      "name": "db",
+      "path": "libraries/full-stack-fastapi-template/backend/app/core/db.py",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-access"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1223,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "backend-app-core-security-py",
+      "name": "security",
+      "path": "libraries/full-stack-fastapi-template/backend/app/core/security.py",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "auth"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 943,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "backend-app-alembic-versions",
+      "name": "versions",
+      "path": "libraries/full-stack-fastapi-template/backend/app/alembic/versions",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "migrations"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 9990,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      },
+      "purpose": "Example Alembic migration structure in a full-stack template.",
+      "use_when": "Reviewing how migrations are organized in a FastAPI application.",
+      "check": "Never copy migrations into an existing database without adapting schema history."
+    },
+    {
+      "id": "backend-app-alembic-env-py",
+      "name": "env",
+      "path": "libraries/full-stack-fastapi-template/backend/app/alembic/env.py",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "configuration"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "fastapi-full-stack-template",
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2397,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-client",
+      "name": "client",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/client",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "api"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 16,
+        "code_bytes": 83833,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "axios"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ArraySeparatorStyle",
+          "ArrayStyle",
+          "Auth",
+          "AuthToken",
+          "BodySerializer",
+          "Body_login_login_access_token",
+          "Client",
+          "ClientOptions",
+          "Config",
+          "CreateClientConfig",
+          "Field",
+          "Fields",
+          "FieldsConfig",
+          "HTTPValidationError",
+          "HttpMethod",
+          "ItemCreate",
+          "ItemPublic",
+          "ItemUpdate",
+          "ItemsPublic",
+          "ItemsService",
+          "JsonValue",
+          "LoginService",
+          "Message",
+          "NewPassword",
+          "ObjectStyle",
+          "OmitNever",
+          "Options",
+          "PATH_PARAM_RE",
+          "PathSerializer",
+          "PrivateService"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-components",
+      "name": "components",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/components",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "component-structure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 51,
+        "code_bytes": 154536,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "",
+          "@hookform/resolvers",
+          "@radix-ui/react-avatar",
+          "@radix-ui/react-checkbox",
+          "@radix-ui/react-dialog",
+          "@radix-ui/react-dropdown-menu",
+          "@radix-ui/react-label",
+          "@radix-ui/react-select",
+          "@radix-ui/react-separator",
+          "@radix-ui/react-slot",
+          "@radix-ui/react-tabs",
+          "@radix-ui/react-tooltip",
+          "@tanstack/react-query",
+          "@tanstack/react-router",
+          "@tanstack/react-table",
+          "class-variance-authority",
+          "lucide-react",
+          "react",
+          "react-hook-form",
+          "react-icons",
+          "sonner",
+          "zod"
+        ],
+        "workspace_alias_imports": [
+          "@/client",
+          "@/components/Common/Appearance",
+          "@/components/Common/DataTable",
+          "@/components/Common/Logo",
+          "@/components/theme-provider",
+          "@/components/ui/avatar",
+          "@/components/ui/badge",
+          "@/components/ui/button",
+          "@/components/ui/checkbox",
+          "@/components/ui/dialog",
+          "@/components/ui/dropdown-menu",
+          "@/components/ui/form",
+          "@/components/ui/input",
+          "@/components/ui/label",
+          "@/components/ui/loading-button",
+          "@/components/ui/password-input",
+          "@/components/ui/select",
+          "@/components/ui/separator",
+          "@/components/ui/sheet",
+          "@/components/ui/sidebar",
+          "@/components/ui/skeleton",
+          "@/components/ui/table",
+          "@/components/ui/tooltip",
+          "@/hooks/useAuth",
+          "@/hooks/useCopyToClipboard",
+          "@/hooks/useCustomToast",
+          "@/hooks/useMobile",
+          "@/lib/utils",
+          "@/utils"
+        ],
+        "named_exports": [
+          "AppSidebar",
+          "Appearance",
+          "AuthLayout",
+          "ButtonProps",
+          "DataTable",
+          "DataTableFeatures",
+          "Footer",
+          "Item",
+          "ItemActionsMenu",
+          "Logo",
+          "Main",
+          "SidebarAppearance",
+          "Theme",
+          "ThemeProvider",
+          "User",
+          "UserActionsMenu",
+          "UserTableData",
+          "columns",
+          "useTheme"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-hooks",
+      "name": "hooks",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/hooks",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 3613,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tanstack/react-query",
+          "@tanstack/react-router",
+          "react",
+          "sonner"
+        ],
+        "workspace_alias_imports": [
+          "@/client",
+          "@/utils"
+        ],
+        "named_exports": [
+          "useCopyToClipboard",
+          "useIsMobile"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-lib",
+      "name": "lib",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/lib",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 172,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "clsx",
+          "tailwind-merge"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "cn"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-routes",
+      "name": "routes",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/routes",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "api"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 10,
+        "code_bytes": 25970,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@hookform/resolvers",
+          "@tanstack/react-query",
+          "@tanstack/react-query-devtools",
+          "@tanstack/react-router",
+          "@tanstack/react-router-devtools",
+          "lucide-react",
+          "react",
+          "react-hook-form",
+          "zod"
+        ],
+        "workspace_alias_imports": [
+          "@/client",
+          "@/components/Admin/AddUser",
+          "@/components/Admin/columns",
+          "@/components/Common/AuthLayout",
+          "@/components/Common/DataTable",
+          "@/components/Common/ErrorComponent",
+          "@/components/Common/Footer",
+          "@/components/Common/NotFound",
+          "@/components/Items/AddItem",
+          "@/components/Items/columns",
+          "@/components/Pending/PendingItems",
+          "@/components/Pending/PendingUsers",
+          "@/components/Sidebar/AppSidebar",
+          "@/components/UserSettings/ChangePassword",
+          "@/components/UserSettings/DeleteAccount",
+          "@/components/UserSettings/UserInformation",
+          "@/components/ui/form",
+          "@/components/ui/input",
+          "@/components/ui/loading-button",
+          "@/components/ui/password-input",
+          "@/components/ui/sidebar",
+          "@/components/ui/tabs",
+          "@/hooks/useAuth",
+          "@/hooks/useCustomToast",
+          "@/utils"
+        ],
+        "named_exports": [
+          "Route"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-main-tsx",
+      "name": "main",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/main.tsx",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1592,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tanstack/react-query",
+          "@tanstack/react-router",
+          "axios",
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    },
+    {
+      "id": "frontend-src-utils-ts",
+      "name": "utils",
+      "path": "libraries/full-stack-fastapi-template/frontend/src/utils.ts",
+      "entry_role": "architecture-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "fastapi",
+          "react",
+          "postgresql"
+        ],
+        "kind": [
+          "template"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "reference-only"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "frontend",
+        "version": "0.0.0",
+        "dependencies": {
+          "@hookform/resolvers": "^6.0.1",
+          "@radix-ui/react-avatar": "^1.3.1",
+          "@radix-ui/react-checkbox": "^1.4.1",
+          "@radix-ui/react-dialog": "^1.3.1",
+          "@radix-ui/react-dropdown-menu": "^2.2.1",
+          "@radix-ui/react-label": "^2.1.17",
+          "@radix-ui/react-radio-group": "^1.5.1",
+          "@radix-ui/react-scroll-area": "^1.4.0",
+          "@radix-ui/react-select": "^2.4.1",
+          "@radix-ui/react-separator": "^1.2.0",
+          "@radix-ui/react-slot": "^1.2.4",
+          "@radix-ui/react-tabs": "^1.2.1",
+          "@radix-ui/react-tooltip": "^1.4.1",
+          "@tailwindcss/vite": "^4.3.3",
+          "@tanstack/react-query": "^5.105.0",
+          "@tanstack/react-query-devtools": "^5.105.0",
+          "@tanstack/react-router": "^1.170.46",
+          "@tanstack/react-router-devtools": "^1.167.2",
+          "@tanstack/react-table": "^9.3.1",
+          "axios": "1.20.0",
+          "class-variance-authority": "^0.7.1",
+          "clsx": "^2.1.1",
+          "form-data": "4.0.6",
+          "lucide-react": "^1.62.0",
+          "react": "^19.3.1",
+          "react-dom": "^19.3.1",
+          "react-error-boundary": "^6.1.6",
+          "react-hook-form": "^7.91.0",
+          "react-icons": "^5.7.0",
+          "sonner": "^2.0.8",
+          "tailwind-merge": "^3.7.0",
+          "tailwindcss": "^4.2.1",
+          "zod": "^4.6.7"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 755,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "axios"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "getInitials",
+          "handleError"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-pattern",
+        "caution": "Map the pattern to the target project; do not copy database history or deployment configuration blindly."
+      }
+    }
+  ]
+}

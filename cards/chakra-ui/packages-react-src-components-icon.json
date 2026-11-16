@@ -1,0 +1,78 @@
+{
+  "id": "chakra-ui/packages-react-src-components-icon",
+  "name": "icon",
+  "what": "Решение для задачи: icons.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/chakra-ui/chakra-ui",
+  "source_commit": "4d3fda5dfd956188786a641ba47ec49dbe7dce93",
+  "source_type": "component-source",
+  "local_path": "libraries/chakra-ui/packages/react/src/components/icon",
+  "package": {
+    "name": "@chakra-ui/react",
+    "version": "3.38.0",
+    "dependencies": {
+      "@ark-ui/react": "5.40.0",
+      "@emotion/is-prop-valid": "^1.4.0",
+      "@emotion/serialize": "^1.3.3",
+      "@emotion/use-insertion-effect-with-fallbacks": "^1.2.0",
+      "@emotion/utils": "^1.4.2",
+      "@pandacss/is-valid-prop": "^1.4.2",
+      "csstype": "^3.2.3"
+    },
+    "peer_dependencies": {
+      "@emotion/react": ">=11",
+      "react": ">=18",
+      "react-dom": ">=18"
+    }
+  },
+  "tags": {
+    "task": [
+      "icons"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "component"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "react"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Check the package manifest and public API before use.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "component-page",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://chakra-ui.com/docs/components/icon"
+  }
+}

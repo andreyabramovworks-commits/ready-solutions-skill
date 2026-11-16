@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.ts\nModal.context.ts\nModal.module.css\nModal.story.tsx\nModal.test.tsx\nModal.tsx\nModalBody.tsx\nModalCloseButton.tsx\nModalContent.tsx\nModalHeader.tsx\nModalOverlay.tsx\nModalRoot.tsx\nModalStack.test.tsx\nModalStack.tsx\nModalTitle.tsx\nuse-modals-stack.ts";

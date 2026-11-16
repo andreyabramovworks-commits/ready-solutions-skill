@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nButtonBase.d.ts\nButtonBase.js\nButtonBase.test.js\nbuttonBaseClasses.ts\nindex.d.ts\nindex.js\nRipple.js\nRipple.test.js\nTouchRipple.d.ts\nTouchRipple.js\nTouchRipple.test.js\ntouchRippleClasses.ts\nuseButtonBase.test.tsx\nuseButtonBase.ts";

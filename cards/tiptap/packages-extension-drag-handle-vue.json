@@ -1,0 +1,77 @@
+{
+  "id": "tiptap/packages-extension-drag-handle-vue",
+  "name": "extension-drag-handle-vue",
+  "what": "Решение для задачи: перетаскивание элементов; редактирование текста или структурированного содержимого.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/ueberdosis/tiptap",
+  "source_commit": "3adcbcde029a73e2f49658bcde84bbc147f63ae8",
+  "source_type": "public-api",
+  "local_path": "libraries/tiptap/packages/extension-drag-handle-vue",
+  "package": {
+    "name": "@tiptap/extension-drag-handle-vue",
+    "version": "3.30.3",
+    "dependencies": {},
+    "peer_dependencies": {
+      "@tiptap/extension-drag-handle": "workspace:*",
+      "@tiptap/pm": "workspace:*",
+      "@tiptap/vue": "workspace:*",
+      "vue": "^3.0.0"
+    }
+  },
+  "tags": {
+    "task": [
+      "drag-and-drop",
+      "editor"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "javascript",
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@tiptap/extension-drag-handle",
+    "@tiptap/pm",
+    "@tiptap/vue",
+    "vite-plus",
+    "vue"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @tiptap/extension-drag-handle, @tiptap/pm, @tiptap/vue, vite-plus, vue.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

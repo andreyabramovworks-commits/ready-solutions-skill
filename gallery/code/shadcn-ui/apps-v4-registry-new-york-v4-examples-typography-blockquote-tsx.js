@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyBlockquote() {\r\n  return (\r\n    <blockquote className=\"mt-6 border-l-2 pl-6 italic\">\r\n      &quot;After all,&quot; he said, &quot;everyone enjoys a good joke, so\r\n      it&apos;s only fair that they should pay for the privilege.&quot;\r\n    </blockquote>\r\n  )\r\n}\r\n";

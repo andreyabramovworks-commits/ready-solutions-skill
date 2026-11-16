@@ -1,0 +1,80 @@
+{
+  "id": "react-aria/packages-react-aria-components-src-text-tsx",
+  "name": "Text",
+  "what": "Решение для задачи: представление текста и содержимого.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/adobe/react-spectrum",
+  "source_commit": "360e35170568dfc99a2baaa78e6b7bdd36458d91",
+  "source_type": "public-api",
+  "local_path": "libraries/react-aria/packages/react-aria-components/src/Text.tsx",
+  "package": {
+    "name": "react-aria-components",
+    "version": "1.22.1",
+    "dependencies": {
+      "@internationalized/date": "^3.12.4",
+      "@internationalized/string": "^3.2.10",
+      "@react-types/shared": "^3.37.0",
+      "@swc/helpers": "^0.5.0",
+      "client-only": "^0.0.1",
+      "react-aria": "3.53.1",
+      "react-stately": "3.51.0",
+      "use-sync-external-store": "^1.6.0"
+    },
+    "peer_dependencies": {
+      "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+      "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+    }
+  },
+  "tags": {
+    "task": [
+      "display"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "apache-2.0"
+    ]
+  },
+  "dependencies": [
+    "react",
+    "react-aria"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: react-aria.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

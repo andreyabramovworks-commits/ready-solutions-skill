@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nAppShell.context.ts\nAppShell.module.css\nAppShell.story.tsx\nAppShell.test.tsx\nAppShell.tsx\nAppShell.types.ts\nAppShellAside\nAppShellFooter\nAppShellHeader\nAppShellMain\nAppShellMediaStyles\nAppShellNavbar\nAppShellResizeHandle\nAppShellSection\nindex.ts\nuse-app-shell-resize\nuse-resizing";

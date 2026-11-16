@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nAccordion.context.ts\nAccordion.module.css\nAccordion.story.tsx\nAccordion.test.tsx\nAccordion.tsx\nAccordion.types.ts\nAccordionChevron.tsx\nAccordionControl\nAccordionItem\nAccordionItem.context.ts\nAccordionPanel\nindex.ts";

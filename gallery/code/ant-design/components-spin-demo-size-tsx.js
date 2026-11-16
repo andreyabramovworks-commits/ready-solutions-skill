@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Flex, Spin } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Flex align=\"center\" gap=\"medium\">\r\n    <Spin size=\"small\" />\r\n    <Spin />\r\n    <Spin size=\"large\" />\r\n  </Flex>\r\n);\r\n\r\nexport default App;\r\n";

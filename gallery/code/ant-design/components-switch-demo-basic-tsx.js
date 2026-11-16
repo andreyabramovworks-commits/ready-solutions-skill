@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Switch } from 'antd';\r\n\r\nconst onChange = (checked: boolean) => {\r\n  console.log(`switch to ${checked}`);\r\n};\r\n\r\nconst App: React.FC = () => <Switch defaultChecked onChange={onChange} />;\r\n\r\nexport default App;\r\n";

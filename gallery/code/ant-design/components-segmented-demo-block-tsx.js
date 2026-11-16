@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Segmented } from 'antd';\r\n\r\nconst Demo: React.FC = () => (\r\n  <Segmented<string | number> options={[123, 456, 'longtext-longtext-longtext-longtext']} block />\r\n);\r\n\r\nexport default Demo;\r\n";

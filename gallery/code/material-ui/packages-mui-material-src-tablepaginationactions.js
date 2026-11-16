@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.d.ts\nindex.js\nTablePaginationActions.d.ts\nTablePaginationActions.js\nTablePaginationActions.spec.tsx\nTablePaginationActions.test.js\ntablePaginationActionsClasses.ts";

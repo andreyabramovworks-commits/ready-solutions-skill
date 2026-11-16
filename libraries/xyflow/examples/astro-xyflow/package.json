@@ -1,0 +1,25 @@
+{
+  "name": "astro-examples",
+  "type": "module",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.1.10",
+    "@astrojs/react": "^5.0.4",
+    "@astrojs/svelte": "^8.1.0",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@xyflow/react": "workspace:^",
+    "@xyflow/svelte": "workspace:^",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "svelte": "catalog:"
+  }
+}

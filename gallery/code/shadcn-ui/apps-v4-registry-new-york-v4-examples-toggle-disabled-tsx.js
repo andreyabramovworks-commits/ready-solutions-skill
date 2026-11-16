@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Underline } from \"lucide-react\"\r\n\r\nimport { Toggle } from \"@/registry/new-york-v4/ui/toggle\"\r\n\r\nexport default function ToggleDisabled() {\r\n  return (\r\n    <Toggle aria-label=\"Toggle italic\" disabled>\r\n      <Underline className=\"h-4 w-4\" />\r\n    </Toggle>\r\n  )\r\n}\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import Box from '@mui/material/Box';\nimport LinearProgress from '@mui/material/LinearProgress';\n\nexport default function LinearIndeterminate() {\n  return (\n    <Box sx={{ width: '100%' }}>\n      {/* @focus-start */}\n      <LinearProgress aria-label=\"Loading…\" />\n      {/* @focus-end */}\n    </Box>\n  );\n}\n";

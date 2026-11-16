@@ -1,0 +1,87 @@
+{
+  "id": "tiptap/packages-react",
+  "name": "react",
+  "what": "Public @tiptap/react package for building a rich-text editor in React.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/ueberdosis/tiptap",
+  "source_commit": "3adcbcde029a73e2f49658bcde84bbc147f63ae8",
+  "source_type": "public-api",
+  "local_path": "libraries/tiptap/packages/react",
+  "package": {
+    "name": "@tiptap/react",
+    "version": "3.30.3",
+    "dependencies": {
+      "@types/use-sync-external-store": "^0.0.6",
+      "fast-equals": "^5.3.3",
+      "use-sync-external-store": "^1.4.0"
+    },
+    "peer_dependencies": {
+      "@tiptap/core": "workspace:*",
+      "@tiptap/pm": "workspace:*",
+      "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "@types/react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    }
+  },
+  "tags": {
+    "task": [
+      "editor"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "javascript",
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@tiptap/core",
+    "@tiptap/extension-bubble-menu",
+    "@tiptap/extension-floating-menu",
+    "@tiptap/pm",
+    "@tiptap/react",
+    "fast-equals",
+    "react",
+    "react-dom",
+    "use-sync-external-store",
+    "vite-plus"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @tiptap/core, @tiptap/extension-bubble-menu, @tiptap/extension-floating-menu, @tiptap/pm, @tiptap/react.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

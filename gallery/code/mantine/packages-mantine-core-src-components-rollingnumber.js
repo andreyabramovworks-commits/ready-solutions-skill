@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nbuild-value.test.ts\nbuild-value.ts\nDigitColumn.tsx\nget-digit-parts.test.ts\nget-digit-parts.ts\nget-render-slots.test.ts\nget-render-slots.ts\nindex.ts\nRollingNumber.module.css\nRollingNumber.story.tsx\nRollingNumber.test.tsx\nRollingNumber.tsx";

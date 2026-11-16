@@ -1,0 +1,1 @@
+window.CARD_CODE="import { IconGitBranch } from \"@tabler/icons-react\"\r\n\r\nimport { Button } from \"@/registry/new-york-v4/ui/button\"\r\n\r\nexport default function ButtonWithIcon() {\r\n  return (\r\n    <Button variant=\"outline\" size=\"sm\">\r\n      <IconGitBranch /> New Branch\r\n    </Button>\r\n  )\r\n}\r\n";

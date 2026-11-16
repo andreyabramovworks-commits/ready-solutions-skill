@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { DatePicker } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <DatePicker.RangePicker\r\n    placeholder={['Start Date', 'Till Now']}\r\n    allowEmpty={[false, true]}\r\n    onChange={(date, dateString) => {\r\n      console.log(date, dateString);\r\n    }}\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

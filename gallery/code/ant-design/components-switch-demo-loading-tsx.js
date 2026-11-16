@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Switch } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <>\r\n    <Switch loading defaultChecked />\r\n    <br />\r\n    <Switch size=\"small\" loading />\r\n  </>\r\n);\r\n\r\nexport default App;\r\n";

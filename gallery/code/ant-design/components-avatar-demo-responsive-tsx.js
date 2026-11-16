@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { AntDesignOutlined } from '@ant-design/icons';\r\nimport { Avatar } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Avatar\r\n    size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 100 }}\r\n    icon={<AntDesignOutlined />}\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

@@ -1,0 +1,65 @@
+{
+  "id": "mantine/packages-mantine-hooks-src-use-session-storage",
+  "name": "use-session-storage",
+  "what": "Решение для задачи: persistence; react-hooks.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/mantinedev/mantine",
+  "source_commit": "b786c430ad370e6c9f7bce224008e996b2634bc3",
+  "source_type": "public-api",
+  "local_path": "libraries/mantine/packages/@mantine/hooks/src/use-session-storage",
+  "package": {
+    "name": "@mantine/hooks",
+    "version": "9.8.1",
+    "dependencies": {},
+    "peer_dependencies": {
+      "react": "^19.2.0"
+    }
+  },
+  "tags": {
+    "task": [
+      "persistence",
+      "react-hooks"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Check the package manifest and public API before use.",
+  "caveats": [],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

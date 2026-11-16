@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\ncomponents\nconfirm.tsx\nConfirmDialog.tsx\ncontext.ts\ndemo\ndestroyFns.ts\nindex.en-US.md\nindex.tsx\nindex.zh-CN.md\ninterface.ts\nlocale.ts\nModal.tsx\nPurePanel.tsx\nshared.tsx\nstyle\nuseModal\n__tests__";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Spinner } from \"@/registry/new-york-v4/ui/spinner\"\r\n\r\nexport default function SpinnerBasic() {\r\n  return (\r\n    <div className=\"flex flex-col items-center justify-center gap-8\">\r\n      <Spinner />\r\n    </div>\r\n  )\r\n}\r\n";

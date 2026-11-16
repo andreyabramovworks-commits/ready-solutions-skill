@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Segmented } from 'antd';\r\n\r\nconst Demo: React.FC = () => (\r\n  <Segmented<string>\r\n    options={['Daily', 'Weekly', 'Monthly', 'Quarterly', 'Yearly']}\r\n    onChange={(value) => {\r\n      console.log(value); // string\r\n    }}\r\n  />\r\n);\r\n\r\nexport default Demo;\r\n";

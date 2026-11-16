@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Tooltip } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Tooltip destroyOnHidden title=\"prompt text\">\r\n    <span>Dom will destroyed when Tooltip close</span>\r\n  </Tooltip>\r\n);\r\n\r\nexport default App;\r\n";

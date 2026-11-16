@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyH3() {\r\n  return (\r\n    <h3 className=\"scroll-m-20 text-2xl font-semibold tracking-tight\">\r\n      The Joke Tax\r\n    </h3>\r\n  )\r\n}\r\n";

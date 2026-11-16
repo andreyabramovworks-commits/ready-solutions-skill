@@ -1,0 +1,151 @@
+{
+  "id": "shadcn-ui/apps-v4-registry-new-york-v4-charts-chart-radar-lines-only-tsx",
+  "name": "chart-radar-lines-only",
+  "what": "Решение для задачи: метрики, статистика и графики.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/shadcn-ui/ui",
+  "source_commit": "e62c9435fff729a175f38983dee73b2cb4f6a069",
+  "source_type": "copyable-example",
+  "local_path": "libraries/shadcn-ui/apps/v4/registry/new-york-v4/charts/chart-radar-lines-only.tsx",
+  "package": {
+    "name": "v4",
+    "version": "0.1.0",
+    "dependencies": {
+      "@ai-sdk/anthropic": "4.0.0-canary.66",
+      "@ai-sdk/openai": "4.0.0-canary.73",
+      "@ai-sdk/react": "4.0.0-canary.162",
+      "@base-ui/react": "1.6.0",
+      "@dnd-kit/core": "^6.3.1",
+      "@dnd-kit/modifiers": "^9.0.0",
+      "@dnd-kit/sortable": "^10.0.0",
+      "@dnd-kit/utilities": "^3.2.2",
+      "@faker-js/faker": "^10.1.0",
+      "@formisch/react": "^0.4.4",
+      "@hookform/resolvers": "^3.10.0",
+      "@hugeicons/core-free-icons": "^1.2.1",
+      "@hugeicons/react": "^1.1.1",
+      "@internationalized/date": "^3.12.3",
+      "@paper-design/shaders-react": "^0.0.72",
+      "@phosphor-icons/react": "^2.1.10",
+      "@remixicon/react": "^4.7.0",
+      "@shadcn/helpers": "workspace:*",
+      "@shadcn/react": "workspace:*",
+      "@streamdown/code": "^1.1.1",
+      "@tabler/icons-react": "^3.31.0",
+      "@tailwindcss/postcss": "^4.3.0",
+      "@tanstack/ai": "0.40.0",
+      "@tanstack/ai-client": "0.20.0",
+      "@tanstack/ai-react": "0.16.4",
+      "@tanstack/react-form": "^1.20.0",
+      "@tanstack/react-table": "^9.0.0",
+      "@vercel/analytics": "^1.4.1",
+      "ai": "canary",
+      "change-case": "^5.4.4",
+      "chrono-node": "^2.8.2",
+      "class-variance-authority": "^0.7.1",
+      "cmdk": "^1.1.1",
+      "cn": "^0.2.2",
+      "date-fns": "^4.1.0",
+      "dedent": "^1.6.0",
+      "embla-carousel-autoplay": "8.5.2",
+      "embla-carousel-react": "8.5.2",
+      "front-matter": "^4.0.2",
+      "fumadocs-core": "16.10.5",
+      "fumadocs-docgen": "3.0.10",
+      "fumadocs-mdx": "15.0.12",
+      "fumadocs-ui": "16.10.5",
+      "input-otp": "^1.4.2",
+      "jotai": "^2.15.0",
+      "little-date": "^1.0.0",
+      "lodash": "^4.18.1",
+      "lru-cache": "^11.2.4",
+      "lucide-react": "0.474.0",
+      "motion": "^12.12.1",
+      "next": "16.4.2",
+      "next-themes": "0.4.6",
+      "nuqs": "^2.8.9",
+      "postcss": "^8.5.23",
+      "radix-ui": "^1.4.3",
+      "react": "19.2.3",
+      "react-aria-components": "1.20.0",
+      "react-day-picker": "^9.7.0",
+      "react-dom": "19.2.3",
+      "react-hook-form": "^7.62.0",
+      "react-qr-code": "^2.0.18",
+      "react-resizable-panels": "^4",
+      "react-textarea-autosize": "^8.5.9",
+      "recharts": "3.8.0",
+      "rehype-pretty-code": "^0.14.1",
+      "rimraf": "^6.0.1",
+      "server-only": "^0.0.1",
+      "shadcn": "4.23.0",
+      "shiki": "^3.23.0",
+      "sonner": "^2.0.0",
+      "streamdown": "^2.5.0",
+      "swr": "^2.3.6",
+      "ts-morph": "26.0.0",
+      "valibot": "^1.4.0",
+      "vaul": "1.1.2",
+      "zod": "^3.25.76"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "analytics"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "example"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "lucide-react",
+    "recharts"
+  ],
+  "local_imports": [
+    "@/registry/new-york-v4/ui/card",
+    "@/registry/new-york-v4/ui/chart"
+  ],
+  "tests_present": false,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Inspect local helpers and connect real application behavior.",
+  "caveats": [
+    "Есть локальные импорты: @/registry/new-york-v4/ui/card, @/registry/new-york-v4/ui/chart. При переносе разрешите их.",
+    "Это пример: адаптируйте обработчики, данные, стили и состояние.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "exact-example",
+    "source_example_paths": [
+      "libraries/shadcn-ui/apps/v4/registry/new-york-v4/charts/chart-radar-lines-only.tsx"
+    ],
+    "source_example_count": 1,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://ui.shadcn.com/view/new-york-v4/chart-radar-lines-only"
+  }
+}

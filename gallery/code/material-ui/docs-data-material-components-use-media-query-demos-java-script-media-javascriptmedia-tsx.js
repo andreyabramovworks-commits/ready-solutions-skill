@@ -1,0 +1,1 @@
+window.CARD_CODE="import json2mq from 'json2mq';\nimport useMediaQuery from '@mui/material/useMediaQuery';\n\nexport default function JavaScriptMedia() {\n  // @focus-start @padding 1\n  const matches = useMediaQuery(\n    json2mq({\n      minWidth: 600,\n    }),\n  );\n\n  return <span>{`{ minWidth: 600 } matches: ${matches}`}</span>;\n  // @focus-end\n}\n";

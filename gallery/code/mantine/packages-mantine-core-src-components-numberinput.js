@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nget-caret-position-after-paste\nindex.ts\nnormalize-pasted-value\nNumberInput.module.css\nNumberInput.story.tsx\nNumberInput.test.tsx\nNumberInput.tsx\nNumberInputChevron.tsx";

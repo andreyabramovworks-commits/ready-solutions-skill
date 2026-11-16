@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Checkbox, Radio, Space, Upload } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Space>\r\n    <Upload>\r\n      <Radio>Radio</Radio>\r\n    </Upload>\r\n    <Upload>\r\n      <Checkbox>Checkbox</Checkbox>\r\n    </Upload>\r\n  </Space>\r\n);\r\n\r\nexport default App;\r\n";

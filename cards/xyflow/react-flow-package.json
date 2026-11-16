@@ -1,0 +1,88 @@
+{
+  "id": "xyflow/react-flow-package",
+  "name": "React Flow package",
+  "what": "Public @xyflow/react package for interactive node and edge diagrams.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/xyflow/xyflow",
+  "source_commit": "0814ffa1b23bb29048b329c03c211f335bdd6571",
+  "source_type": "public-api",
+  "local_path": "libraries/xyflow/packages/react",
+  "package": {
+    "name": "@xyflow/react",
+    "version": "13.0.0",
+    "dependencies": {
+      "@xyflow/system": "workspace:*",
+      "classcat": "^5.0.5",
+      "react-compiler-runtime": "^1.0.0",
+      "zustand": "^5.0.15"
+    },
+    "peer_dependencies": {
+      "@types/react": ">=18",
+      "@types/react-dom": ">=18",
+      "react": ">=18",
+      "react-dom": ">=18"
+    }
+  },
+  "tags": {
+    "task": [
+      "diagramming",
+      "editor",
+      "flow-editor"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react",
+      "typescript"
+    ],
+    "kind": [
+      "library"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@rolldown/plugin-babel",
+    "@vitejs/plugin-react",
+    "@xyflow/eslint",
+    "@xyflow/postcss-config",
+    "@xyflow/react",
+    "@xyflow/system",
+    "eslint",
+    "react",
+    "tsdown",
+    "zustand"
+  ],
+  "local_imports": [],
+  "tests_present": false,
+  "styles_present": true,
+  "sample_data_present": false,
+  "use": "Inspect package dependencies: @rolldown/plugin-babel, @vitejs/plugin-react, @xyflow/eslint, @xyflow/postcss-config, @xyflow/react.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "none",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": null
+  }
+}

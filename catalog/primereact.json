@@ -1,0 +1,7654 @@
+{
+  "id": "primereact",
+  "name": "primereact",
+  "source": "https://github.com/primefaces/primereact",
+  "commit": "5cd9b145ce7d8b498e745002624ba958f307897e",
+  "local_path": "libraries/primereact",
+  "source_type": "source",
+  "license_file": "libraries/primereact/LICENSE.md",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "components-lib-accordion",
+      "name": "accordion",
+      "path": "libraries/primereact/components/lib/accordion",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "disclosure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 24465,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Accordion",
+          "AccordionBase",
+          "AccordionContext",
+          "AccordionPassThroughMethodOptions",
+          "AccordionPassThroughOptions",
+          "AccordionProps",
+          "AccordionState",
+          "AccordionTab",
+          "AccordionTabBase",
+          "AccordionTabChangeEvent",
+          "AccordionTabCloseEvent",
+          "AccordionTabOpenEvent",
+          "AccordionTabPassThroughMethodOptions",
+          "AccordionTabPassThroughOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-api",
+      "name": "api",
+      "path": "libraries/primereact/components/lib/api",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "api"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 11,
+        "code_bytes": 80584,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "APIOptions",
+          "AppendToType",
+          "FilterMatchMode",
+          "FilterMatchModeOptions",
+          "FilterOperator",
+          "FilterService",
+          "InputStyleType",
+          "LocaleOptions",
+          "MessageSeverity",
+          "PrimeIcons",
+          "PrimeIconsOptions",
+          "PrimeReact",
+          "PrimeReactContext",
+          "PrimeReactPTOptions",
+          "PrimeReactProvider",
+          "SortOrder",
+          "StyleContainerType",
+          "ZIndexOptions",
+          "filter",
+          "filters",
+          "register"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-autocomplete",
+      "name": "autocomplete",
+      "path": "libraries/primereact/components/lib/autocomplete",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 68003,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AutoComplete",
+          "AutoCompleteBase",
+          "AutoCompleteContext",
+          "AutoCompletePanel",
+          "AutoCompletePassThroughMethodOptions",
+          "AutoCompletePassThroughOptions",
+          "AutoCompleteProps",
+          "AutoCompleteState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-avatar",
+      "name": "avatar",
+      "path": "libraries/primereact/components/lib/avatar",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 9516,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Avatar",
+          "AvatarBase",
+          "AvatarPassThroughMethodOptions",
+          "AvatarPassThroughOptions",
+          "AvatarProps",
+          "AvatarState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-avatargroup",
+      "name": "avatargroup",
+      "path": "libraries/primereact/components/lib/avatargroup",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4198,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AvatarGroup",
+          "AvatarGroupBase",
+          "AvatarGroupPassThroughMethodOptions",
+          "AvatarGroupPassThroughOptions",
+          "AvatarGroupProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-badge",
+      "name": "badge",
+      "path": "libraries/primereact/components/lib/badge",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5624,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Badge",
+          "BadgeBase",
+          "BadgePassThroughMethodOptions",
+          "BadgePassThroughOptions",
+          "BadgeProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-blockui",
+      "name": "blockui",
+      "path": "libraries/primereact/components/lib/blockui",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 9399,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BlockUI",
+          "BlockUIBase",
+          "BlockUIPassThroughMethodOptions",
+          "BlockUIPassThroughOptions",
+          "BlockUIProps",
+          "BlockUIState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-breadcrumb",
+      "name": "breadcrumb",
+      "path": "libraries/primereact/components/lib/breadcrumb",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 14398,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BreadCrumb",
+          "BreadCrumbBase",
+          "BreadCrumbPassThroughMethodOptions",
+          "BreadCrumbPassThroughOptions",
+          "BreadCrumbProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-button",
+      "name": "button",
+      "path": "libraries/primereact/components/lib/button",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 12690,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Button",
+          "ButtonBase",
+          "ButtonContext",
+          "ButtonPassThroughMethodOptions",
+          "ButtonPassThroughOptions",
+          "ButtonProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-buttongroup",
+      "name": "buttongroup",
+      "path": "libraries/primereact/components/lib/buttongroup",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4042,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ButtonGroup",
+          "ButtonGroupBase",
+          "ButtonGroupPassThroughAttributes",
+          "ButtonGroupPassThroughMethodOptions",
+          "ButtonGroupPassThroughOptions",
+          "ButtonGroupProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-calendar",
+      "name": "calendar",
+      "path": "libraries/primereact/components/lib/calendar",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 213029,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Calendar",
+          "CalendarBase",
+          "CalendarContext",
+          "CalendarMonthOptions",
+          "CalendarPanel",
+          "CalendarPassThroughMethodOptions",
+          "CalendarPassThroughOptions",
+          "CalendarProps",
+          "CalendarSelectionMode",
+          "CalendarState",
+          "CalendarYearOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-card",
+      "name": "card",
+      "path": "libraries/primereact/components/lib/card",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 7224,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Card",
+          "CardBase",
+          "CardPassThroughMethodOptions",
+          "CardPassThroughOptions",
+          "CardProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-carousel",
+      "name": "carousel",
+      "path": "libraries/primereact/components/lib/carousel",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "media"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 44912,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Carousel",
+          "CarouselBase",
+          "CarouselContext",
+          "CarouselPassThroughMethodOptions",
+          "CarouselPassThroughOptions",
+          "CarouselProps",
+          "CarouselState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-cascadeselect",
+      "name": "cascadeselect",
+      "path": "libraries/primereact/components/lib/cascadeselect",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 48227,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CascadeSelect",
+          "CascadeSelectBase",
+          "CascadeSelectContext",
+          "CascadeSelectPassThroughMethodOptions",
+          "CascadeSelectPassThroughOptions",
+          "CascadeSelectProps",
+          "CascadeSelectState",
+          "CascadeSelectSub"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-chart",
+      "name": "chart",
+      "path": "libraries/primereact/components/lib/chart",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 8897,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "chart.js",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ChartBase",
+          "ChartPassThroughMethodOptions",
+          "ChartPassThroughOptions",
+          "ChartProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: chart.js."
+      }
+    },
+    {
+      "id": "components-lib-checkbox",
+      "name": "checkbox",
+      "path": "libraries/primereact/components/lib/checkbox",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 14981,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Checkbox",
+          "CheckboxBase",
+          "CheckboxContext",
+          "CheckboxPassThroughMethodOptions",
+          "CheckboxPassThroughOptions",
+          "CheckboxProps",
+          "CheckboxState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-chip",
+      "name": "chip",
+      "path": "libraries/primereact/components/lib/chip",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "selection"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 10751,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Chip",
+          "ChipBase",
+          "ChipPassThroughMethodOptions",
+          "ChipPassThroughOptions",
+          "ChipProps",
+          "ChipState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-chips",
+      "name": "chips",
+      "path": "libraries/primereact/components/lib/chips",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "selection"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 27919,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Chips",
+          "ChipsBase",
+          "ChipsPassThroughMethodOptions",
+          "ChipsPassThroughOptions",
+          "ChipsProps",
+          "ChipsState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-colorpicker",
+      "name": "colorpicker",
+      "path": "libraries/primereact/components/lib/colorpicker",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time",
+          "theming"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 36261,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColorPicker",
+          "ColorPickerBase",
+          "ColorPickerPanel",
+          "ColorPickerPassThroughMethodOptions",
+          "ColorPickerPassThroughOptions",
+          "ColorPickerProps",
+          "ColorPickerState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-column",
+      "name": "column",
+      "path": "libraries/primereact/components/lib/column",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 38022,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Column",
+          "ColumnBase",
+          "ColumnContext",
+          "ColumnPassThroughMethodOptions",
+          "ColumnPassThroughOptions",
+          "ColumnProps",
+          "ColumnState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-columngroup",
+      "name": "columngroup",
+      "path": "libraries/primereact/components/lib/columngroup",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 2827,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ColumnGroup",
+          "ColumnGroupBase",
+          "ColumnGroupPassThroughMethodOptions",
+          "ColumnGroupPassThroughOptions",
+          "ColumnGroupProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-componentbase",
+      "name": "componentbase",
+      "path": "libraries/primereact/components/lib/componentbase",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 18578,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ComponentBase",
+          "ComponentBasePassThroughMethodOptions",
+          "ComponentBasePassThroughOptions",
+          "ComponentHooks",
+          "useHandleStyle"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-confirmdialog",
+      "name": "confirmdialog",
+      "path": "libraries/primereact/components/lib/confirmdialog",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 19722,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ConfirmDialog",
+          "ConfirmDialogBase",
+          "ConfirmDialogPassThroughMethodOptions",
+          "ConfirmDialogPassThroughOptions",
+          "ConfirmDialogProps",
+          "ConfirmDialogState",
+          "confirmDialog"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-confirmpopup",
+      "name": "confirmpopup",
+      "path": "libraries/primereact/components/lib/confirmpopup",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 27584,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ConfirmPopup",
+          "ConfirmPopupBase",
+          "ConfirmPopupPassThroughMethodOptions",
+          "ConfirmPopupPassThroughOptions",
+          "ConfirmPopupProps",
+          "ConfirmPopupState",
+          "confirmPopup"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-contextmenu",
+      "name": "contextmenu",
+      "path": "libraries/primereact/components/lib/contextmenu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 50393,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ContextMenu",
+          "ContextMenuBase",
+          "ContextMenuContext",
+          "ContextMenuPassThroughMethodOptions",
+          "ContextMenuPassThroughOptions",
+          "ContextMenuProps",
+          "ContextMenuState",
+          "ContextMenuSub"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-csstransition",
+      "name": "csstransition",
+      "path": "libraries/primereact/components/lib/csstransition",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "motion",
+          "styling"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4950,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CSSTransition",
+          "CSSTransitionBase",
+          "CSSTransitionProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-datascroller",
+      "name": "datascroller",
+      "path": "libraries/primereact/components/lib/datascroller",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 15237,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DataScroller",
+          "DataScrollerBase",
+          "DataScrollerPassThroughMethodOptions",
+          "DataScrollerPassThroughOptions",
+          "DataScrollerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-datatable",
+      "name": "datatable",
+      "path": "libraries/primereact/components/lib/datatable",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 15,
+        "code_bytes": 346092,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BodyCell",
+          "BodyRow",
+          "Cell",
+          "ColumnFilter",
+          "DataTable",
+          "DataTableBase",
+          "DataTableBodyRowContext",
+          "DataTableBodyRowPassThroughMethodOptions",
+          "DataTableBodyRowState",
+          "DataTableContext",
+          "DataTablePassThroughMethodOptions",
+          "DataTablePassThroughOptions",
+          "DataTableProps",
+          "DataTableState",
+          "FooterCell",
+          "HeaderCell",
+          "HeaderCheckbox",
+          "RadioCheckCell",
+          "RowCheckbox",
+          "RowRadioButton",
+          "RowTogglerButton",
+          "TableBody",
+          "TableFooter",
+          "TableHeader",
+          "event"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-dataview",
+      "name": "dataview",
+      "path": "libraries/primereact/components/lib/dataview",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 26873,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DataView",
+          "DataViewBase",
+          "DataViewItem",
+          "DataViewLayoutOptions",
+          "DataViewLayoutOptionsBase",
+          "DataViewLayoutOptionsPassThroughMethodOptions",
+          "DataViewLayoutOptionsPassThroughOptions",
+          "DataViewLayoutOptionsProps",
+          "DataViewPassThroughMethodOptions",
+          "DataViewPassThroughOptions",
+          "DataViewProps",
+          "DataViewState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-deferredcontent",
+      "name": "deferredcontent",
+      "path": "libraries/primereact/components/lib/deferredcontent",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose",
+          "content-management"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5060,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DeferredContent",
+          "DeferredContentBase",
+          "DeferredContentPassThroughMethodOptions",
+          "DeferredContentPassThroughOptions",
+          "DeferredContentProps",
+          "DeferredContentState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-dialog",
+      "name": "dialog",
+      "path": "libraries/primereact/components/lib/dialog",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 48194,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Dialog",
+          "DialogBase",
+          "DialogPassThroughMethodOptions",
+          "DialogPassThroughOptions",
+          "DialogProps",
+          "DialogState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-divider",
+      "name": "divider",
+      "path": "libraries/primereact/components/lib/divider",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 8040,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Divider",
+          "DividerBase",
+          "DividerPassThroughMethodOptions",
+          "DividerPassThroughOptions",
+          "DividerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-dock",
+      "name": "dock",
+      "path": "libraries/primereact/components/lib/dock",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "interaction"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 21152,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Dock",
+          "DockBase",
+          "DockContext",
+          "DockPassThroughMethodOptions",
+          "DockPassThroughOptions",
+          "DockProps",
+          "DockState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-dropdown",
+      "name": "dropdown",
+      "path": "libraries/primereact/components/lib/dropdown",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 92323,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Dropdown",
+          "DropdownBase",
+          "DropdownContext",
+          "DropdownItem",
+          "DropdownPanel",
+          "DropdownPassThroughMethodOptions",
+          "DropdownPassThroughOptions",
+          "DropdownProps",
+          "DropdownState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-editor",
+      "name": "editor",
+      "path": "libraries/primereact/components/lib/editor",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose",
+          "content-management"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 45526,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "quill",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Editor",
+          "EditorBase",
+          "EditorPassThroughMethodOptions",
+          "EditorPassThroughOptions",
+          "EditorProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: quill."
+      },
+      "purpose": "PrimeReact rich-text editor component backed by Quill.",
+      "use_when": "A product already uses PrimeReact or needs a packaged editor control.",
+      "check": "Install Quill, review HTML output and sanitization, and verify toolbar and accessibility needs."
+    },
+    {
+      "id": "components-lib-fieldset",
+      "name": "fieldset",
+      "path": "libraries/primereact/components/lib/fieldset",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 14395,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Fieldset",
+          "FieldsetBase",
+          "FieldsetPassThroughMethodOptions",
+          "FieldsetPassThroughOptions",
+          "FieldsetProps",
+          "FieldsetState",
+          "FieldsetToggleEvent"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-fileupload",
+      "name": "fileupload",
+      "path": "libraries/primereact/components/lib/fileupload",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "file-upload"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 52964,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FileUpload",
+          "FileUploadBase",
+          "FileUploadPassThroughMethodOptions",
+          "FileUploadPassThroughOptions",
+          "FileUploadState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-floatlabel",
+      "name": "floatlabel",
+      "path": "libraries/primereact/components/lib/floatlabel",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5141,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FloatLabel",
+          "FloatLabelBase",
+          "FloatLabelPassThroughMethodOptions",
+          "FloatLabelPassThroughOptions",
+          "FloatLabelProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-focustrap",
+      "name": "focustrap",
+      "path": "libraries/primereact/components/lib/focustrap",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "accessibility"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 6092,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FocusTrap",
+          "FocusTrapBase"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-galleria",
+      "name": "galleria",
+      "path": "libraries/primereact/components/lib/galleria",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "interaction"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 74362,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Galleria",
+          "GalleriaBase",
+          "GalleriaItem",
+          "GalleriaPassThroughMethodOptions",
+          "GalleriaPassThroughOptions",
+          "GalleriaProps",
+          "GalleriaState",
+          "GalleriaThumbnails"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-hooks",
+      "name": "hooks",
+      "path": "libraries/primereact/components/lib/hooks",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "react-hooks"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 26,
+        "code_bytes": 54354,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ESC_KEY_HANDLING_PRIORITIES",
+          "useClickOutside",
+          "useCounter",
+          "useDebounce",
+          "useDisplayOrder",
+          "useEventListener",
+          "useFavicon",
+          "useGlobalOnEscapeKey",
+          "useIntersectionObserver",
+          "useInterval",
+          "useLocalStorage",
+          "useLocale",
+          "useMatchMedia",
+          "useMergeProps",
+          "useMountEffect",
+          "useMouse",
+          "useMove",
+          "useOverlayListener",
+          "useOverlayScrollListener",
+          "usePrevious",
+          "useResizeListener",
+          "useSessionStorage",
+          "useStorage",
+          "useStyle",
+          "useTimeout",
+          "useUnmountEffect",
+          "useUpdateEffect"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-iconbase",
+      "name": "iconbase",
+      "path": "libraries/primereact/components/lib/iconbase",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "icons",
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1264,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "IconBase",
+          "IconBaseProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-iconfield",
+      "name": "iconfield",
+      "path": "libraries/primereact/components/lib/iconfield",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "icons"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4635,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "IconField",
+          "IconFieldBase",
+          "IconFieldContext",
+          "IconFieldPassThroughMethodOptions",
+          "IconFieldPassThroughOptions",
+          "IconFieldProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-icons",
+      "name": "icons",
+      "path": "libraries/primereact/components/lib/icons",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "icons",
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "primereact",
+        "version": "10.9.9",
+        "dependencies": {
+          "@docsearch/react": "3.9.0",
+          "chart.js": "4.5.0",
+          "file-saver": "2.0.5",
+          "fs-extra": "^11.3.2",
+          "jspdf": "4.0.0",
+          "jspdf-autotable": "5.0.2",
+          "next": "12.3.7",
+          "path": "^0.12.7",
+          "primeflex": "3.3.1",
+          "primeicons": "^7.0.0",
+          "quill": "2.0.3",
+          "react": "18.3.1",
+          "react-dom": "18.3.1",
+          "react-transition-group": "^4.4.5",
+          "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 94,
+        "code_bytes": 119109,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AngleDoubleDownIcon",
+          "AngleDoubleDownIconProps",
+          "AngleDoubleLeftIcon",
+          "AngleDoubleLeftIconProps",
+          "AngleDoubleRightIcon",
+          "AngleDoubleRightIconProps",
+          "AngleDoubleUpIcon",
+          "AngleDoubleUpIconProps",
+          "AngleDownIcon",
+          "AngleDownIconProps",
+          "AngleLeftIcon",
+          "AngleLeftIconProps",
+          "AngleRightIcon",
+          "AngleRightIconProps",
+          "AngleUpIcon",
+          "AngleUpIconProps",
+          "ArrowDownIcon",
+          "ArrowDownIconProps",
+          "ArrowUpIcon",
+          "ArrowUpIconProps",
+          "BanIcon",
+          "BanIconProps",
+          "BarsIcon",
+          "BarsIconProps",
+          "BlankIcon",
+          "BlankIconProps",
+          "CalendarIcon",
+          "CalendarIconProps",
+          "CheckIcon",
+          "CheckIconProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-image",
+      "name": "image",
+      "path": "libraries/primereact/components/lib/image",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "media"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 28413,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Image",
+          "ImageBase",
+          "ImagePassThroughMethodOptions",
+          "ImagePassThroughOptions",
+          "ImageProps",
+          "ImageState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-inplace",
+      "name": "inplace",
+      "path": "libraries/primereact/components/lib/inplace",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "interaction"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 12310,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Inplace",
+          "InplaceBase",
+          "InplaceContent",
+          "InplaceContentBase",
+          "InplaceContentProps",
+          "InplaceDisplay",
+          "InplaceDisplayBase",
+          "InplaceDisplayProps",
+          "InplacePassThroughMethodOptions",
+          "InplacePassThroughOptions",
+          "InplaceProps",
+          "InplaceState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputicon",
+      "name": "inputicon",
+      "path": "libraries/primereact/components/lib/inputicon",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "icons"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3791,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputIcon",
+          "InputIconBase",
+          "InputIconPassThroughMethodOptions",
+          "InputIconPassThroughOptions",
+          "InputIconProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputmask",
+      "name": "inputmask",
+      "path": "libraries/primereact/components/lib/inputmask",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 26803,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputMask",
+          "InputMaskBase",
+          "InputMaskProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputnumber",
+      "name": "inputnumber",
+      "path": "libraries/primereact/components/lib/inputnumber",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 72099,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputNumber",
+          "InputNumberBase",
+          "InputNumberPassThroughMethodOptions",
+          "InputNumberPassThroughOptions",
+          "InputNumberProps",
+          "InputNumberState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputotp",
+      "name": "inputotp",
+      "path": "libraries/primereact/components/lib/inputotp",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 14419,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputOtp",
+          "InputOtpBase",
+          "InputOtpContext",
+          "InputOtpPassThroughMethodOptions",
+          "InputOtpPassThroughOptions",
+          "InputOtpProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputswitch",
+      "name": "inputswitch",
+      "path": "libraries/primereact/components/lib/inputswitch",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 10984,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputSwitch",
+          "InputSwitchBase",
+          "InputSwitchPassThroughMethodOptions",
+          "InputSwitchPassThroughOptions",
+          "InputSwitchProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputtext",
+      "name": "inputtext",
+      "path": "libraries/primereact/components/lib/inputtext",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 9172,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputText",
+          "InputTextBase",
+          "InputTextContext",
+          "InputTextPassThroughMethodOptions",
+          "InputTextPassThroughOptions",
+          "InputTextProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-inputtextarea",
+      "name": "inputtextarea",
+      "path": "libraries/primereact/components/lib/inputtextarea",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 10723,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InputTextarea",
+          "InputTextareaBase",
+          "InputTextareaContext",
+          "InputTextareaPassThroughMethodOptions",
+          "InputTextareaPassThroughOptions",
+          "InputTextareaProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-keyfilter",
+      "name": "keyfilter",
+      "path": "libraries/primereact/components/lib/keyfilter",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "search"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 2706,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "KeyFilter",
+          "KeyFilterType"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-knob",
+      "name": "knob",
+      "path": "libraries/primereact/components/lib/knob",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "rating"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 16992,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Knob",
+          "KnobBase",
+          "KnobPassThroughMethodOptions",
+          "KnobPassThroughOptions",
+          "KnobProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-listbox",
+      "name": "listbox",
+      "path": "libraries/primereact/components/lib/listbox",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 57949,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ListBox",
+          "ListBoxBase",
+          "ListBoxContext",
+          "ListBoxHeader",
+          "ListBoxItem",
+          "ListBoxPassThroughMethodOptions",
+          "ListBoxPassThroughOptions",
+          "ListBoxProps",
+          "ListBoxState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-megamenu",
+      "name": "megamenu",
+      "path": "libraries/primereact/components/lib/megamenu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 60778,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MegaMenu",
+          "MegaMenuBase",
+          "MegaMenuContext",
+          "MegaMenuFocusedItemInfo",
+          "MegaMenuPassThroughMethodOptions",
+          "MegaMenuPassThroughOptions",
+          "MegaMenuProps",
+          "MegaMenuState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-mention",
+      "name": "mention",
+      "path": "libraries/primereact/components/lib/mention",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 32331,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Mention",
+          "MentionBase",
+          "MentionContext",
+          "MentionPassThroughMethodOptions",
+          "MentionPassThroughOptions",
+          "MentionProps",
+          "MentionState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-menu",
+      "name": "menu",
+      "path": "libraries/primereact/components/lib/menu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 28225,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Menu",
+          "MenuBase",
+          "MenuContext",
+          "MenuPassThroughMethodOptions",
+          "MenuPassThroughOptions",
+          "MenuProps",
+          "MenuState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-menubar",
+      "name": "menubar",
+      "path": "libraries/primereact/components/lib/menubar",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 46485,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Menubar",
+          "MenubarBase",
+          "MenubarContext",
+          "MenubarPassThroughMethodOptions",
+          "MenubarPassThroughOptions",
+          "MenubarProps",
+          "MenubarState",
+          "MenubarSub"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-menuitem",
+      "name": "menuitem",
+      "path": "libraries/primereact/components/lib/menuitem",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2836,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MenuItem"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-message",
+      "name": "message",
+      "path": "libraries/primereact/components/lib/message",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "messaging"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 7907,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Message",
+          "MessageBase",
+          "MessagePassThroughMethodOptions",
+          "MessagePassThroughOptions",
+          "MessageProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-messages",
+      "name": "messages",
+      "path": "libraries/primereact/components/lib/messages",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "messaging"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 20050,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Messages",
+          "MessagesBase",
+          "MessagesMessage",
+          "MessagesPassThroughMethodOptions",
+          "MessagesPassThroughOptions",
+          "MessagesProps",
+          "MessagesState",
+          "UIMessage"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-metergroup",
+      "name": "metergroup",
+      "path": "libraries/primereact/components/lib/metergroup",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 12973,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MeterGroup",
+          "MeterGroupBase",
+          "MeterGroupContext",
+          "MeterGroupPassThroughMethodOptions",
+          "MeterGroupPassThroughOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-multiselect",
+      "name": "multiselect",
+      "path": "libraries/primereact/components/lib/multiselect",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 6,
+        "code_bytes": 102686,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MultiSelect",
+          "MultiSelectBase",
+          "MultiSelectContext",
+          "MultiSelectHeader",
+          "MultiSelectItem",
+          "MultiSelectPanel",
+          "MultiSelectPassThroughMethodOptions",
+          "MultiSelectPassThroughOptions",
+          "MultiSelectProps",
+          "MultiSelectState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-multistatecheckbox",
+      "name": "multistatecheckbox",
+      "path": "libraries/primereact/components/lib/multistatecheckbox",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 16179,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MultiStateCheckbox",
+          "MultiStateCheckboxBase",
+          "MultiStateCheckboxPassThroughMethodOptions",
+          "MultiStateCheckboxPassThroughOptions",
+          "MultiStateCheckboxProps",
+          "MultiStateCheckboxState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-orderlist",
+      "name": "orderlist",
+      "path": "libraries/primereact/components/lib/orderlist",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 50868,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "OrderList",
+          "OrderListBase",
+          "OrderListContext",
+          "OrderListControls",
+          "OrderListPassThroughMethodOptions",
+          "OrderListPassThroughOptions",
+          "OrderListProps",
+          "OrderListState",
+          "OrderListSubList"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-organizationchart",
+      "name": "organizationchart",
+      "path": "libraries/primereact/components/lib/organizationchart",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 24784,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "OrganizationChart",
+          "OrganizationChartBase",
+          "OrganizationChartContext",
+          "OrganizationChartNode",
+          "OrganizationChartPassThroughMethodOptions",
+          "OrganizationChartPassThroughOptions",
+          "OrganizationChartProps",
+          "OrganizationChartState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-overlaypanel",
+      "name": "overlaypanel",
+      "path": "libraries/primereact/components/lib/overlaypanel",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "positioning"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 20462,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "OverlayPanel",
+          "OverlayPanelBase",
+          "OverlayPanelPassThroughMethodOptions",
+          "OverlayPanelPassThroughOptions",
+          "OverlayPanelProps",
+          "OverlayPanelState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-overlayservice",
+      "name": "overlayservice",
+      "path": "libraries/primereact/components/lib/overlayservice",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "positioning"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1594,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "OverlayService",
+          "OverlayServiceEvent",
+          "OverlayServiceOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-paginator",
+      "name": "paginator",
+      "path": "libraries/primereact/components/lib/paginator",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 11,
+        "code_bytes": 53996,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CurrentPageReport",
+          "CurrentPageReportBase",
+          "FirstPageLink",
+          "FirstPageLinkBase",
+          "JumpToPageInput",
+          "JumpToPageInputBase",
+          "LastPageLink",
+          "LastPageLinkBase",
+          "NextPageLink",
+          "NextPageLinkBase",
+          "PageLinks",
+          "PageLinksBase",
+          "Paginator",
+          "PaginatorBase",
+          "PaginatorContext",
+          "PaginatorPassThroughMethodOptions",
+          "PaginatorPassThroughOptions",
+          "PaginatorProps",
+          "PaginatorTemplate",
+          "PrevPageLink",
+          "PrevPageLinkBase",
+          "RowsPerPageDropdown",
+          "RowsPerPageDropdownBase"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-panel",
+      "name": "panel",
+      "path": "libraries/primereact/components/lib/panel",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 18899,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Panel",
+          "PanelBase",
+          "PanelPassThroughMethodOptions",
+          "PanelPassThroughOptions",
+          "PanelProps",
+          "PanelState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-panelmenu",
+      "name": "panelmenu",
+      "path": "libraries/primereact/components/lib/panelmenu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 53234,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "PanelMenu",
+          "PanelMenuBase",
+          "PanelMenuContext",
+          "PanelMenuExpandedKeys",
+          "PanelMenuList",
+          "PanelMenuPassThroughMethodOptions",
+          "PanelMenuPassThroughOptions",
+          "PanelMenuProps",
+          "PanelMenuState",
+          "PanelMenuSub"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-passthrough",
+      "name": "passthrough",
+      "path": "libraries/primereact/components/lib/passthrough",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "styling"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 191049,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "PassThroughOptions",
+          "TRANSITIONS",
+          "usePassThrough"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-password",
+      "name": "password",
+      "path": "libraries/primereact/components/lib/password",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "auth"
+        ],
+        "domain": [
+          "general-purpose",
+          "identity"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 30573,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Password",
+          "PasswordBase",
+          "PasswordMeterStateOptions",
+          "PasswordPassThroughMethodOptions",
+          "PasswordPassThroughOptions",
+          "PasswordProps",
+          "PasswordState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-picklist",
+      "name": "picklist",
+      "path": "libraries/primereact/components/lib/picklist",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 7,
+        "code_bytes": 73472,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "PickList",
+          "PickListBase",
+          "PickListContext",
+          "PickListControls",
+          "PickListItem",
+          "PickListPassThroughMethodOptions",
+          "PickListPassThroughOptions",
+          "PickListProps",
+          "PickListState",
+          "PickListSubList",
+          "PickListTransferControls"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-portal",
+      "name": "portal",
+      "path": "libraries/primereact/components/lib/portal",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "positioning"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1895,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-dom"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Portal",
+          "PortalBase"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-progressbar",
+      "name": "progressbar",
+      "path": "libraries/primereact/components/lib/progressbar",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 11317,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ProgressBar",
+          "ProgressBarBase",
+          "ProgressBarPassThroughMethodOptions",
+          "ProgressBarPassThroughOptions",
+          "ProgressBarProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-progressspinner",
+      "name": "progressspinner",
+      "path": "libraries/primereact/components/lib/progressspinner",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics",
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 7483,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ProgressSpinner",
+          "ProgressSpinnerBase",
+          "ProgressSpinnerPassThroughMethodOptions",
+          "ProgressSpinnerPassThroughOptions",
+          "ProgressSpinnerProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-radiobutton",
+      "name": "radiobutton",
+      "path": "libraries/primereact/components/lib/radiobutton",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 13080,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "RadioButton",
+          "RadioButtonBase",
+          "RadioButtonPassThroughMethodOptions",
+          "RadioButtonPassThroughOptions",
+          "RadioButtonProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-rating",
+      "name": "rating",
+      "path": "libraries/primereact/components/lib/rating",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "selection",
+          "rating"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 14620,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Rating",
+          "RatingBase",
+          "RatingContext",
+          "RatingPassThroughMethodOptions",
+          "RatingPassThroughOptions",
+          "RatingProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-ripple",
+      "name": "ripple",
+      "path": "libraries/primereact/components/lib/ripple",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "motion"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 7129,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Ripple",
+          "RippleBase",
+          "RipplePassThroughMethodOptions",
+          "RipplePassThroughOptions",
+          "RippleProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-row",
+      "name": "row",
+      "path": "libraries/primereact/components/lib/row",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3418,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Row",
+          "RowBase",
+          "RowPassThroughMethodOptions",
+          "RowPassThroughOptions",
+          "RowProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-scrollpanel",
+      "name": "scrollpanel",
+      "path": "libraries/primereact/components/lib/scrollpanel",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 17766,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ScrollPanel",
+          "ScrollPanelBase",
+          "ScrollPanelPassThroughOptions",
+          "ScrollPanelProps",
+          "ScrollPanelThroughMethodOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-scrolltop",
+      "name": "scrolltop",
+      "path": "libraries/primereact/components/lib/scrolltop",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 10722,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ScrollTop",
+          "ScrollTopBase",
+          "ScrollTopPassThroughMethodOptions",
+          "ScrollTopPassThroughOptions",
+          "ScrollTopProps",
+          "ScrollTopState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-selectbutton",
+      "name": "selectbutton",
+      "path": "libraries/primereact/components/lib/selectbutton",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 17440,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SelectButton",
+          "SelectButtonBase",
+          "SelectButtonContext",
+          "SelectButtonItem",
+          "SelectButtonPassThroughMethodOptions",
+          "SelectButtonPassThroughOptions",
+          "SelectButtonProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-selectitem",
+      "name": "selectitem",
+      "path": "libraries/primereact/components/lib/selectitem",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 865,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SelectItem",
+          "SelectItemOptionsType"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-sidebar",
+      "name": "sidebar",
+      "path": "libraries/primereact/components/lib/sidebar",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 25024,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Sidebar",
+          "SidebarBase",
+          "SidebarPassThroughMethodOptions",
+          "SidebarPassThroughOptions",
+          "SidebarProps",
+          "SidebarState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-skeleton",
+      "name": "skeleton",
+      "path": "libraries/primereact/components/lib/skeleton",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 6095,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Skeleton",
+          "SkeletonBase",
+          "SkeletonPassThroughMethodOptions",
+          "SkeletonPassThroughOptions",
+          "SkeletonProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-slidemenu",
+      "name": "slidemenu",
+      "path": "libraries/primereact/components/lib/slidemenu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 28173,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SlideMenu",
+          "SlideMenuBase",
+          "SlideMenuContext",
+          "SlideMenuPassThroughMethodOptions",
+          "SlideMenuPassThroughOptions",
+          "SlideMenuProps",
+          "SlideMenuState",
+          "SlideMenuSub"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-slider",
+      "name": "slider",
+      "path": "libraries/primereact/components/lib/slider",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 20151,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Slider",
+          "SliderBase",
+          "SliderPassThroughMethodOptions",
+          "SliderPassThroughOptions",
+          "SliderProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-speeddial",
+      "name": "speeddial",
+      "path": "libraries/primereact/components/lib/speeddial",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 33346,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SpeedDial",
+          "SpeedDialBase",
+          "SpeedDialPassThroughMethodOptions",
+          "SpeedDialPassThroughOptions",
+          "SpeedDialProps",
+          "SpeedDialState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-splitbutton",
+      "name": "splitbutton",
+      "path": "libraries/primereact/components/lib/splitbutton",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 20652,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "SplitButton",
+          "SplitButtonBase",
+          "SplitButtonPassThroughMethodOptions",
+          "SplitButtonPassThroughOptions",
+          "SplitButtonProps",
+          "SplitButtonState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-splitter",
+      "name": "splitter",
+      "path": "libraries/primereact/components/lib/splitter",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 28630,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Splitter",
+          "SplitterBase",
+          "SplitterPanel",
+          "SplitterPanelBase",
+          "SplitterPanelPassThroughMethodOptions",
+          "SplitterPanelPassThroughOptions",
+          "SplitterPassThroughMethodOptions",
+          "SplitterPassThroughOptions",
+          "SplitterProps",
+          "SplitterState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-stepper",
+      "name": "stepper",
+      "path": "libraries/primereact/components/lib/stepper",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "workflow"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 6,
+        "code_bytes": 26775,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Stepper",
+          "StepperBase",
+          "StepperChangeEvent",
+          "StepperContent",
+          "StepperHeader",
+          "StepperPassThroughAttributes",
+          "StepperPassThroughMethodOptions",
+          "StepperPassThroughOptions",
+          "StepperProps",
+          "StepperSeparator",
+          "StepperState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-stepperpanel",
+      "name": "stepperpanel",
+      "path": "libraries/primereact/components/lib/stepperpanel",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "workflow"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5349,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "StepperPanel",
+          "StepperPanelBase",
+          "StepperPanelContext",
+          "StepperPanelPassThroughAttributes",
+          "StepperPanelPassThroughMethodOptions",
+          "StepperPanelPassThroughOptions",
+          "StepperPanelProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-steps",
+      "name": "steps",
+      "path": "libraries/primereact/components/lib/steps",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "workflow"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 17205,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "StepContext",
+          "StepPassThroughMethodOptions",
+          "Steps",
+          "StepsBase",
+          "StepsPassThroughOptions",
+          "StepsProps",
+          "StepsThroughMethodOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-styleclass",
+      "name": "styleclass",
+      "path": "libraries/primereact/components/lib/styleclass",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "styling"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 11307,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "StyleClass",
+          "StyleClassBase",
+          "StyleClassProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tabmenu",
+      "name": "tabmenu",
+      "path": "libraries/primereact/components/lib/tabmenu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 17954,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TabMenu",
+          "TabMenuBase",
+          "TabMenuContext",
+          "TabMenuPassThroughOptions",
+          "TabMenuProps",
+          "TabMenuState",
+          "TabMenuThroughMethodOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tabview",
+      "name": "tabview",
+      "path": "libraries/primereact/components/lib/tabview",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 36543,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TabPanel",
+          "TabPanelBase",
+          "TabPanelPassThroughMethodOptions",
+          "TabPanelPassThroughOptions",
+          "TabPanelProps",
+          "TabView",
+          "TabViewBase",
+          "TabViewContext",
+          "TabViewPassThroughMethodOptions",
+          "TabViewPassThroughOptions",
+          "TabViewProps",
+          "TabViewState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tag",
+      "name": "tag",
+      "path": "libraries/primereact/components/lib/tag",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5644,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Tag",
+          "TagBase",
+          "TagPassThroughMethodOptions",
+          "TagPassThroughOptions",
+          "TagProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-terminal",
+      "name": "terminal",
+      "path": "libraries/primereact/components/lib/terminal",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-tools"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 12487,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Terminal",
+          "TerminalBase",
+          "TerminalPassThroughMethodOptions",
+          "TerminalPassThroughOptions",
+          "TerminalProps",
+          "TerminalState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-terminalservice",
+      "name": "terminalservice",
+      "path": "libraries/primereact/components/lib/terminalservice",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure",
+          "developer-tools"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 1426,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TerminalService",
+          "TerminalServiceOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tieredmenu",
+      "name": "tieredmenu",
+      "path": "libraries/primereact/components/lib/tieredmenu",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 49390,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TieredMenu",
+          "TieredMenuBase",
+          "TieredMenuContext",
+          "TieredMenuPassThroughMethodOptions",
+          "TieredMenuPassThroughOptions",
+          "TieredMenuProps",
+          "TieredMenuState",
+          "TieredMenuSub"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-timeline",
+      "name": "timeline",
+      "path": "libraries/primereact/components/lib/timeline",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "date-time"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 13143,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Timeline",
+          "TimelineBase",
+          "TimelinePassThroughMethodOptions",
+          "TimelinePassThroughOptions",
+          "TimelineProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-toast",
+      "name": "toast",
+      "path": "libraries/primereact/components/lib/toast",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "feedback"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 29410,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Toast",
+          "ToastBase",
+          "ToastMessage",
+          "ToastMessageOptions",
+          "ToastPassThroughMethodOptions",
+          "ToastPassThroughOptions",
+          "ToastProps",
+          "ToastState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-togglebutton",
+      "name": "togglebutton",
+      "path": "libraries/primereact/components/lib/togglebutton",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 12924,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ToggleButton",
+          "ToggleButtonBase",
+          "ToggleButtonPassThroughMethodOptions",
+          "ToggleButtonPassThroughOptions",
+          "ToggleButtonProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-toolbar",
+      "name": "toolbar",
+      "path": "libraries/primereact/components/lib/toolbar",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "actions"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 6955,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Toolbar",
+          "ToolbarBase",
+          "ToolbarPassThroughMethodOptions",
+          "ToolbarPassThroughOptions",
+          "ToolbarProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tooltip",
+      "name": "tooltip",
+      "path": "libraries/primereact/components/lib/tooltip",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "overlays"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 43384,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "HTMLAttributes",
+          "Tooltip",
+          "TooltipBase",
+          "TooltipContext",
+          "TooltipOptions",
+          "TooltipPassThroughMethodOptions",
+          "TooltipPassThroughOptions",
+          "TooltipProps",
+          "TooltipState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tree",
+      "name": "tree",
+      "path": "libraries/primereact/components/lib/tree",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 81836,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Tree",
+          "TreeBase",
+          "TreeContext",
+          "TreeEventNodeEvent",
+          "TreePassThroughMethodOptions",
+          "TreePassThroughOptions",
+          "TreeProps",
+          "TreeState",
+          "UITreeNode"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-treenode",
+      "name": "treenode",
+      "path": "libraries/primereact/components/lib/treenode",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1580,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TreeNode"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-treeselect",
+      "name": "treeselect",
+      "path": "libraries/primereact/components/lib/treeselect",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 61396,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react",
+          "react-transition-group"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TreeSelect",
+          "TreeSelectBase",
+          "TreeSelectPanel",
+          "TreeSelectPassThroughMethodOptions",
+          "TreeSelectPassThroughOptions",
+          "TreeSelectProps",
+          "TreeSelectState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: react-transition-group."
+      }
+    },
+    {
+      "id": "components-lib-treetable",
+      "name": "treetable",
+      "path": "libraries/primereact/components/lib/treetable",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table",
+          "hierarchy"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 164412,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TreeTable",
+          "TreeTableBase",
+          "TreeTableBody",
+          "TreeTableBodyCell",
+          "TreeTableContext",
+          "TreeTableFooter",
+          "TreeTableHeader",
+          "TreeTablePassThroughMethodOptions",
+          "TreeTablePassThroughOptions",
+          "TreeTableProps",
+          "TreeTableRow",
+          "TreeTableScrollableView",
+          "TreeTableState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-tristatecheckbox",
+      "name": "tristatecheckbox",
+      "path": "libraries/primereact/components/lib/tristatecheckbox",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "state-management"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 13000,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TriStateCheckbox",
+          "TriStateCheckboxBase",
+          "TriStateCheckboxPassThroughMethodOptions",
+          "TriStateCheckboxPassThroughOptions",
+          "TriStateCheckboxProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    },
+    {
+      "id": "components-lib-utils",
+      "name": "utils",
+      "path": "libraries/primereact/components/lib/utils",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "developer-infrastructure"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 11,
+        "code_bytes": 98118,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          " + target);\n        }\n    }\n\n    static isElement(obj) {\n        return typeof HTMLElement === ",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DomHandler",
+          "EventBus",
+          "IconOptions",
+          "IconType",
+          "IconUtils",
+          "ObjectUtils",
+          "PassThroughType",
+          "TemplateType",
+          "UniqueComponentId",
+          "ZIndexUtils",
+          "classNames",
+          "clear",
+          "get",
+          "getBase",
+          "getCurrent",
+          "mask",
+          "mergeProps",
+          "set"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies:  + target);\n        }\n    }\n\n    static isElement(obj) {\n        return typeof HTMLElement === ."
+      }
+    },
+    {
+      "id": "components-lib-virtualscroller",
+      "name": "virtualscroller",
+      "path": "libraries/primereact/components/lib/virtualscroller",
+      "entry_role": "component-source",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "viewport"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "react"
+        ],
+        "kind": [
+          "component"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": null,
+        "version": null,
+        "dependencies": {},
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 53386,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "VirtualScroller",
+          "VirtualScrollerBase",
+          "VirtualScrollerPassThroughMethodOptions",
+          "VirtualScrollerPassThroughOptions",
+          "VirtualScrollerProps",
+          "VirtualScrollerState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Check the package manifest and public API before use."
+      }
+    }
+  ]
+}

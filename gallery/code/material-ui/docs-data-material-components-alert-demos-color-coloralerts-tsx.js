@@ -1,0 +1,1 @@
+window.CARD_CODE="import Alert from '@mui/material/Alert';\n\nexport default function ColorAlerts() {\n  return (\n    // @focus-start @padding 2\n    <Alert severity=\"success\" color=\"warning\">\n      This is a success Alert with warning colors.\n    </Alert>\n    // @focus-end\n  );\n}\n";

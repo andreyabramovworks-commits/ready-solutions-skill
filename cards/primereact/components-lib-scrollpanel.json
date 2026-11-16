@@ -1,0 +1,67 @@
+{
+  "id": "primereact/components-lib-scrollpanel",
+  "name": "scrollpanel",
+  "what": "Решение для задачи: компоновка интерфейса; viewport.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/primefaces/primereact",
+  "source_commit": "5cd9b145ce7d8b498e745002624ba958f307897e",
+  "source_type": "component-source",
+  "local_path": "libraries/primereact/components/lib/scrollpanel",
+  "package": {
+    "name": null,
+    "version": null,
+    "dependencies": {},
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "layout",
+      "viewport"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "component"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "react"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": false,
+  "sample_data_present": false,
+  "use": "Check the package manifest and public API before use.",
+  "caveats": [
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "component-page",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://v10.primereact.org/scrollpanel/"
+  }
+}

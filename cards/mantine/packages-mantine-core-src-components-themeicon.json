@@ -1,0 +1,74 @@
+{
+  "id": "mantine/packages-mantine-core-src-components-themeicon",
+  "name": "ThemeIcon",
+  "what": "Решение для задачи: theming; icons; styling.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/mantinedev/mantine",
+  "source_commit": "b786c430ad370e6c9f7bce224008e996b2634bc3",
+  "source_type": "component-source",
+  "local_path": "libraries/mantine/packages/@mantine/core/src/components/ThemeIcon",
+  "package": {
+    "name": "@mantine/core",
+    "version": "9.8.1",
+    "dependencies": {
+      "@floating-ui/react": "^0.27.20",
+      "clsx": "^2.1.1",
+      "react-number-format": "^5.4.5",
+      "react-remove-scroll": "^2.7.2",
+      "type-fest": "^5.10.0"
+    },
+    "peer_dependencies": {
+      "@mantine/hooks": "9.8.1",
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0"
+    }
+  },
+  "tags": {
+    "task": [
+      "theming",
+      "icons",
+      "styling"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "component"
+    ],
+    "property": [
+      "reusable"
+    ],
+    "adoption": [
+      "dependency"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": true,
+  "sample_data_present": false,
+  "use": "Check the package manifest and public API before use.",
+  "caveats": [],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "component-page",
+    "source_example_paths": [],
+    "source_example_count": 0,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://mantine.dev/core/theme-icon/"
+  }
+}

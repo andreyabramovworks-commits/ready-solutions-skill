@@ -1,0 +1,1 @@
+window.CARD_CODE="export default function TypographyH4() {\r\n  return (\r\n    <h4 className=\"scroll-m-20 text-xl font-semibold tracking-tight\">\r\n      People stopped telling jokes\r\n    </h4>\r\n  )\r\n}\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\namber.ts\nblue.ts\nblueGrey.ts\nbrown.ts\ncolors.spec.tsx\ncommon.ts\ncyan.ts\ndeepOrange.ts\ndeepPurple.ts\ngreen.ts\ngrey.ts\nindex.ts\nindigo.ts\nlightBlue.ts\nlightGreen.ts\nlime.ts\norange.ts\npink.ts\npurple.ts\nred.ts\nteal.ts\nyellow.ts";

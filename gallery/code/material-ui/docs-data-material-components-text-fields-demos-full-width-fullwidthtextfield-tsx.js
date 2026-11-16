@@ -1,0 +1,1 @@
+window.CARD_CODE="import Box from '@mui/material/Box';\nimport TextField from '@mui/material/TextField';\n\nexport default function FullWidthTextField() {\n  return (\n    <Box sx={{ width: 500, maxWidth: '100%' }}>\n      {/* @focus-start */}\n      <TextField fullWidth label=\"fullWidth\" id=\"fullWidth\" />\n      {/* @focus-end */}\n    </Box>\n  );\n}\n";

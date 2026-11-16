@@ -1,0 +1,1 @@
+window.CARD_CODE="import { useKeyPress } from '@xyflow/react';\r\nimport { useEffect } from 'react';\r\n\r\nconst UseKeyPressComponent = () => {\r\n  const metaPressed = useKeyPress(['Meta']);\r\n\r\n  useEffect(() => {\r\n    console.log({ metaPressed });\r\n  }, [metaPressed]);\r\n\r\n  return <div />;\r\n};\r\n\r\nexport default UseKeyPressComponent;\r\n";

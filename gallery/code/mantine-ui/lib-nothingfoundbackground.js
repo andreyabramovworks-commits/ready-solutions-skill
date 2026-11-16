@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nattributes.json\nIllustration.tsx\nNothingFoundBackground.module.css\nNothingFoundBackground.story.tsx\nNothingFoundBackground.test.tsx\nNothingFoundBackground.tsx";

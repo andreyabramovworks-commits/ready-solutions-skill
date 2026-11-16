@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nget-boundaries\nget-columns\nget-dates-range\nget-heat-color\nget-months-range\nHeatmap.module.css\nHeatmap.story.tsx\nHeatmap.test.tsx\nHeatmap.tsx\nHeatmapSplitWeeks.tsx\nHeatmapWeeks.tsx\nHeatmapWeeks.types.ts\nindex.ts\nrotate-weekdays-names";

@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nanimate.js\nanimate.test.js\nindex.ts\nreact-transition-group.d.ts\nsvg-icons\nSwitchBase.d.ts\nSwitchBase.js\nSwitchBase.test.js\nswitchBaseClasses.ts\nTransition.test.tsx\nTransition.tsx";

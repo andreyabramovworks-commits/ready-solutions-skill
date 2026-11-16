@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nBreadcrumbCollapsed.js\nBreadcrumbCollapsed.test.js\nBreadcrumbs.d.ts\nBreadcrumbs.js\nBreadcrumbs.spec.tsx\nBreadcrumbs.test.js\nbreadcrumbsClasses.ts\nindex.d.ts\nindex.js";

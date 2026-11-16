@@ -1,0 +1,82 @@
+{
+  "id": "tanstack-table/examples-react-header-groups",
+  "name": "header-groups",
+  "what": "Решение для задачи: навигация по разделам и действиям; компоновка интерфейса.",
+  "why": "Помогает быстро найти исходную реализацию для нужной задачи и оценить, подходит ли она проекту.",
+  "source": "https://github.com/TanStack/table",
+  "source_commit": "564a459b74834c77631e0d6fdba7661383bbc1b4",
+  "source_type": "working-example",
+  "local_path": "libraries/tanstack-table/examples/react/header-groups",
+  "package": {
+    "name": "tanstack-react-table-example-header-groups",
+    "version": null,
+    "dependencies": {
+      "@faker-js/faker": "^10.6.0",
+      "@tanstack/react-table": "^9.3.1",
+      "react": "^19.3.1",
+      "react-dom": "^19.3.1"
+    },
+    "peer_dependencies": {}
+  },
+  "tags": {
+    "task": [
+      "navigation",
+      "layout"
+    ],
+    "domain": [
+      "general-purpose"
+    ],
+    "layer": [
+      "react"
+    ],
+    "kind": [
+      "example"
+    ],
+    "property": [
+      "headless"
+    ],
+    "adoption": [
+      "copy-and-adapt"
+    ],
+    "cost": [
+      "assess-per-project"
+    ],
+    "license": [
+      "mit"
+    ]
+  },
+  "dependencies": [
+    "@faker-js/faker",
+    "@rolldown/plugin-babel",
+    "@rollup/plugin-replace",
+    "@tanstack/react-table",
+    "@vitejs/plugin-react",
+    "react",
+    "react-dom",
+    "vite"
+  ],
+  "local_imports": [],
+  "tests_present": true,
+  "styles_present": true,
+  "sample_data_present": false,
+  "use": "Extract the relevant behavior and replace demonstration data and tooling.",
+  "caveats": [
+    "Это пример: адаптируйте обработчики, данные, стили и состояние.",
+    "Проверьте необходимые зависимости и их версии в манифесте пакета."
+  ],
+  "verification": {
+    "method": "проверка локального исходника и метаданных",
+    "behavior_tested": false
+  },
+  "demo": {
+    "preview_path": null,
+    "preview_kind": "exact-example",
+    "source_example_paths": [
+      "libraries/tanstack-table/examples/react/header-groups"
+    ],
+    "source_example_count": 1,
+    "source_component_executed": false,
+    "interactive_mockup": false,
+    "live_url": "https://tanstack.com/table/latest/docs/framework/react/examples/header-groups"
+  }
+}

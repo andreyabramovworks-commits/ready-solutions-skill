@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\ncompare-time.test.ts\ncompare-time.ts\nindex.ts\nTimeGrid.context.ts\nTimeGrid.module.css\nTimeGrid.story.tsx\nTimeGrid.test.tsx\nTimeGrid.tsx\nTimeGridControl.tsx";

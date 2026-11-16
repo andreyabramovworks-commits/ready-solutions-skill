@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nBreadcrumb.tsx\nBreadcrumbContext.ts\nBreadcrumbItem.tsx\nBreadcrumbSeparator.tsx\ndemo\ndesign\nindex.$tab-design.en-US.md\nindex.$tab-design.zh-CN.md\nindex.en-US.md\nindex.tsx\nindex.zh-CN.md\nstyle\nuseItemRender.tsx\nuseItems.ts\n__tests__";

@@ -1,0 +1,6347 @@
+{
+  "id": "tiptap",
+  "name": "tiptap",
+  "source": "https://github.com/ueberdosis/tiptap",
+  "commit": "3adcbcde029a73e2f49658bcde84bbc147f63ae8",
+  "local_path": "libraries/tiptap",
+  "source_type": "source",
+  "license_file": "libraries/tiptap/LICENSE.md",
+  "license_note": null,
+  "solutions": [
+    {
+      "id": "packages-ai-toolkit",
+      "name": "ai-toolkit",
+      "path": "libraries/tiptap/packages/ai-toolkit",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/ai-toolkit",
+        "version": "0.4.0",
+        "dependencies": {
+          "es-toolkit": "^1.41.0",
+          "zod": "^4.1.8"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "^3.0.1",
+          "@tiptap/pm": "^3.0.1",
+          "@tiptap/y-tiptap": "^3.0.0",
+          "yjs": "^13.6.23"
+        }
+      },
+      "evidence": {
+        "code_files": 7,
+        "code_bytes": 20914,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "@tiptap/y-tiptap",
+          "vite-plus",
+          "yjs",
+          "zod"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AiInsertReveal",
+          "AiInsertRevealOptions",
+          "GetEditorContextOptions",
+          "RevealProvider",
+          "ServerAiToolkit",
+          "ServerAiToolkitHashExtension",
+          "getEditorContext"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-core",
+      "name": "core",
+      "path": "libraries/tiptap/packages/core",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/core",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 226,
+        "code_bytes": 495277,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          " in position && ",
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AnyCommands",
+          "AnyConfig",
+          "AnyExtension",
+          "Attribute",
+          "Attributes",
+          "BaseDecorationSpec",
+          "CanCommands",
+          "ChainedCommands",
+          "ChangedRange",
+          "ChangedRangesDecorationSpec",
+          "ClipboardTextSerializer",
+          "ClipboardTextSerializerOptions",
+          "Command",
+          "CommandManager",
+          "CommandProps",
+          "CommandSpec",
+          "Commands",
+          "Content",
+          "CreateNodeFromContentOptions",
+          "CreateWidgetDecorationOptions",
+          "DECORATION_MANAGER_PLUGIN_KEY",
+          "DECORATION_MANAGER_PLUGIN_KEY_NAME",
+          "DOMNode",
+          "DOMOutputSpecArray",
+          "DOMOutputSpecElement",
+          "DecorationCreateProps",
+          "DecorationKind",
+          "DecorationManager",
+          "DecorationManagerEntry",
+          "DecorationManagerState"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies:  in position && , @tiptap/core, @tiptap/pm, vite-plus."
+      },
+      "purpose": "Framework-independent Tiptap editor engine.",
+      "use_when": "Building an editor with an explicit extension model.",
+      "check": "Choose schema extensions deliberately and define how documents are saved and migrated."
+    },
+    {
+      "id": "packages-extension-audio",
+      "name": "extension-audio",
+      "path": "libraries/tiptap/packages/extension-audio",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-audio",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 8679,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "AUDIO_URL_REGEX",
+          "AUDIO_URL_REGEX_GLOBAL",
+          "Audio",
+          "AudioOptions",
+          "isValidAudioUrl",
+          "sanitizeAudioSrc"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-blockquote",
+      "name": "extension-blockquote",
+      "path": "libraries/tiptap/packages/extension-blockquote",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-blockquote",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 6551,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Blockquote",
+          "BlockquoteOptions",
+          "handleBackspace",
+          "inputRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-bold",
+      "name": "extension-bold",
+      "path": "libraries/tiptap/packages/extension-bold",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-bold",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3877,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Bold",
+          "BoldOptions",
+          "starInputRegex",
+          "starPasteRegex",
+          "underscoreInputRegex",
+          "underscorePasteRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-bubble-menu",
+      "name": "extension-bubble-menu",
+      "path": "libraries/tiptap/packages/extension-bubble-menu",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "messaging",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-bubble-menu",
+        "version": "3.30.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.0.0"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 22137,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@floating-ui/dom",
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BubbleMenu",
+          "BubbleMenuOptions",
+          "BubbleMenuPlugin",
+          "BubbleMenuPluginProps",
+          "BubbleMenuView",
+          "BubbleMenuViewProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @floating-ui/dom, @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-bullet-list",
+      "name": "extension-bullet-list",
+      "path": "libraries/tiptap/packages/extension-bullet-list",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-bullet-list",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/extension-list": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 410,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-list",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/extension-list, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-code",
+      "name": "extension-code",
+      "path": "libraries/tiptap/packages/extension-code",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-code",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 5340,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Code",
+          "CodeOptions",
+          "inputRegex",
+          "inputRegexMatch",
+          "pasteRegex",
+          "pasteRegexMatch"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-code-block",
+      "name": "extension-code-block",
+      "path": "libraries/tiptap/packages/extension-code-block",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-code-block",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 14581,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CodeBlock",
+          "CodeBlockOptions",
+          "backtickInputRegex",
+          "tildeInputRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-code-block-lowlight",
+      "name": "extension-code-block-lowlight",
+      "path": "libraries/tiptap/packages/extension-code-block-lowlight",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-code-block-lowlight",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/extension-code-block": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "highlight.js": "^11",
+          "lowlight": "^2 || ^3"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 6379,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-code-block",
+          "@tiptap/pm",
+          "highlight.js",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CodeBlockLowlight",
+          "CodeBlockLowlightOptions",
+          "LowlightPlugin"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/extension-code-block, @tiptap/pm, highlight.js, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-collaboration",
+      "name": "extension-collaboration",
+      "path": "libraries/tiptap/packages/extension-collaboration",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-collaboration",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/y-tiptap": "^3.0.7",
+          "yjs": "^13"
+        }
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 14011,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "@tiptap/y-tiptap",
+          "vite-plus",
+          "yjs"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Collaboration",
+          "CollaborationMappablePosition",
+          "CollaborationOptions",
+          "CollaborationStorage",
+          "RestorableUndoManager",
+          "YRelativePosition",
+          "createMappablePosition",
+          "getUndoManager",
+          "getUpdatedPosition",
+          "getYAbsolutePosition",
+          "getYRelativePosition",
+          "isChangeOrigin"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, @tiptap/y-tiptap, vite-plus, yjs."
+      }
+    },
+    {
+      "id": "packages-extension-collaboration-caret",
+      "name": "extension-collaboration-caret",
+      "path": "libraries/tiptap/packages/extension-collaboration-caret",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-collaboration-caret",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/y-tiptap": "^3.0.7"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 7510,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "@tiptap/y-tiptap",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CollaborationCaret",
+          "CollaborationCaretOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, @tiptap/y-tiptap, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-color",
+      "name": "extension-color",
+      "path": "libraries/tiptap/packages/extension-color",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "theming",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-color",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/extension-text-style": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 386,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-text-style",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/extension-text-style, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-details",
+      "name": "extension-details",
+      "path": "libraries/tiptap/packages/extension-details",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-details",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/extension-text-style": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 10,
+        "code_bytes": 23388,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Details",
+          "DetailsContent",
+          "DetailsContentOptions",
+          "DetailsOptions",
+          "DetailsRenderToggleButtonOptions",
+          "DetailsSummary",
+          "DetailsSummaryOptions",
+          "findClosestVisibleNode",
+          "isNodeVisible",
+          "setGapCursor"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-document",
+      "name": "extension-document",
+      "path": "libraries/tiptap/packages/extension-document",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "browser-api",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-document",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 731,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Document"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-drag-handle",
+      "name": "extension-drag-handle",
+      "path": "libraries/tiptap/packages/extension-drag-handle",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "drag-and-drop",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-drag-handle",
+        "version": "3.30.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/extension-collaboration": "workspace:*",
+          "@tiptap/extension-node-range": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/y-tiptap": "^3.0.7"
+        }
+      },
+      "evidence": {
+        "code_files": 22,
+        "code_bytes": 77005,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@floating-ui/dom",
+          "@tiptap/core",
+          "@tiptap/extension-collaboration",
+          "@tiptap/extension-node-range",
+          "@tiptap/pm",
+          "@tiptap/y-tiptap",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ActiveDragRange",
+          "BASE_SCORE",
+          "DragContext",
+          "DragHandle",
+          "DragHandleOptions",
+          "DragHandlePlugin",
+          "DragHandlePluginProps",
+          "DragHandleRule",
+          "DragTarget",
+          "EdgeDetectionConfig",
+          "EdgeDetectionPreset",
+          "FindElementNextToCoords",
+          "NestedOptions",
+          "NormalizedNestedOptions",
+          "RuleContext",
+          "calculateEdgeDeduction",
+          "calculateScore",
+          "cloneElement",
+          "createDroppedNodeRangeSelection",
+          "defaultComputePositionConfig",
+          "defaultRules",
+          "dragHandlePluginDefaultKey",
+          "dragHandler",
+          "edgeBlockRect",
+          "findBestDragTarget",
+          "findClosestTopLevelBlock",
+          "findElementNextToCoords",
+          "getActiveDragRange",
+          "getComputedStyle",
+          "getDragImageOffset"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @floating-ui/dom, @tiptap/core, @tiptap/extension-collaboration, @tiptap/extension-node-range, @tiptap/pm."
+      }
+    },
+    {
+      "id": "packages-extension-drag-handle-react",
+      "name": "extension-drag-handle-react",
+      "path": "libraries/tiptap/packages/extension-drag-handle-react",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "drag-and-drop",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-drag-handle-react",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/extension-drag-handle": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/react": "workspace:*",
+          "@types/react": "^16.8 || ^17 || ^18 || ^19",
+          "react": "^16.8 || ^17 || ^18 || ^19",
+          "react-dom": "^16.8 || ^17 || ^18 || ^19"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4684,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-drag-handle",
+          "@tiptap/pm",
+          "@tiptap/react",
+          "react",
+          "react-dom",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DragHandle",
+          "DragHandleProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/extension-drag-handle, @tiptap/pm, @tiptap/react, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-drag-handle-vue",
+      "name": "extension-drag-handle-vue",
+      "path": "libraries/tiptap/packages/extension-drag-handle-vue",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "drag-and-drop",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-drag-handle-vue",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/extension-drag-handle": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/vue": "workspace:*",
+          "vue": "^3.0.0"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4693,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-drag-handle",
+          "@tiptap/pm",
+          "@tiptap/vue",
+          "vite-plus",
+          "vue"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DragHandle",
+          "DragHandleProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/extension-drag-handle, @tiptap/pm, @tiptap/vue, vite-plus, vue."
+      }
+    },
+    {
+      "id": "packages-extension-emoji",
+      "name": "extension-emoji",
+      "path": "libraries/tiptap/packages/extension-emoji",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-emoji",
+        "version": "3.30.3",
+        "dependencies": {
+          "emoji-regex": "^10.6.0",
+          "emojibase-data": "^17",
+          "is-emoji-supported": "^0.0.5"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/suggestion": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 682213,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "@tiptap/suggestion",
+          "emoji-datasource",
+          "emoji-regex",
+          "emojibase-data",
+          "fs",
+          "is-emoji-supported",
+          "json5",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Emoji",
+          "EmojiItem",
+          "EmojiOptions",
+          "EmojiStorage",
+          "EmojiSuggestionPluginKey",
+          "emojiToShortcode",
+          "emojis",
+          "gitHubCustomEmojis",
+          "gitHubEmojis",
+          "inputRegex",
+          "pasteRegex",
+          "removeDuplicates",
+          "removeVariationSelector",
+          "shortcodeToEmoji"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, @tiptap/suggestion, emoji-datasource, emoji-regex."
+      }
+    },
+    {
+      "id": "packages-extension-file-handler",
+      "name": "extension-file-handler",
+      "path": "libraries/tiptap/packages/extension-file-handler",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "file-upload",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-file-handler",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/extension-text-style": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 5382,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FileHandlePlugin",
+          "FileHandlePluginOptions",
+          "FileHandler",
+          "FileHandlerOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-find-and-replace",
+      "name": "extension-find-and-replace",
+      "path": "libraries/tiptap/packages/extension-find-and-replace",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-find-and-replace",
+        "version": "3.30.3",
+        "dependencies": {
+          "re2js": "^2.8.6"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 58,
+        "code_bytes": 61077,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-blockquote",
+          "@tiptap/extension-document",
+          "@tiptap/extension-hard-break",
+          "@tiptap/extension-horizontal-rule",
+          "@tiptap/extension-paragraph",
+          "@tiptap/extension-text",
+          "@tiptap/pm",
+          "re2js",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ContinuedParagraph",
+          "DebouncedSearchState",
+          "FindAndReplace",
+          "FindAndReplaceMeta",
+          "FindAndReplaceOptions",
+          "FindAndReplacePlugin",
+          "FindAndReplacePluginKey",
+          "FindAndReplacePluginState",
+          "FindAndReplaceStorage",
+          "IndexedResult",
+          "ResultGroup",
+          "SearchOptions",
+          "SearchRegex",
+          "SearchResult",
+          "TextNodeResult",
+          "TextblockRange",
+          "TextblockSearchTarget",
+          "addContinuedTextblocks",
+          "clearDebouncedSearchState",
+          "continuesNode",
+          "createContinuedDoc",
+          "createDecoration",
+          "createDecorations",
+          "createSearchRegex",
+          "createState",
+          "createStyleTag",
+          "currentResultClass",
+          "endOffsetToPos",
+          "findAdjacentTextblock",
+          "findDecorations"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/extension-blockquote, @tiptap/extension-document, @tiptap/extension-hard-break, @tiptap/extension-horizontal-rule."
+      }
+    },
+    {
+      "id": "packages-extension-floating-menu",
+      "name": "extension-floating-menu",
+      "path": "libraries/tiptap/packages/extension-floating-menu",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "positioning",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-floating-menu",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@floating-ui/dom": "^1.0.0",
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 18527,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@floating-ui/dom",
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "FloatingMenu",
+          "FloatingMenuOptions",
+          "FloatingMenuPlugin",
+          "FloatingMenuPluginProps",
+          "FloatingMenuView",
+          "FloatingMenuViewProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @floating-ui/dom, @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-font-family",
+      "name": "extension-font-family",
+      "path": "libraries/tiptap/packages/extension-font-family",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-font-family",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/extension-text-style": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 428,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-text-style",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/extension-text-style, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-hard-break",
+      "name": "extension-hard-break",
+      "path": "libraries/tiptap/packages/extension-hard-break",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-hard-break",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3188,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "HardBreak",
+          "HardBreakOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-heading",
+      "name": "extension-heading",
+      "path": "libraries/tiptap/packages/extension-heading",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-heading",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4163,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Heading",
+          "HeadingOptions",
+          "Level"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-highlight",
+      "name": "extension-highlight",
+      "path": "libraries/tiptap/packages/extension-highlight",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "search",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-highlight",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4921,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Highlight",
+          "HighlightOptions",
+          "inputRegex",
+          "pasteRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-horizontal-rule",
+      "name": "extension-horizontal-rule",
+      "path": "libraries/tiptap/packages/extension-horizontal-rule",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-horizontal-rule",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4124,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "HorizontalRule",
+          "HorizontalRuleOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-image",
+      "name": "extension-image",
+      "path": "libraries/tiptap/packages/extension-image",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "media",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-image",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 8626,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Image",
+          "ImageOptions",
+          "SetImageOptions",
+          "inputRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-invisible-characters",
+      "name": "extension-invisible-characters",
+      "path": "libraries/tiptap/packages/extension-invisible-characters",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-invisible-characters",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/extension-text-style": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 10,
+        "code_bytes": 10924,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InvisibleCharacter",
+          "InvisibleCharacterOptions",
+          "InvisibleCharacters",
+          "InvisibleCharactersOptions",
+          "InvisibleCharactersPlugin",
+          "InvisibleCharactersPluginKey",
+          "InvisibleCharactersStorage",
+          "InvisibleNode",
+          "InvisibleNodeOptions",
+          "PluginState",
+          "Position",
+          "stateReducer",
+          "style"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-italic",
+      "name": "extension-italic",
+      "path": "libraries/tiptap/packages/extension-italic",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-italic",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3869,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Italic",
+          "ItalicOptions",
+          "starInputRegex",
+          "starPasteRegex",
+          "underscoreInputRegex",
+          "underscorePasteRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-link",
+      "name": "extension-link",
+      "path": "libraries/tiptap/packages/extension-link",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-link",
+        "version": "3.30.3",
+        "dependencies": {
+          "linkifyjs": "^4.3.3"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 34616,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "linkifyjs",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Link",
+          "LinkOptions",
+          "LinkProtocolOptions",
+          "MarkdownLinkPasteRuleConfig",
+          "MarkdownLinkRuleConfig",
+          "UNICODE_WHITESPACE_REGEX",
+          "UNICODE_WHITESPACE_REGEX_END",
+          "UNICODE_WHITESPACE_REGEX_GLOBAL",
+          "UNICODE_WHITESPACE_REGEX_TRAILING",
+          "autolink",
+          "clickHandler",
+          "isAllowedUri",
+          "markdownLinkInputRule",
+          "markdownLinkPasteRule",
+          "pasteHandler",
+          "pasteRegex",
+          "unlinkTrailingWhitespace"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, linkifyjs, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-list",
+      "name": "extension-list",
+      "path": "libraries/tiptap/packages/extension-list",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-list",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 25,
+        "code_bytes": 72426,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BranchingNestedListAtCursor",
+          "BulletList",
+          "BulletListOptions",
+          "ListItem",
+          "ListItemOptions",
+          "ListKeymap",
+          "ListKeymapOptions",
+          "ListKit",
+          "ListKitOptions",
+          "ORDERED_LIST_ALPHA_MARKER_PATTERN",
+          "ORDERED_LIST_ITEM_REGEX",
+          "ORDERED_LIST_MARKER_PATTERN",
+          "OrderedList",
+          "OrderedListItem",
+          "OrderedListOptions",
+          "ParsedListMarker",
+          "TaskItem",
+          "TaskItemOptions",
+          "TaskList",
+          "TaskListOptions",
+          "areOrderedListMarkersSequential",
+          "buildNestedStructure",
+          "buildOrderedListAttrsFromMarker",
+          "bulletListInputRegex",
+          "collectOrderedListItems",
+          "collectOrderedListItemsFromSource",
+          "createBranchingListDeleteKeymap",
+          "detectMarkerType",
+          "ensureLeadingParagraph",
+          "getBranchingNestedListAtCursor"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-mathematics",
+      "name": "extension-mathematics",
+      "path": "libraries/tiptap/packages/extension-mathematics",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-mathematics",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "katex": "^0.16.4 || ^0.17.0 || ^0.18.0"
+        }
+      },
+      "evidence": {
+        "code_files": 8,
+        "code_bytes": 23213,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-mathematics",
+          "@tiptap/pm",
+          "katex",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BlockMath",
+          "BlockMathOptions",
+          "InlineMath",
+          "InlineMathOptions",
+          "Mathematics",
+          "MathematicsOptions",
+          "MathematicsOptionsWithEditor",
+          "createMathMigrateTransaction",
+          "mathMigrationRegex",
+          "migrateMathStrings"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/extension-mathematics, @tiptap/pm, katex, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-mention",
+      "name": "extension-mention",
+      "path": "libraries/tiptap/packages/extension-mention",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "forms",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-mention",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@tiptap/suggestion": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13706,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "@tiptap/suggestion",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GetSuggestionOptionsOptions",
+          "Mention",
+          "MentionNodeAttrs",
+          "MentionOptions",
+          "getSuggestionOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, @tiptap/suggestion, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-node-range",
+      "name": "extension-node-range",
+      "path": "libraries/tiptap/packages/extension-node-range",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-node-range",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 8,
+        "code_bytes": 16369,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GetSelectionRangesOptions",
+          "NodeRange",
+          "NodeRangeBookmark",
+          "NodeRangeOptions",
+          "NodeRangeSelection",
+          "getNodeRangeDecorations",
+          "getSelectionRanges",
+          "isNodeRangeSelection"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-ordered-list",
+      "name": "extension-ordered-list",
+      "path": "libraries/tiptap/packages/extension-ordered-list",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-ordered-list",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/extension-list": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 2,
+        "code_bytes": 414,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-list",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/extension-list, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-paragraph",
+      "name": "extension-paragraph",
+      "path": "libraries/tiptap/packages/extension-paragraph",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-paragraph",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4237,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Paragraph",
+          "ParagraphOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-ruby-text",
+      "name": "extension-ruby-text",
+      "path": "libraries/tiptap/packages/extension-ruby-text",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-ruby-text",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 13130,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "RubyText",
+          "RubyTextAnnotationEditorProps",
+          "RubyTextAttributes",
+          "RubyTextDecorationPlugin",
+          "RubyTextDecorationPluginOptions",
+          "RubyTextOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-strike",
+      "name": "extension-strike",
+      "path": "libraries/tiptap/packages/extension-strike",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-strike",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3186,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Strike",
+          "StrikeOptions",
+          "inputRegex",
+          "pasteRegex"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-subscript",
+      "name": "extension-subscript",
+      "path": "libraries/tiptap/packages/extension-subscript",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-subscript",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 2584,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Subscript",
+          "SubscriptExtensionOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-superscript",
+      "name": "extension-superscript",
+      "path": "libraries/tiptap/packages/extension-superscript",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-superscript",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 2639,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Superscript",
+          "SuperscriptExtensionOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-table",
+      "name": "extension-table",
+      "path": "libraries/tiptap/packages/extension-table",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-table",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 17,
+        "code_bytes": 36584,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Table",
+          "TableCell",
+          "TableCellOptions",
+          "TableHeader",
+          "TableHeaderOptions",
+          "TableKit",
+          "TableKitOptions",
+          "TableOptions",
+          "TableRow",
+          "TableRowOptions",
+          "TableView",
+          "createAlignAttribute",
+          "fillEmptyCellContent",
+          "isEmptyCellElement",
+          "normalizeTableCellAlign",
+          "normalizeTableCellAlignFromAttributes",
+          "omitDefaultSpanAttribute",
+          "parseColwidth",
+          "updateColumns"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-table-of-contents",
+      "name": "extension-table-of-contents",
+      "path": "libraries/tiptap/packages/extension-table-of-contents",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "data-table",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools",
+          "content-management"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-table-of-contents",
+        "version": "3.30.3",
+        "dependencies": {
+          "uuid": "^14.0.0"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 7,
+        "code_bytes": 20274,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "uuid",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GetTableOfContentIndexFunction",
+          "GetTableOfContentLevelFunction",
+          "TableOfContentData",
+          "TableOfContentDataItem",
+          "TableOfContents",
+          "TableOfContentsOptions",
+          "TableOfContentsPlugin",
+          "TableOfContentsStorage",
+          "debounce",
+          "generateTocIds",
+          "getHeadlineLevel",
+          "getHierarchicalIndexes",
+          "getLastHeadingOnLevel",
+          "getLinearIndexes"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, uuid, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-text",
+      "name": "extension-text",
+      "path": "libraries/tiptap/packages/extension-text",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-text",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 769,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Text"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-text-align",
+      "name": "extension-text-align",
+      "path": "libraries/tiptap/packages/extension-text-align",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-text-align",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 4121,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TextAlign",
+          "TextAlignOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-text-style",
+      "name": "extension-text-style",
+      "path": "libraries/tiptap/packages/extension-text-style",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-text-style",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 14,
+        "code_bytes": 22088,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BackgroundColor",
+          "BackgroundColorOptions",
+          "Color",
+          "ColorOptions",
+          "FontFamily",
+          "FontFamilyOptions",
+          "FontSize",
+          "FontSizeOptions",
+          "LineHeight",
+          "LineHeightOptions",
+          "TextStyle",
+          "TextStyleAttributes",
+          "TextStyleKit",
+          "TextStyleKitOptions",
+          "TextStyleOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-twitch",
+      "name": "extension-twitch",
+      "path": "libraries/tiptap/packages/extension-twitch",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-twitch",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 15640,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-twitch",
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GetEmbedUrlOptions",
+          "TWITCH_REGEX",
+          "TWITCH_REGEX_GLOBAL",
+          "Twitch",
+          "TwitchEmbedAttributes",
+          "TwitchOptions",
+          "getAttributesFromTwitchEmbedUrl",
+          "getEmbedUrlFromTwitchUrl",
+          "getTwitchIdentifier",
+          "isValidTwitchUrl"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/extension-twitch, @tiptap/react, @tiptap/starter-kit, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-typography",
+      "name": "extension-typography",
+      "path": "libraries/tiptap/packages/extension-typography",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-typography",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 11346,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DirectionalQuotes",
+          "Typography",
+          "TypographyOptions",
+          "closeDoubleQuote",
+          "closeSingleQuote",
+          "copyright",
+          "ellipsis",
+          "emDash",
+          "laquo",
+          "leftArrow",
+          "multiplication",
+          "notEqual",
+          "oneHalf",
+          "oneQuarter",
+          "openDoubleQuote",
+          "openSingleQuote",
+          "plusMinus",
+          "raquo",
+          "registeredTrademark",
+          "rightArrow",
+          "servicemark",
+          "superscriptThree",
+          "superscriptTwo",
+          "threeQuarters",
+          "trademark"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-underline",
+      "name": "extension-underline",
+      "path": "libraries/tiptap/packages/extension-underline",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-underline",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 3713,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Underline",
+          "UnderlineOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-unique-id",
+      "name": "extension-unique-id",
+      "path": "libraries/tiptap/packages/extension-unique-id",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-unique-id",
+        "version": "3.30.3",
+        "dependencies": {
+          "uuid": "^14.0.0"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 19649,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "uuid",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "UniqueID",
+          "UniqueIDGenerationContext",
+          "UniqueIDOptions",
+          "findDuplicates",
+          "generateUniqueIds"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, uuid, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extension-youtube",
+      "name": "extension-youtube",
+      "path": "libraries/tiptap/packages/extension-youtube",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extension-youtube",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 4,
+        "code_bytes": 14897,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "GetEmbedUrlOptions",
+          "YOUTUBE_REGEX",
+          "YOUTUBE_REGEX_GLOBAL",
+          "Youtube",
+          "YoutubeEmbedAttributes",
+          "YoutubeOptions",
+          "getAttributesFromYoutubeEmbedUrl",
+          "getEmbedUrlFromYoutubeUrl",
+          "getYoutubeEmbedUrl",
+          "isValidYoutubeUrl"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, vite-plus."
+      }
+    },
+    {
+      "id": "packages-extensions",
+      "name": "extensions",
+      "path": "libraries/tiptap/packages/extensions",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/extensions",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 23,
+        "code_bytes": 29013,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CharacterCount",
+          "CharacterCountOptions",
+          "CharacterCountStorage",
+          "DEFAULT_DATA_ATTRIBUTE",
+          "Dropcursor",
+          "DropcursorOptions",
+          "Focus",
+          "FocusOptions",
+          "Gapcursor",
+          "PLUGIN_KEY",
+          "Placeholder",
+          "PlaceholderOptions",
+          "Selection",
+          "SelectionOptions",
+          "TrailingNode",
+          "TrailingNodeOptions",
+          "UndoRedo",
+          "UndoRedoOptions",
+          "characterCountPluginKey",
+          "hasCharacterLimit",
+          "placeholderSettingsPluginKey",
+          "skipTrailingNodeMeta"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-html",
+      "name": "html",
+      "path": "libraries/tiptap/packages/html",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/html",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "happy-dom": "^20.8.9 || ^21.0.4"
+        }
+      },
+      "evidence": {
+        "code_files": 9,
+        "code_bytes": 10315,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "happy-dom",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "generateHTML",
+          "generateJSON",
+          "getHTMLFromFragment"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, happy-dom, vite-plus."
+      }
+    },
+    {
+      "id": "packages-markdown",
+      "name": "markdown",
+      "path": "libraries/tiptap/packages/markdown",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor",
+          "typography"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/markdown",
+        "version": "3.30.3",
+        "dependencies": {
+          "marked": "^17.0.1"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 8,
+        "code_bytes": 83079,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "marked",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "ContentType",
+          "Markdown",
+          "MarkdownExtensionOptions",
+          "MarkdownExtensionStorage",
+          "MarkdownManager",
+          "STANDARD_HTML_TAGS",
+          "assumeContentType",
+          "closeMarksBeforeNode",
+          "collectMarkSpanTexts",
+          "extractAbsorbedBlankLines",
+          "extractHtmlTagNames",
+          "findMarksToClose",
+          "findMarksToCloseAtEnd",
+          "findMarksToOpen",
+          "htmlContainsUnrecognizedTag",
+          "isHtmlUnknownTagName",
+          "isTaskItem",
+          "reopenMarksAfterNode",
+          "wrapInMarkdownBlock"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, marked, vite-plus."
+      }
+    },
+    {
+      "id": "packages-pm",
+      "name": "pm",
+      "path": "libraries/tiptap/packages/pm",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/pm",
+        "version": "3.30.3",
+        "dependencies": {
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 14,
+        "code_bytes": 1244,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "prosemirror-changeset",
+          "prosemirror-commands",
+          "prosemirror-dropcursor",
+          "prosemirror-gapcursor",
+          "prosemirror-history",
+          "prosemirror-inputrules",
+          "prosemirror-keymap",
+          "prosemirror-model",
+          "prosemirror-schema-list",
+          "prosemirror-state",
+          "prosemirror-tables",
+          "prosemirror-transform",
+          "prosemirror-view",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: prosemirror-changeset, prosemirror-commands, prosemirror-dropcursor, prosemirror-gapcursor, prosemirror-history."
+      }
+    },
+    {
+      "id": "packages-react",
+      "name": "react",
+      "path": "libraries/tiptap/packages/react",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/react",
+        "version": "3.30.3",
+        "dependencies": {
+          "@types/use-sync-external-store": "^0.0.6",
+          "fast-equals": "^5.3.3",
+          "use-sync-external-store": "^1.4.0"
+        },
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+          "@types/react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+        }
+      },
+      "evidence": {
+        "code_files": 24,
+        "code_bytes": 91804,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-bubble-menu",
+          "@tiptap/extension-floating-menu",
+          "@tiptap/pm",
+          "@tiptap/react",
+          "fast-equals",
+          "react",
+          "react-dom",
+          "use-sync-external-store",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BubbleMenu",
+          "BubbleMenuProps",
+          "ContentComponent",
+          "EditorConsumer",
+          "EditorContent",
+          "EditorContentProps",
+          "EditorContext",
+          "EditorContextValue",
+          "EditorProvider",
+          "EditorProviderProps",
+          "EditorStateSnapshot",
+          "EditorWithContentComponent",
+          "FloatingMenu",
+          "FloatingMenuProps",
+          "MarkViewContent",
+          "MarkViewContentProps",
+          "MarkViewContextProps",
+          "NodeViewContent",
+          "NodeViewContentProps",
+          "NodeViewWrapper",
+          "NodeViewWrapperProps",
+          "PureEditorContent",
+          "ReactMarkView",
+          "ReactMarkViewContext",
+          "ReactMarkViewRenderer",
+          "ReactMarkViewRendererOptions",
+          "ReactNodeView",
+          "ReactNodeViewContentProvider",
+          "ReactNodeViewContext",
+          "ReactNodeViewContextProps"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/extension-bubble-menu, @tiptap/extension-floating-menu, @tiptap/pm, @tiptap/react."
+      },
+      "purpose": "Public @tiptap/react package for building a rich-text editor in React.",
+      "use_when": "The application needs an extensible editor with custom controls and document behavior.",
+      "check": "Combine with @tiptap/core and selected extensions; define storage format, sanitization, keyboard shortcuts and server validation."
+    },
+    {
+      "id": "packages-starter-kit",
+      "name": "starter-kit",
+      "path": "libraries/tiptap/packages/starter-kit",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/starter-kit",
+        "version": "3.30.3",
+        "dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/extension-blockquote": "workspace:*",
+          "@tiptap/extension-bold": "workspace:*",
+          "@tiptap/extension-bullet-list": "workspace:*",
+          "@tiptap/extension-code": "workspace:*",
+          "@tiptap/extension-code-block": "workspace:*",
+          "@tiptap/extension-document": "workspace:*",
+          "@tiptap/extension-hard-break": "workspace:*",
+          "@tiptap/extension-heading": "workspace:*",
+          "@tiptap/extension-horizontal-rule": "workspace:*",
+          "@tiptap/extension-italic": "workspace:*",
+          "@tiptap/extension-link": "workspace:*",
+          "@tiptap/extension-list": "workspace:*",
+          "@tiptap/extension-ordered-list": "workspace:*",
+          "@tiptap/extension-paragraph": "workspace:*",
+          "@tiptap/extension-strike": "workspace:*",
+          "@tiptap/extension-text": "workspace:*",
+          "@tiptap/extension-underline": "workspace:*",
+          "@tiptap/extensions": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 3,
+        "code_bytes": 8928,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-blockquote",
+          "@tiptap/extension-bold",
+          "@tiptap/extension-code",
+          "@tiptap/extension-code-block",
+          "@tiptap/extension-document",
+          "@tiptap/extension-hard-break",
+          "@tiptap/extension-heading",
+          "@tiptap/extension-horizontal-rule",
+          "@tiptap/extension-italic",
+          "@tiptap/extension-link",
+          "@tiptap/extension-list",
+          "@tiptap/extension-paragraph",
+          "@tiptap/extension-strike",
+          "@tiptap/extension-text",
+          "@tiptap/extension-underline",
+          "@tiptap/extensions",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "StarterKit",
+          "StarterKitOptions"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/extension-blockquote, @tiptap/extension-bold, @tiptap/extension-code, @tiptap/extension-code-block."
+      }
+    },
+    {
+      "id": "packages-static-renderer",
+      "name": "static-renderer",
+      "path": "libraries/tiptap/packages/static-renderer",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/static-renderer",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+          "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+        }
+      },
+      "evidence": {
+        "code_files": 5,
+        "code_bytes": 28941,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "DomOutputSpecToElement",
+          "JSONMarkType",
+          "JSONNodeType",
+          "MarkProps",
+          "NodeProps",
+          "StaticEditorOptions",
+          "TiptapStaticRenderer",
+          "TiptapStaticRendererOptions",
+          "applyStaticEditorOptionsToExtensions",
+          "getAttributes",
+          "getHTMLAttributes",
+          "mapMarkExtensionToReactNode",
+          "mapNodeExtensionToReactNode",
+          "renderToElement"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-suggestion",
+      "name": "suggestion",
+      "path": "libraries/tiptap/packages/suggestion",
+      "entry_role": "public-api",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/suggestion",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@floating-ui/dom": "^1.0.0",
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*"
+        }
+      },
+      "evidence": {
+        "code_files": 11,
+        "code_bytes": 48586,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@floating-ui/dom",
+          "@tiptap/core",
+          "@tiptap/pm",
+          "vite-plus"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "CreateMountOptions",
+          "CreateSuggestionAsyncRequestManagerOptions",
+          "CreateSuggestionFloatingUiConfigOptions",
+          "CreateSuggestionPropsOptions",
+          "CreateSuggestionStateOptions",
+          "CreateSuggestionViewOptions",
+          "PluginState",
+          "Suggestion",
+          "SuggestionFloatingUiConfig",
+          "SuggestionFloatingUiOptions",
+          "SuggestionKeyDownProps",
+          "SuggestionMatch",
+          "SuggestionMount",
+          "SuggestionMountOptions",
+          "SuggestionOptions",
+          "SuggestionPlacement",
+          "SuggestionPluginKey",
+          "SuggestionPluginState",
+          "SuggestionPositionData",
+          "SuggestionProps",
+          "Trigger",
+          "clientRectFor",
+          "createMount",
+          "createSuggestionAsyncRequestManager",
+          "createSuggestionFloatingUiConfig",
+          "createSuggestionProps",
+          "createSuggestionState",
+          "createSuggestionView",
+          "dispatchExit",
+          "exitSuggestion"
+        ]
+      },
+      "application_guide": {
+        "action": "install-package",
+        "caution": "Inspect package dependencies: @floating-ui/dom, @tiptap/core, @tiptap/pm, vite-plus."
+      }
+    },
+    {
+      "id": "packages-vue",
+      "name": "vue",
+      "path": "libraries/tiptap/packages/vue",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/vue",
+        "version": "3.30.3",
+        "dependencies": {},
+        "peer_dependencies": {
+          "@floating-ui/dom": "^1.0.0",
+          "@tiptap/core": "workspace:*",
+          "@tiptap/pm": "workspace:*",
+          "vue": "^3.0.0"
+        }
+      },
+      "evidence": {
+        "code_files": 16,
+        "code_bytes": 40726,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-bubble-menu",
+          "@tiptap/extension-floating-menu",
+          "@tiptap/pm",
+          "vite-plus",
+          "vue"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BubbleMenu",
+          "ContentComponent",
+          "Editor",
+          "EditorContent",
+          "FloatingMenu",
+          "MarkViewContent",
+          "NodeViewContent",
+          "NodeViewWrapper",
+          "VueMarkView",
+          "VueMarkViewRenderer",
+          "VueMarkViewRendererOptions",
+          "VueNodeViewRenderer",
+          "VueNodeViewRendererOptions",
+          "VueRenderer",
+          "VueRendererOptions",
+          "VueWidgetDecorationProps",
+          "VueWidgetRenderer",
+          "VueWidgetRendererOptions",
+          "markViewProps",
+          "nodeViewProps",
+          "undeclaredWidgetProps",
+          "useEditor",
+          "wrapFunctionalWidget"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "packages-y-tiptap",
+      "name": "y-tiptap",
+      "path": "libraries/tiptap/packages/y-tiptap",
+      "entry_role": "support-package",
+      "selectable": false,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "library"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "dependency"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "@tiptap/y-tiptap",
+        "version": "3.0.9",
+        "dependencies": {
+          "lib0": "^0.2.100",
+          "prosemirror-transform": "^1.6.0"
+        },
+        "peer_dependencies": {
+          "prosemirror-model": "^1.7.1",
+          "prosemirror-state": "^1.2.3",
+          "prosemirror-view": "^1.9.10",
+          "y-protocols": "^1.0.1",
+          "yjs": "^13.6.13"
+        }
+      },
+      "evidence": {
+        "code_files": 28,
+        "code_bytes": 12505,
+        "has_tests": true,
+        "has_styles": false,
+        "has_readme": true,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/y-tiptap",
+          "prosemirror-model",
+          "prosemirror-schema-basic",
+          "prosemirror-state",
+          "prosemirror-view",
+          "vite-plus",
+          "y-protocols",
+          "yjs"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "BindingMetadata",
+          "ColorDef",
+          "ComputeYChange",
+          "CursorAwarenessLastSelection",
+          "CursorAwarenessSelection",
+          "CursorAwarenessState",
+          "CursorPluginOptions",
+          "CursorUser",
+          "FragmentUpdater",
+          "InitialProseMirrorDoc",
+          "MappedChildAnchor",
+          "MetaKey",
+          "NormalizedPNodeContent",
+          "PendingMeta",
+          "ProsemirrorJSONMark",
+          "ProsemirrorJSONNode",
+          "ProsemirrorMapping",
+          "RelativeSelection",
+          "SyncPluginOptions",
+          "SyncPluginState",
+          "TextDelta",
+          "TransactionSource",
+          "UndoPluginOptions",
+          "UndoPluginState",
+          "YChange",
+          "YType",
+          "createTestView",
+          "schema",
+          "syncDocuments"
+        ]
+      },
+      "application_guide": {
+        "action": "inspect-only",
+        "caution": "This is an implementation or support package, not a standalone application component."
+      }
+    },
+    {
+      "id": "demos-src-examples-accessibility-react-index-tsx",
+      "name": "Accessibility: index",
+      "path": "libraries/tiptap/demos/src/Examples/Accessibility/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1313,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-accessibility-react-insertmenu-tsx",
+      "name": "Accessibility: InsertMenu",
+      "path": "libraries/tiptap/demos/src/Examples/Accessibility/React/InsertMenu.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2724,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "InsertMenu"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-accessibility-react-menubar-tsx",
+      "name": "Accessibility: MenuBar",
+      "path": "libraries/tiptap/demos/src/Examples/Accessibility/React/MenuBar.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 9905,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/react",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MenuBar"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-accessibility-react-textmenu-tsx",
+      "name": "Accessibility: TextMenu",
+      "path": "libraries/tiptap/demos/src/Examples/Accessibility/React/TextMenu.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "display",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3842,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/pm",
+          "@tiptap/react",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "TextMenu"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-decorationcomponents-react-counter-tsx",
+      "name": "DecorationComponents: Counter",
+      "path": "libraries/tiptap/demos/src/Examples/DecorationComponents/React/Counter.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "state-management",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 757,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Counter"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-decorationcomponents-react-index-tsx",
+      "name": "DecorationComponents: index",
+      "path": "libraries/tiptap/demos/src/Examples/DecorationComponents/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1932,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-unique-id",
+          "@tiptap/react",
+          "@tiptap/starter-kit"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-decorations-react-index-tsx",
+      "name": "Decorations: index",
+      "path": "libraries/tiptap/demos/src/Examples/Decorations/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2021,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-default-react-index-tsx",
+      "name": "Default: index",
+      "path": "libraries/tiptap/demos/src/Examples/Default/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 1430,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-list",
+          "@tiptap/extension-text-style",
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-default-react-menubar-tsx",
+      "name": "Default: MenuBar",
+      "path": "libraries/tiptap/demos/src/Examples/Default/React/MenuBar.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "navigation",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 4684,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/react",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "MenuBar"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-entershortcuts-react-index-tsx",
+      "name": "EnterShortcuts: index",
+      "path": "libraries/tiptap/demos/src/Examples/EnterShortcuts/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "keyboard-shortcuts",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3048,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-jsx-react-index-tsx",
+      "name": "JSX: index",
+      "path": "libraries/tiptap/demos/src/Examples/JSX/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 505,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-jsx-react-paragraph-tsx",
+      "name": "JSX: Paragraph",
+      "path": "libraries/tiptap/demos/src/Examples/JSX/React/Paragraph.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 381,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-paragraph"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Paragraph"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-jsx-vue-paragraph-tsx",
+      "name": "JSX: Paragraph",
+      "path": "libraries/tiptap/demos/src/Examples/JSX/Vue/Paragraph.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "analytics",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 381,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/core",
+          "@tiptap/extension-paragraph"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": [
+          "Paragraph"
+        ]
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-resizablenodes-react-index-tsx",
+      "name": "ResizableNodes: index",
+      "path": "libraries/tiptap/demos/src/Examples/ResizableNodes/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "layout",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 2621,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": false,
+        "external_imports": [
+          "@tiptap/extension-document",
+          "@tiptap/extension-paragraph",
+          "@tiptap/extension-text",
+          "@tiptap/react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-staticrendering-react-index-tsx",
+      "name": "StaticRendering: index",
+      "path": "libraries/tiptap/demos/src/Examples/StaticRendering/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 12541,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "@tiptap/static-renderer",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-staticrenderingadvanced-react-index-tsx",
+      "name": "StaticRenderingAdvanced: index",
+      "path": "libraries/tiptap/demos/src/Examples/StaticRenderingAdvanced/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "editor"
+        ],
+        "domain": [
+          "general-purpose",
+          "internal-tools"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 9440,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "@tiptap/static-renderer",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    },
+    {
+      "id": "demos-src-examples-textdirection-react-index-tsx",
+      "name": "TextDirection: index",
+      "path": "libraries/tiptap/demos/src/Examples/TextDirection/React/index.tsx",
+      "entry_role": "working-example",
+      "selectable": true,
+      "tags": {
+        "task": [
+          "display",
+          "localization",
+          "editor"
+        ],
+        "domain": [
+          "general-purpose"
+        ],
+        "layer": [
+          "javascript",
+          "react"
+        ],
+        "kind": [
+          "example"
+        ],
+        "property": [
+          "reusable"
+        ],
+        "adoption": [
+          "copy-and-adapt"
+        ],
+        "cost": [
+          "assess-per-project"
+        ],
+        "license": [
+          "mit"
+        ]
+      },
+      "package": {
+        "name": "tiptap-demos",
+        "version": "3.0.3",
+        "dependencies": {
+          "@floating-ui/dom": "^1.6.13",
+          "@hocuspocus/provider": "^2.15.0",
+          "@hocuspocus/transformer": "^2.15.0",
+          "@lexical/react": "^0.36.2",
+          "@lifeomic/attempt": "3.1.0",
+          "@shikijs/core": "1.10.3",
+          "@tiptap/y-tiptap": "workspace:^",
+          "d3": "^7.9.0",
+          "fast-glob": "^3.3.2",
+          "highlight.js": "^11.11.1",
+          "katex": "^0.18.0",
+          "lexical": "^0.36.2",
+          "linkifyjs": "^4.3.2",
+          "lowlight": "^3.3.0",
+          "prosemirror-changeset": "^2.4.4",
+          "prosemirror-collab": "^1.3.1",
+          "prosemirror-commands": "^1.7.2",
+          "prosemirror-dropcursor": "^1.8.4",
+          "prosemirror-gapcursor": "^1.4.1",
+          "prosemirror-history": "^1.5.1",
+          "prosemirror-inputrules": "^1.5.1",
+          "prosemirror-keymap": "^1.2.3",
+          "prosemirror-markdown": "^1.13.8",
+          "prosemirror-menu": "^1.3.2",
+          "prosemirror-model": "^1.25.12",
+          "prosemirror-schema-basic": "^1.2.5",
+          "prosemirror-schema-list": "^1.5.1",
+          "prosemirror-state": "^1.4.4",
+          "prosemirror-tables": "^1.8.5",
+          "prosemirror-trailing-node": "^3.0.0",
+          "prosemirror-transform": "^1.12.2",
+          "prosemirror-view": "^1.42.6",
+          "remixicon": "^2.5.0",
+          "shiki": "^1.25.1",
+          "y-webrtc": "10.3.0",
+          "yjs": "13.6.23"
+        },
+        "peer_dependencies": {}
+      },
+      "evidence": {
+        "code_files": 1,
+        "code_bytes": 3787,
+        "has_tests": false,
+        "has_styles": false,
+        "has_readme": false,
+        "example_data": false,
+        "has_event_handlers": true,
+        "external_imports": [
+          "@tiptap/react",
+          "@tiptap/starter-kit",
+          "react"
+        ],
+        "workspace_alias_imports": [],
+        "named_exports": []
+      },
+      "application_guide": {
+        "action": "adapt-example",
+        "caution": "Extract the relevant behavior and replace demonstration data and tooling."
+      }
+    }
+  ]
+}

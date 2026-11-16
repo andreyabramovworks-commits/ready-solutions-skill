@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, Result } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Result\r\n    status=\"403\"\r\n    title=\"403\"\r\n    subTitle=\"Sorry, you are not authorized to access this page.\"\r\n    extra={<Button type=\"primary\">Back Home</Button>}\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

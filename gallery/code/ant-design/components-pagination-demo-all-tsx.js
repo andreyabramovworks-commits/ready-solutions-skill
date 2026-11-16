@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Pagination } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Pagination\r\n    total={85}\r\n    showSizeChanger\r\n    showQuickJumper\r\n    showTotal={(total) => `Total ${total} items`}\r\n  />\r\n);\r\n\r\nexport default App;\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { BackTop } from 'antd';\r\n\r\nconst Demo = () => (\r\n  <>\r\n    <BackTop visibilityHeight={0} />\r\n    Scroll down to see the bottom-right.\r\n  </>\r\n);\r\n\r\nexport default Demo;\r\n";

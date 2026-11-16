@@ -1,0 +1,1 @@
+window.CARD_CODE="import CircularProgress from '@mui/material/CircularProgress';\n\nexport default function CircularUnderLoad() {\n  return (\n    // @focus @padding 2\n    <CircularProgress disableShrink aria-label=\"Loading…\" />\n  );\n}\n";

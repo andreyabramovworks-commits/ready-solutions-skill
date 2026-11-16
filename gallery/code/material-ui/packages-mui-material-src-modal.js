@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.d.ts\nindex.js\nModal.d.ts\nModal.js\nModal.spec.tsx\nModal.test.js\nmodalClasses.ts\nModalManager.test.ts\nModalManager.ts\nuseModal.ts\nuseModal.types.ts";

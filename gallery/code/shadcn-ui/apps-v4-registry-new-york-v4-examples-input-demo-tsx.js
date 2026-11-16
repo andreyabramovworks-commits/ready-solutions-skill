@@ -1,0 +1,1 @@
+window.CARD_CODE="import { Input } from \"@/registry/new-york-v4/ui/input\"\r\n\r\nexport default function InputDemo() {\r\n  return <Input type=\"email\" placeholder=\"Email\" />\r\n}\r\n";

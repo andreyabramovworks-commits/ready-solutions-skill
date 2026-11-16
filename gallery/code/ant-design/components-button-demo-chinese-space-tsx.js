@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { Button, Flex } from 'antd';\r\n\r\nconst App: React.FC = () => (\r\n  <Flex gap=\"small\" wrap>\r\n    <Button type=\"primary\" autoInsertSpace={false}>\r\n      确定\r\n    </Button>\r\n    <Button type=\"primary\" autoInsertSpace>\r\n      确定\r\n    </Button>\r\n  </Flex>\r\n);\r\n\r\nexport default App;\r\n";

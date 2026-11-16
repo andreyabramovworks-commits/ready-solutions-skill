@@ -1,0 +1,1 @@
+window.CARD_CODE="Содержимое папки:\nindex.d.ts\nindex.js\nSnackbar.d.ts\nSnackbar.js\nSnackbar.spec.tsx\nSnackbar.test.js\nsnackbarClasses.ts\nuseSnackbar.test.tsx\nuseSnackbar.ts\nuseSnackbar.types.ts";

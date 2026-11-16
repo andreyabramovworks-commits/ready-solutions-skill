@@ -1,0 +1,1 @@
+window.CARD_CODE="import Button from '@mui/material/Button';\nimport Tooltip from '@mui/material/Tooltip';\n\nexport default function ArrowTooltips() {\n  return (\n    // @focus-start @padding 2\n    <Tooltip describeChild title=\"Add\" arrow>\n      <Button>Arrow</Button>\n    </Tooltip>\n    // @focus-end\n  );\n}\n";

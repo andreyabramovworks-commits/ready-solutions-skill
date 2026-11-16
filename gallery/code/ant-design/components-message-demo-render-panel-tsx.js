@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { message } from 'antd';\r\n\r\n/** Test usage. Do not use in your production. */\r\nconst { _InternalPanelDoNotUseOrYouWillBeFired: InternalPanel } = message;\r\n\r\nexport default () => <InternalPanel content=\"Hello World!\" type=\"error\" />;\r\n";

@@ -1,0 +1,1 @@
+window.CARD_CODE="import React from 'react';\r\nimport { FloatButton } from 'antd';\r\n\r\nconst App: React.FC = () => <FloatButton onClick={() => console.log('onClick')} />;\r\n\r\nexport default App;\r\n";
